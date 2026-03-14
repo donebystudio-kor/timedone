@@ -698,17 +698,17 @@ export const POSTS: Post[] = [
     title: "달은 처음엔 지금보다 훨씬 더 가까웠다",
     category: "space",
     date: "2026-04-06",
-    summary: "45억 년 전 달-지구 거리: 약 2만 2천 km. 지금: 약 38만 4천 km. 지금의 1/16이었다.",
+    summary: "45억 년 전 달-지구 거리: 약 2만~3만 km. 지금: 약 38만 4천 km.",
     tags: ["달", "지구", "조석력", "거대충돌설", "45억년"],
     relatedSlugs: ["universe-calendar", "sun-galaxy"],
     timeline: [
-      { year: "약 45억 년 전", label: "거대충돌로 달 형성 (거리 약 2만 2천 km)", highlight: true },
+      { year: "약 45억 년 전", label: "거대충돌로 달 형성 (거리 약 2만~3만 km)", highlight: true },
       { year: "약 40억 년 전", label: "달의 조석 고정 시작" },
       { year: "현재", label: "지구-달 거리 약 38만 4천 km", highlight: true },
     ],
-    content: `<p>약 45억 년 전. 화성 크기의 천체가 지구에 충돌했다. 파편이 뭉쳐서 달이 됐다.</p>
-<p>당시 거리: 약 2만 2천 km. 지금: 약 38만 4천 km. <strong>지금의 약 1/16.</strong></p>
-<p>그때 하루는 6시간 정도였다. 달은 하늘에서 수십 배 크게 보였을 거다.</p>
+    content: `<p>약 45억 년 전. 화성 크기의 천체(테이아)가 지구에 충돌했다. 파편이 모여 달이 됐다.</p>
+<p>당시 거리: 약 2만~3만 km. 지금: 약 38만 4천 km.</p>
+<p>초기 지구의 하루는 약 4~6시간이었다. 달은 지금보다 <strong>훨씬 크게</strong> 보였고, 조석 높이는 수백 미터에 달했다.</p>
 <blockquote>지금도 매년 약 3.8cm씩 멀어지고 있다. 조석력 때문이다.</blockquote>`,
   },
   {
