@@ -14,7 +14,6 @@ const FEATURED_SLUGS = [
 const POSTS_PER_PAGE = 10;
 
 export default function HomeClient({ posts }: { posts: Post[] }) {
-  const [activeCategory, setActiveCategory] = useState("all");
   const [page, setPage] = useState(1);
 
   const sortedPosts = [...posts].sort(
@@ -25,22 +24,9 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
     posts.find((p) => p.slug === slug)
   ).filter(Boolean) as Post[];
 
-  const filteredPosts =
-    activeCategory === "all"
-      ? sortedPosts
-      : sortedPosts.filter((p) => p.category === activeCategory);
-
-  const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
-  const pagedPosts = filteredPosts.slice(0, page * POSTS_PER_PAGE);
+  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
+  const pagedPosts = sortedPosts.slice(0, page * POSTS_PER_PAGE);
   const hasMore = page < totalPages;
-
-  // 랜덤 포스트
-  const randomSlug = posts[Math.floor(Math.random() * posts.length)]?.slug;
-
-  const handleCategoryChange = (categoryId: string) => {
-    setActiveCategory(categoryId);
-    setPage(1);
-  };
 
   return (
     <div>
@@ -67,43 +53,8 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
         </div>
       </section>
 
-      {/* 카테고리 탭 + 랜덤 버튼 */}
-      <div className="flex items-center justify-between mb-6 border-b border-[#e8e8e8] pb-3">
-        <div className="flex flex-wrap gap-2">
-          <button
-            onClick={() => handleCategoryChange("all")}
-            className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
-              activeCategory === "all"
-                ? "bg-[#2c2c2c] text-white"
-                : "bg-[#f5f5f5] text-[#666] hover:bg-[#eee]"
-            }`}
-          >
-            전체 ({posts.length})
-          </button>
-          {CATEGORIES.map((cat) => {
-            const count = posts.filter((p) => p.category === cat.id).length;
-            return (
-              <button
-                key={cat.id}
-                onClick={() => handleCategoryChange(cat.id)}
-                className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
-                  activeCategory === cat.id
-                    ? "bg-[#2c2c2c] text-white"
-                    : "bg-[#f5f5f5] text-[#666] hover:bg-[#eee]"
-                }`}
-              >
-                {cat.name} ({count})
-              </button>
-            );
-          })}
-        </div>
-        <Link
-          href={`/posts/${randomSlug}`}
-          className="text-xs text-[#999] hover:text-[#d64045] whitespace-nowrap ml-3"
-        >
-          랜덤 한 편
-        </Link>
-      </div>
+      {/* 구분선 */}
+      <div className="mb-6 border-b border-[#e8e8e8]" />
 
       {/* 포스트 목록 */}
       <div>
@@ -119,7 +70,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
             onClick={() => setPage((p) => p + 1)}
             className="text-sm text-[#666] border border-[#e8e8e8] px-6 py-2.5 hover:border-[#d64045] hover:text-[#d64045] transition-colors"
           >
-            더 보기 ({pagedPosts.length}/{filteredPosts.length})
+            더 보기 ({pagedPosts.length}/{sortedPosts.length})
           </button>
         </div>
       )}
