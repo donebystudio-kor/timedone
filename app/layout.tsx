@@ -50,7 +50,7 @@ export default function RootLayout({
       </head>
       <body className={notoSansKR.className}>
         <Header />
-        <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
+        <main className="mx-auto max-w-4xl px-5 py-8">{children}</main>
         <Footer />
       </body>
     </html>

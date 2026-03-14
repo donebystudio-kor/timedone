@@ -5,41 +5,45 @@ export default function PostCard({ post }: { post: Post }) {
   const category = CATEGORIES.find((c) => c.id === post.category);
 
   return (
-    <article className="rounded-lg bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 overflow-hidden">
-      <div className="p-6">
-        {/* 카테고리 배지 */}
+    <article className="py-6 border-b border-[#e8e8e8] last:border-b-0">
+      {/* 메타 정보 */}
+      <div className="flex items-center gap-2 text-xs text-[#999] mb-2">
         {category && (
-          <span className="inline-block text-xs font-medium text-[#e94560] bg-[#e94560]/10 rounded-full px-3 py-1 mb-3">
-            {category.emoji} {category.name}
-          </span>
+          <>
+            <Link
+              href={`/category/${category.id}`}
+              className="text-[#d64045] hover:underline"
+            >
+              {category.name}
+            </Link>
+            <span>/</span>
+          </>
         )}
+        <time>{post.date}</time>
+      </div>
 
-        {/* 제목 */}
-        <h2 className="mb-2">
-          <Link
-            href={`/posts/${post.slug}`}
-            className="text-lg font-bold text-[#1a1a2e] hover:text-[#e94560] transition-colors line-clamp-2"
-          >
-            {post.title}
-          </Link>
-        </h2>
-
-        {/* 날짜 */}
-        <time className="text-xs text-gray-400 block mb-3">{post.date}</time>
-
-        {/* 요약 */}
-        <p className="text-sm text-[#333333] leading-relaxed line-clamp-3 mb-4">
-          {post.summary}
-        </p>
-
-        {/* 더 읽기 */}
+      {/* 제목 */}
+      <h2 className="mb-2">
         <Link
           href={`/posts/${post.slug}`}
-          className="text-sm font-medium text-[#e94560] hover:underline"
+          className="text-xl font-bold text-[#2c2c2c] hover:text-[#d64045]"
         >
-          더 읽기 →
+          {post.title}
         </Link>
-      </div>
+      </h2>
+
+      {/* 요약 */}
+      <p className="text-[15px] text-[#666] leading-relaxed mb-3">
+        {post.summary}
+      </p>
+
+      {/* 더 읽기 */}
+      <Link
+        href={`/posts/${post.slug}`}
+        className="text-sm text-[#d64045] hover:underline"
+      >
+        계속 읽기...
+      </Link>
     </article>
   );
 }

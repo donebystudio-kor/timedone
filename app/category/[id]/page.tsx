@@ -18,10 +18,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!category) return {};
 
   return {
-    title: `${category.emoji} ${category.name} — 타임던`,
+    title: `${category.name} — 타임던`,
     description: `타임던의 ${category.name} 카테고리 글 모음. 역사 속 시간의 틈새를 들여다보세요.`,
     openGraph: {
-      title: `${category.emoji} ${category.name} — 타임던`,
+      title: `${category.name} — 타임던`,
       description: `타임던의 ${category.name} 카테고리 글 모음.`,
       type: "website",
       siteName: "타임던",
@@ -41,33 +41,30 @@ export default async function CategoryPage({ params }: Props) {
   );
 
   return (
-    <>
-      {/* 카테고리 헤더 */}
-      <section className="mb-8">
-        <h1 className="text-2xl font-bold text-primary md:text-3xl">
-          {category.emoji} {category.name}
-        </h1>
-        <p className="mt-2 text-muted">
-          {categoryPosts.length}개의 글이 있습니다.
-        </p>
-      </section>
-
-      {/* 2컬럼 레이아웃 */}
-      <div className="grid gap-8 lg:grid-cols-3">
-        <div className="space-y-6 lg:col-span-2">
-          {categoryPosts.length > 0 ? (
-            categoryPosts.map((post) => (
-              <PostCard key={post.slug} post={post} />
-            ))
-          ) : (
-            <p className="text-muted">아직 작성된 글이 없습니다.</p>
-          )}
+    <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
+      <div>
+        {/* 카테고리 헤더 */}
+        <div className="pb-4 mb-2 border-b border-[#e8e8e8]">
+          <h1 className="text-xl font-bold text-[#2c2c2c]">
+            {category.name}
+          </h1>
+          <p className="text-sm text-[#999] mt-1">
+            {category.description} &middot; {categoryPosts.length}개의 글
+          </p>
         </div>
 
-        <div>
-          <Sidebar />
-        </div>
+        {categoryPosts.length > 0 ? (
+          categoryPosts.map((post) => (
+            <PostCard key={post.slug} post={post} />
+          ))
+        ) : (
+          <p className="text-[#999] py-8">아직 작성된 글이 없습니다.</p>
+        )}
       </div>
-    </>
+
+      <aside className="hidden lg:block">
+        <Sidebar />
+      </aside>
+    </div>
   );
 }

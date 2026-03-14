@@ -2,37 +2,36 @@ import { CATEGORIES, POSTS } from "@/constants/posts";
 import Link from "next/link";
 
 export default function Sidebar() {
-  // 최신 3개 글 (날짜 내림차순)
   const recentPosts = [...POSTS]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 3);
+    .slice(0, 5);
 
-  // 카테고리별 글 수
   const categoryPostCounts = CATEGORIES.map((cat) => ({
     ...cat,
     count: POSTS.filter((p) => p.category === cat.id).length,
   }));
 
   return (
-    <aside className="space-y-8">
+    <div className="space-y-8">
+      {/* 소개 */}
+      <div className="border border-[#e8e8e8] p-5">
+        <h3 className="text-sm font-bold text-[#2c2c2c] mb-2">타임던 소개</h3>
+        <p className="text-[13px] text-[#666] leading-relaxed">
+          같은 시대라고 믿었던 것들이 사실은 수천 년 떨어져 있고, 전혀 다른 시대라고 생각했던 것들이 같은 해에 일어났습니다.
+        </p>
+      </div>
+
       {/* 최근 글 */}
-      <div className="rounded-lg bg-white p-5 shadow-sm">
-        <h3 className="mb-4 text-base font-bold text-[#1a1a2e] border-b border-gray-100 pb-2">
-          최근 글
-        </h3>
-        <ul className="space-y-3">
+      <div className="border border-[#e8e8e8] p-5">
+        <h3 className="text-sm font-bold text-[#2c2c2c] mb-3">최근 글</h3>
+        <ul className="space-y-2">
           {recentPosts.map((post) => (
             <li key={post.slug}>
               <Link
                 href={`/posts/${post.slug}`}
-                className="block group"
+                className="text-[13px] text-[#555] hover:text-[#d64045] leading-snug block"
               >
-                <span className="text-sm font-medium text-[#333333] group-hover:text-[#e94560] transition-colors line-clamp-2">
-                  {post.title}
-                </span>
-                <span className="text-xs text-gray-400 mt-0.5 block">
-                  {post.date}
-                </span>
+                {post.title}
               </Link>
             </li>
           ))}
@@ -40,28 +39,22 @@ export default function Sidebar() {
       </div>
 
       {/* 카테고리 */}
-      <div className="rounded-lg bg-white p-5 shadow-sm">
-        <h3 className="mb-4 text-base font-bold text-[#1a1a2e] border-b border-gray-100 pb-2">
-          카테고리
-        </h3>
-        <ul className="space-y-2">
+      <div className="border border-[#e8e8e8] p-5">
+        <h3 className="text-sm font-bold text-[#2c2c2c] mb-3">카테고리</h3>
+        <ul className="space-y-1.5">
           {categoryPostCounts.map((cat) => (
             <li key={cat.id}>
               <Link
                 href={`/category/${cat.id}`}
-                className="flex items-center justify-between text-sm text-[#333333] hover:text-[#e94560] transition-colors py-1"
+                className="flex items-center justify-between text-[13px] text-[#555] hover:text-[#d64045] py-0.5"
               >
-                <span>
-                  {cat.emoji} {cat.name}
-                </span>
-                <span className="text-xs text-gray-400 bg-gray-50 rounded-full px-2 py-0.5">
-                  {cat.count}
-                </span>
+                <span>{cat.name}</span>
+                <span className="text-[#bbb]">({cat.count})</span>
               </Link>
             </li>
           ))}
         </ul>
       </div>
-    </aside>
+    </div>
   );
 }

@@ -8,68 +8,69 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#1a1a2e] text-white shadow-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        {/* 사이트명 */}
-        <Link
-          href="/"
-          className="text-xl font-bold tracking-tight hover:text-[#e94560] transition-colors"
-        >
-          타임던
-        </Link>
+    <header className="border-b border-[#e8e8e8] bg-white">
+      <div className="mx-auto max-w-4xl px-5 py-5">
+        {/* 사이트 타이틀 */}
+        <div className="flex items-center justify-between">
+          <Link href="/" className="block">
+            <span className="text-2xl font-bold text-[#2c2c2c]">타임던</span>
+            <span className="ml-2 text-sm text-[#999] hidden sm:inline">
+              역사 속 시간의 틈새
+            </span>
+          </Link>
 
-        {/* 데스크톱 메뉴 */}
-        <nav className="hidden md:flex items-center gap-6">
+          {/* 모바일 햄버거 */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden p-1 text-[#666]"
+            aria-label="메뉴"
+          >
+            {menuOpen ? "✕" : "☰"}
+          </button>
+        </div>
+
+        {/* 데스크톱 네비게이션 */}
+        <nav className="hidden md:flex items-center gap-5 mt-3 pt-3 border-t border-[#f0f0f0]">
+          <Link
+            href="/"
+            className="text-sm text-[#666] hover:text-[#d64045]"
+          >
+            홈
+          </Link>
           {CATEGORIES.map((cat) => (
             <Link
               key={cat.id}
               href={`/category/${cat.id}`}
-              className="text-sm text-gray-300 hover:text-[#e94560] transition-colors"
+              className="text-sm text-[#666] hover:text-[#d64045]"
             >
-              {cat.emoji} {cat.name}
+              {cat.name}
             </Link>
           ))}
         </nav>
 
-        {/* 모바일 햄버거 버튼 */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden flex flex-col gap-1.5 p-1"
-          aria-label="메뉴 열기"
-        >
-          <span
-            className={`block h-0.5 w-5 bg-white transition-transform ${
-              menuOpen ? "translate-y-2 rotate-45" : ""
-            }`}
-          />
-          <span
-            className={`block h-0.5 w-5 bg-white transition-opacity ${
-              menuOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`block h-0.5 w-5 bg-white transition-transform ${
-              menuOpen ? "-translate-y-2 -rotate-45" : ""
-            }`}
-          />
-        </button>
-      </div>
-
-      {/* 모바일 메뉴 */}
-      {menuOpen && (
-        <nav className="md:hidden border-t border-white/10 bg-[#1a1a2e] px-4 pb-4">
-          {CATEGORIES.map((cat) => (
+        {/* 모바일 메뉴 */}
+        {menuOpen && (
+          <nav className="md:hidden mt-3 pt-3 border-t border-[#f0f0f0]">
             <Link
-              key={cat.id}
-              href={`/category/${cat.id}`}
+              href="/"
               onClick={() => setMenuOpen(false)}
-              className="block py-2.5 text-sm text-gray-300 hover:text-[#e94560] transition-colors border-b border-white/5 last:border-0"
+              className="block py-2 text-sm text-[#666] hover:text-[#d64045]"
             >
-              {cat.emoji} {cat.name}
+              홈
             </Link>
-          ))}
-        </nav>
-      )}
+            {CATEGORIES.map((cat) => (
+              <Link
+                key={cat.id}
+                href={`/category/${cat.id}`}
+                onClick={() => setMenuOpen(false)}
+                className="block py-2 text-sm text-[#666] hover:text-[#d64045]"
+              >
+                {cat.name}
+              </Link>
+            ))}
+          </nav>
+        )}
+      </div>
     </header>
   );
 }

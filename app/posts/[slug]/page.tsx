@@ -4,6 +4,7 @@ import RelatedPosts from "@/components/RelatedPosts";
 import Sidebar from "@/components/Sidebar";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -40,33 +41,55 @@ export default async function PostPage({ params }: Props) {
   const category = CATEGORIES.find((c) => c.id === post.category);
 
   return (
-    <div className="grid gap-8 lg:grid-cols-3">
+    <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
       {/* 포스트 본문 */}
-      <article className="lg:col-span-2">
-        {/* 카테고리 배지 + 날짜 */}
-        <div className="mb-4 flex items-center gap-3">
+      <article>
+        {/* 메타 정보 */}
+        <div className="flex items-center gap-2 text-xs text-[#999] mb-3">
           {category && (
-            <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
-              {category.emoji} {category.name}
-            </span>
+            <>
+              <Link
+                href={`/category/${category.id}`}
+                className="text-[#d64045] hover:underline"
+              >
+                {category.name}
+              </Link>
+              <span>/</span>
+            </>
           )}
-          <time className="text-sm text-muted">{post.date}</time>
+          <time>{post.date}</time>
         </div>
 
         {/* 제목 */}
-        <h1 className="mb-6 text-2xl font-bold text-primary md:text-3xl leading-tight">
+        <h1 className="text-2xl font-bold text-[#2c2c2c] mb-6 leading-tight md:text-3xl">
           {post.title}
         </h1>
 
         {/* 본문 */}
         <div
-          className="post-content rounded-lg bg-card p-6 shadow-sm md:p-8"
+          className="post-content"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
+        {/* 태그 */}
+        {post.tags && post.tags.length > 0 && (
+          <div className="mt-8 pt-4 border-t border-[#e8e8e8]">
+            <div className="flex flex-wrap gap-2">
+              {post.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs text-[#999] before:content-['#']"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* 타임라인 */}
         {post.timeline && post.timeline.length > 0 && (
-          <div className="mt-8">
+          <div className="mt-10">
             <Timeline events={post.timeline} />
           </div>
         )}
@@ -78,9 +101,9 @@ export default async function PostPage({ params }: Props) {
       </article>
 
       {/* 사이드바 */}
-      <div>
+      <aside className="hidden lg:block">
         <Sidebar />
-      </div>
+      </aside>
     </div>
   );
 }

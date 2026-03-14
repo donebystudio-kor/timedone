@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #1a1a2e;
-  --color-accent: #e94560;
-  --color-bg: #f8f9fa;
+  --color-primary: #2c2c2c;
+  --color-accent: #d64045;
+  --color-bg: #fdfdfd;
   --color-card: #ffffff;
-  --color-text: #333333;
-  --color-muted: #888888;
-  --color-border: #e5e7eb;
+  --color-text: #444444;
+  --color-muted: #999999;
+  --color-border: #e8e8e8;
 }
 
 body {
@@ -15,31 +15,39 @@ body {
   color: var(--color-text);
 }
 
-/* 블로그 본문 스타일 (prose 역할) */
+/* 블로그 본문 스타일 */
 .post-content p {
-  margin-bottom: 1.25rem;
-  line-height: 1.8;
+  margin-bottom: 1.4rem;
+  line-height: 1.9;
   font-size: 1.05rem;
+  color: #444;
 }
 
 .post-content h2 {
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  margin: 2rem 0 0.75rem;
-  color: #1a1a2e;
+  margin: 2.2rem 0 0.8rem;
+  color: #2c2c2c;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #eee;
 }
 
 .post-content blockquote {
-  border-left: 4px solid #e94560;
-  padding: 1rem 1.25rem;
+  border-left: 3px solid #d64045;
+  padding: 0.8rem 1.2rem;
   margin: 1.5rem 0;
-  background: #fff5f5;
-  font-size: 1.1rem;
-  color: #1a1a2e;
-  font-weight: 500;
-  border-radius: 0 8px 8px 0;
+  background: #faf5f5;
+  font-size: 1.05rem;
+  color: #333;
+  font-style: italic;
 }
 
 .post-content strong {
-  color: #e94560;
+  color: #d64045;
+  font-weight: 600;
+}
+
+/* 링크 스타일 */
+a {
+  transition: color 0.15s;
 }
