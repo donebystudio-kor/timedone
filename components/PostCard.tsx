@@ -7,19 +7,15 @@ export default function PostCard({ post }: { post: Post }) {
   return (
     <article className="py-6 border-b border-[#e8e8e8] last:border-b-0">
       {/* 메타 정보 */}
-      <div className="flex items-center gap-2 text-xs text-[#999] mb-2">
+      <div className="text-xs text-[#999] mb-2">
         {category && (
-          <>
-            <Link
-              href={`/category/${category.id}`}
-              className="text-[#d64045] hover:underline"
-            >
-              {category.name}
-            </Link>
-            <span>/</span>
-          </>
+          <Link
+            href={`/category/${category.id}`}
+            className="text-[#d64045] hover:underline"
+          >
+            {category.name}
+          </Link>
         )}
-        <time>{post.date}</time>
       </div>
 
       {/* 제목 */}

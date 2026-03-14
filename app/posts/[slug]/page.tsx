@@ -56,19 +56,15 @@ export default async function PostPage({ params }: Props) {
       {/* 포스트 본문 */}
       <article>
         {/* 메타 정보 */}
-        <div className="flex items-center gap-2 text-xs text-[#999] mb-3">
+        <div className="text-xs text-[#999] mb-3">
           {category && (
-            <>
-              <Link
-                href={`/category/${category.id}`}
-                className="text-[#d64045] hover:underline"
-              >
-                {category.name}
-              </Link>
-              <span>/</span>
-            </>
+            <Link
+              href={`/category/${category.id}`}
+              className="text-[#d64045] hover:underline"
+            >
+              {category.name}
+            </Link>
           )}
-          <time>{post.date}</time>
         </div>
 
         {/* 제목 */}
