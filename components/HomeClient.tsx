@@ -11,8 +11,11 @@ const FEATURED_SLUGS = [
   "guillotine-starwars",
 ];
 
+const POSTS_PER_PAGE = 10;
+
 export default function HomeClient({ posts }: { posts: Post[] }) {
   const [activeCategory, setActiveCategory] = useState("all");
+  const [page, setPage] = useState(1);
 
   const sortedPosts = [...posts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
@@ -27,8 +30,17 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
       ? sortedPosts
       : sortedPosts.filter((p) => p.category === activeCategory);
 
+  const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+  const pagedPosts = filteredPosts.slice(0, page * POSTS_PER_PAGE);
+  const hasMore = page < totalPages;
+
   // 랜덤 포스트
   const randomSlug = posts[Math.floor(Math.random() * posts.length)]?.slug;
+
+  const handleCategoryChange = (categoryId: string) => {
+    setActiveCategory(categoryId);
+    setPage(1);
+  };
 
   return (
     <div>
@@ -59,7 +71,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
       <div className="flex items-center justify-between mb-6 border-b border-[#e8e8e8] pb-3">
         <div className="flex flex-wrap gap-2">
           <button
-            onClick={() => setActiveCategory("all")}
+            onClick={() => handleCategoryChange("all")}
             className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
               activeCategory === "all"
                 ? "bg-[#2c2c2c] text-white"
@@ -73,7 +85,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
             return (
               <button
                 key={cat.id}
-                onClick={() => setActiveCategory(cat.id)}
+                onClick={() => handleCategoryChange(cat.id)}
                 className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
                   activeCategory === cat.id
                     ? "bg-[#2c2c2c] text-white"
@@ -95,10 +107,22 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
 
       {/* 포스트 목록 */}
       <div>
-        {filteredPosts.map((post) => (
+        {pagedPosts.map((post) => (
           <PostCard key={post.slug} post={post} />
         ))}
       </div>
+
+      {/* 더 보기 */}
+      {hasMore && (
+        <div className="text-center mt-8 pb-4">
+          <button
+            onClick={() => setPage((p) => p + 1)}
+            className="text-sm text-[#666] border border-[#e8e8e8] px-6 py-2.5 hover:border-[#d64045] hover:text-[#d64045] transition-colors"
+          >
+            더 보기 ({pagedPosts.length}/{filteredPosts.length})
+          </button>
+        </div>
+      )}
     </div>
   );
 }
