@@ -2,7 +2,7 @@ import { TimelineEvent } from "@/constants/posts";
 
 export default function Timeline({ events }: { events: TimelineEvent[] }) {
   return (
-    <div className="border border-[#e8e8e8] p-5 mt-8">
+    <div className="border border-[#e8e8e8] p-5">
       <h3 className="text-sm font-bold text-[#2c2c2c] mb-4">타임라인</h3>
       <div className="relative pl-6">
         {/* 세로 라인 */}

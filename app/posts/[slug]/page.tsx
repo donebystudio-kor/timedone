@@ -40,6 +40,17 @@ export default async function PostPage({ params }: Props) {
 
   const category = CATEGORIES.find((c) => c.id === post.category);
 
+  // 이전/다음 포스트
+  const sortedPosts = [...POSTS].sort(
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+  );
+  const currentIndex = sortedPosts.findIndex((p) => p.slug === post.slug);
+  const prevPost = currentIndex > 0 ? sortedPosts[currentIndex - 1] : null;
+  const nextPost =
+    currentIndex < sortedPosts.length - 1
+      ? sortedPosts[currentIndex + 1]
+      : null;
+
   return (
     <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
       {/* 포스트 본문 */}
@@ -65,6 +76,13 @@ export default async function PostPage({ params }: Props) {
           {post.title}
         </h1>
 
+        {/* 타임라인 (본문 위) */}
+        {post.timeline && post.timeline.length > 0 && (
+          <div className="mb-8">
+            <Timeline events={post.timeline} />
+          </div>
+        )}
+
         {/* 본문 */}
         <div
           className="post-content"
@@ -87,12 +105,35 @@ export default async function PostPage({ params }: Props) {
           </div>
         )}
 
-        {/* 타임라인 */}
-        {post.timeline && post.timeline.length > 0 && (
-          <div className="mt-10">
-            <Timeline events={post.timeline} />
-          </div>
-        )}
+        {/* 이전/다음 글 */}
+        <div className="mt-10 pt-6 border-t border-[#e8e8e8] grid grid-cols-2 gap-4">
+          {prevPost ? (
+            <Link
+              href={`/posts/${prevPost.slug}`}
+              className="group"
+            >
+              <span className="text-xs text-[#999]">이전 글</span>
+              <p className="text-sm text-[#555] group-hover:text-[#d64045] leading-snug mt-1">
+                {prevPost.title}
+              </p>
+            </Link>
+          ) : (
+            <div />
+          )}
+          {nextPost ? (
+            <Link
+              href={`/posts/${nextPost.slug}`}
+              className="group text-right"
+            >
+              <span className="text-xs text-[#999]">다음 글</span>
+              <p className="text-sm text-[#555] group-hover:text-[#d64045] leading-snug mt-1">
+                {nextPost.title}
+              </p>
+            </Link>
+          ) : (
+            <div />
+          )}
+        </div>
 
         {/* 관련 포스트 */}
         <div className="mt-10">
