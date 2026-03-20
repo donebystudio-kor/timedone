@@ -1166,4 +1166,423 @@ export const POSTS: Post[] = [
 <p><strong>신라가 석굴암의 부처를 조각할 때, 유럽은 중세 질서의 기틀을 잡고 있었다.</strong></p>
 <blockquote>한쪽은 돌에 부처를 새기고, 한쪽은 칼로 유럽을 통일했다. 같은 시대, 다른 문명의 절정.</blockquote>`,
   },
+  {
+    slug: "magnetic-reversal",
+    title: "지구 자기장은 여러 번 뒤집혔다 — 마지막 역전은 약 78만 년 전이다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "마지막 자기장 역전(브루네스-마쓰야마): 약 78만 년 전. 나침반이 남쪽을 가리키던 시대가 있었다.",
+    tags: ["자기장", "역전", "브루네스", "지구", "78만년", "나침반"],
+    relatedSlugs: ["sahara-pyramid", "moon-closer"],
+    timeline: [
+      { year: "약 42억 년 전", label: "지구 자기장 형성 추정" },
+      { year: "약 78만 년 전", label: "마지막 자기장 역전 (브루네스-마쓰야마)", highlight: true },
+      { year: "약 4만 1천 년 전", label: "라샹 사건 (일시적 역전 시도)" },
+      { year: "현재", label: "자기 북극이 매년 약 55km 이동 중", highlight: true },
+    ],
+    content: `<p>나침반은 항상 북쪽을 가리킨다? 아니다. 지구 역사에서 자기장은 수백 번 뒤집혔다.</p>
+<p>마지막으로 뒤집힌 건 약 78만 년 전. '브루네스-마쓰야마 역전'이라 부른다. 그때는 나침반이 남쪽을 가리켰을 거다.</p>
+<p>근데 왜 뒤집히는 건지는 아직 완전히 밝혀지지 않았다. 지구 외핵의 대류 패턴이 바뀌면서 그런다는 게 유력한 가설이다.</p>
+<p><strong>지금도 자기 북극은 매년 약 55km씩 이동하고 있다.</strong> 캐나다에서 시베리아 방향으로.</p>
+<blockquote>다음 역전이 언제 올지는 아무도 모른다. 근데 올 거다.</blockquote>`,
+  },
+  {
+    slug: "ice-age-repeated",
+    title: "빙하기는 한 번이 아니라 여러 번 반복됐다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "최근 빙하기 종료: 약 1만 1,700년 전. 지난 260만 년간 빙하기와 간빙기가 반복됐다.",
+    tags: ["빙하기", "간빙기", "홀로세", "플라이스토세", "11700년"],
+    relatedSlugs: ["magnetic-reversal", "sahara-pyramid"],
+    timeline: [
+      { year: "약 260만 년 전", label: "플라이스토세 시작 (빙하기-간빙기 반복)", highlight: true },
+      { year: "약 12만 년 전", label: "마지막 간빙기 (에미안 간빙기)" },
+      { year: "약 7만 년 전", label: "마지막 빙하기 최고조 시작" },
+      { year: "약 2만 년 전", label: "최후빙기극대기 (LGM)", highlight: true },
+      { year: "약 1만 1,700년 전", label: "현재 간빙기(홀로세) 시작", highlight: true },
+    ],
+    content: `<p>빙하기 하면 딱 한 번 있었던 것 같지? 아니다. 지난 260만 년 동안 빙하기와 간빙기가 수십 번 반복됐다.</p>
+<p>약 10만 년 주기로 빙하기가 오고, 1~2만 년 정도 따뜻한 간빙기가 찾아온다. 밀란코비치 순환이라고 한다. 지구 궤도와 자전축 변화 때문이다.</p>
+<p>마지막 빙하기가 끝난 건 약 1만 1,700년 전. 그때부터 지금까지가 홀로세, 즉 현재 간빙기다.</p>
+<p><strong>우리가 사는 "지금"도 빙하기 사이의 잠깐 따뜻한 틈이다.</strong></p>
+<blockquote>인류 문명 전체가 간빙기 안에서 벌어진 일이다. 1만 년짜리 여름.</blockquote>`,
+  },
+  {
+    slug: "battery-before-lightbulb",
+    title: "배터리는 전구보다 79년 먼저 발명됐다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "볼타 전지(배터리): 1800년. 에디슨 전구: 1879년. 전기는 있었는데 쓸 데가 없었다.",
+    tags: ["배터리", "전구", "볼타", "에디슨", "1800년", "1879년"],
+    relatedSlugs: ["telephone-eiffel", "harvard-calculus"],
+    timeline: [
+      { year: "1800년", label: "알레산드로 볼타, 전지 발명", highlight: true },
+      { year: "1831년", label: "패러데이, 전자기 유도 발견" },
+      { year: "1844년", label: "모스, 전신 실용화" },
+      { year: "1879년", label: "에디슨, 실용적 백열전구 발명", highlight: true },
+      { year: "1882년", label: "에디슨, 뉴욕 최초 발전소 가동" },
+    ],
+    content: `<p>1800년. 이탈리아의 볼타가 최초의 실용적 전지를 만들었다. 구리와 아연 판을 소금물에 적신 천과 번갈아 쌓은 거다. 볼타 전지.</p>
+<p>근데 전기를 만들어놓고도 뭘 해야 할지 몰랐다. 전기로 뭘 할 수 있는지 79년 동안 헤맸다고 봐도 된다.</p>
+<p>1879년. 에디슨이 드디어 실용적인 백열전구를 만들었다. 그제야 "아, 이거 밤을 밝힐 수 있구나."</p>
+<p><strong>전기는 1800년에 이미 있었다. 쓸 데를 찾는 데 79년이 걸렸을 뿐이다.</strong></p>
+<blockquote>기술은 발명보다 응용이 어렵다. 지금도 마찬가지다.</blockquote>`,
+  },
+  {
+    slug: "airplane-after-car",
+    title: "비행기는 자동차보다 늦게 발명됐다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "자동차 특허: 1886년. 라이트 형제 비행: 1903년. 17년 차이. 땅 먼저, 하늘 나중.",
+    tags: ["비행기", "자동차", "라이트형제", "벤츠", "1903년", "1886년"],
+    relatedSlugs: ["car-joseon", "battery-before-lightbulb"],
+    timeline: [
+      { year: "1886년", label: "카를 벤츠, 자동차 특허", highlight: true },
+      { year: "1893년", label: "헨리 포드, 첫 가솔린 자동차 제작" },
+      { year: "1903년 12월", label: "라이트 형제, 최초 동력 비행 (12초)", highlight: true },
+      { year: "1908년", label: "포드 모델 T 출시 (자동차 대중화)" },
+      { year: "1927년", label: "린드버그, 대서양 단독 횡단 비행" },
+    ],
+    content: `<p>1886년. 벤츠가 자동차 특허를 냈다. 땅 위를 엔진으로 달리는 시대가 열렸다.</p>
+<p>17년 뒤인 1903년 12월 17일. 라이트 형제가 하늘을 날았다. 12초. 거리 36미터. 지금 보면 웃길 정도로 짧지만, 그게 최초였다.</p>
+<p>근데 생각해보면 순서가 좀 의외다. 하늘을 나는 게 더 어려울 것 같은데, 겨우 17년 차이라니.</p>
+<p><strong>땅을 정복한 지 17년 만에 하늘까지 정복했다.</strong></p>
+<blockquote>라이트 형제의 12초가 없었으면 지금 우리는 비행기를 못 탔을 거다. 아니, 탔겠지. 근데 더 늦었을 거다.</blockquote>`,
+  },
+  {
+    slug: "creditcard-before-internet",
+    title: "신용카드는 인터넷보다 먼저 등장했다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "다이너스 클럽(최초 신용카드): 1950년. ARPANET(인터넷 원형): 1969년. 19년 차이.",
+    tags: ["신용카드", "인터넷", "다이너스클럽", "ARPANET", "1950년", "1969년"],
+    relatedSlugs: ["airplane-after-car", "guillotine-starwars"],
+    timeline: [
+      { year: "1950년", label: "다이너스 클럽 카드 출시 (최초 신용카드)", highlight: true },
+      { year: "1958년", label: "아메리칸 익스프레스 카드 출시" },
+      { year: "1958년", label: "뱅크아메리카드 (비자 전신) 출시" },
+      { year: "1969년", label: "ARPANET 첫 데이터 전송 (인터넷 시작)", highlight: true },
+      { year: "1991년", label: "월드와이드웹(WWW) 공개" },
+    ],
+    content: `<p>1950년. 뉴욕의 사업가 프랭크 맥나마라가 식당에서 지갑을 안 가져와서 망신을 당했다. 그래서 만든 게 다이너스 클럽 카드다. 세계 최초의 신용카드.</p>
+<p>처음에는 뉴욕 식당 27곳에서만 쓸 수 있었다. 회원은 200명.</p>
+<p>인터넷은? 1969년에야 ARPANET이라는 이름으로 첫 데이터가 오갔다. UCLA에서 스탠퍼드로. 전송하려던 단어는 "LOGIN"인데 "LO"까지만 보내고 시스템이 죽었다.</p>
+<p><strong>외상으로 밥 먹는 기술이 컴퓨터 네트워크보다 19년 먼저 나왔다.</strong></p>
+<blockquote>지금은 인터넷으로 신용카드를 쓴다. 둘 다 없으면 세상이 멈출 거다.</blockquote>`,
+  },
+  {
+    slug: "continental-drift",
+    title: "대륙은 고정되어 있지 않고 지금도 이동 중이다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "판게아 분리: 약 2억 년 전. 현재 대륙은 매년 몇 cm씩 이동 중. 대서양은 점점 넓어지고 있다.",
+    tags: ["판게아", "대륙이동", "판구조론", "베게너", "대서양"],
+    relatedSlugs: ["magnetic-reversal", "ice-age-repeated"],
+    timeline: [
+      { year: "약 3억 년 전", label: "판게아 초대륙 형성" },
+      { year: "약 2억 년 전", label: "판게아 분리 시작", highlight: true },
+      { year: "약 6,600만 년 전", label: "인도 대륙이 유라시아로 이동 중" },
+      { year: "1912년", label: "베게너, 대륙이동설 발표", highlight: true },
+      { year: "현재", label: "대서양 매년 약 2.5cm 확장 중" },
+    ],
+    content: `<p>지도를 보면 남미 동쪽 해안선이랑 아프리카 서쪽 해안선이 딱 맞는 것 같지 않나? 우연이 아니다.</p>
+<p>약 3억 년 전에는 모든 대륙이 하나였다. 판게아. 그게 약 2억 년 전부터 쪼개지기 시작했다.</p>
+<p>지금도 움직이고 있다. 대서양은 매년 약 2.5cm씩 넓어지고 있다. 손톱 자라는 속도랑 비슷하다.</p>
+<p><strong>우리가 서 있는 이 땅도 지금 이 순간 움직이고 있다.</strong></p>
+<blockquote>너무 느려서 못 느낄 뿐이다. 1억 년 뒤 세계지도는 지금과 완전히 다를 거다.</blockquote>`,
+  },
+  {
+    slug: "himalaya-still-growing",
+    title: "히말라야 산맥은 지금도 계속 높아지고 있다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "히말라야 형성 시작: 약 5,000만 년 전. 현재도 매년 약 5mm 상승 중. 인도판과 유라시아판 충돌.",
+    tags: ["히말라야", "에베레스트", "인도판", "판충돌", "조산운동"],
+    relatedSlugs: ["continental-drift", "magnetic-reversal"],
+    timeline: [
+      { year: "약 7,000만 년 전", label: "인도 대륙, 유라시아를 향해 북상 시작" },
+      { year: "약 5,000만 년 전", label: "인도판-유라시아판 충돌, 히말라야 형성 시작", highlight: true },
+      { year: "약 1,500만 년 전", label: "에베레스트 지역 급격히 융기" },
+      { year: "1953년", label: "힐러리·텐징, 에베레스트 최초 등정" },
+      { year: "현재", label: "매년 약 5mm 상승 중", highlight: true },
+    ],
+    content: `<p>에베레스트 높이 8,849m. 지구에서 제일 높은 산. 근데 이 산이 아직도 자라고 있다.</p>
+<p>약 5,000만 년 전. 인도 대륙이 유라시아판에 쿵 박혔다. 그 충돌로 땅이 구겨지면서 올라온 게 히말라야다.</p>
+<p>인도판은 지금도 매년 약 5cm씩 북쪽으로 밀고 있다. 그래서 히말라야는 매년 약 5mm씩 높아진다.</p>
+<p><strong>에베레스트는 완성된 게 아니다. 아직 자라는 중이다.</strong></p>
+<blockquote>물론 침식도 있어서 순수 높이 변화는 더 복잡하다. 근데 밀어올리는 힘은 멈추지 않았다.</blockquote>`,
+  },
+  {
+    slug: "humans-tiny-fraction",
+    title: "지구 역사 45억 년 중 인류가 존재한 건 약 30만 년뿐이다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "지구 나이: 약 45억 년. 호모 사피엔스 등장: 약 30만 년 전. 비율로 보면 0.007%.",
+    tags: ["호모사피엔스", "지구역사", "30만년", "45억년", "인류"],
+    relatedSlugs: ["universe-calendar", "ice-age-repeated"],
+    timeline: [
+      { year: "약 45억 년 전", label: "지구 탄생", highlight: true },
+      { year: "약 38억 년 전", label: "최초 생명체 출현" },
+      { year: "약 6,600만 년 전", label: "공룡 멸종" },
+      { year: "약 30만 년 전", label: "호모 사피엔스 등장", highlight: true },
+      { year: "약 1만 2천 년 전", label: "농업 혁명 (문명 시작)" },
+    ],
+    content: `<p>지구 나이: 약 45억 년. 호모 사피엔스: 약 30만 년.</p>
+<p>비율로 따지면 0.007%다. 지구 역사를 24시간으로 놓으면, 인류는 마지막 6초에 나타난 거다.</p>
+<p>문명이 시작된 건? 약 1만 2천 년 전. 24시간 기준으로 0.2초. 눈 깜빡하는 사이도 안 된다.</p>
+<p><strong>우리는 지구 입장에서 방금 도착한 손님이다.</strong></p>
+<blockquote>근데 이 방금 도착한 손님이 지구를 제일 많이 바꿔놨다.</blockquote>`,
+  },
+  {
+    slug: "oxygen-not-always",
+    title: "산소가 없던 시기가 지구 역사 대부분이었다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "대산화 사건: 약 24억 년 전. 그 전 20억 년간 지구 대기에 산소가 거의 없었다.",
+    tags: ["산소", "대산화사건", "시아노박테리아", "24억년", "대기"],
+    relatedSlugs: ["humans-tiny-fraction", "flower-dinosaur"],
+    timeline: [
+      { year: "약 45억 년 전", label: "지구 형성 (산소 없는 대기)" },
+      { year: "약 35억 년 전", label: "시아노박테리아 출현 (산소 생성 시작)" },
+      { year: "약 24억 년 전", label: "대산화 사건 (산소 급증)", highlight: true },
+      { year: "약 5억 4천만 년 전", label: "캄브리아기 대폭발 (산소 농도 현재 수준)" },
+      { year: "현재", label: "대기 중 산소 약 21%", highlight: true },
+    ],
+    content: `<p>지금 우리가 숨 쉬는 산소. 당연한 것 같지만, 지구 역사 대부분에서는 산소가 거의 없었다.</p>
+<p>약 35억 년 전. 시아노박테리아가 나타나서 광합성을 시작했다. 산소를 내뿜기 시작한 거다. 근데 그 산소가 대기에 쌓이기까지 10억 년 넘게 걸렸다.</p>
+<p>약 24억 년 전. '대산화 사건'. 산소가 대기에 확 늘었다. 근데 이게 당시 생물 대부분한테는 독이었다. 산소에 적응 못한 혐기성 생물들이 대량 멸종했다.</p>
+<p><strong>산소는 생명을 살리기도 하고 죽이기도 했다.</strong></p>
+<blockquote>지구 최초의 대기 오염은 산소였다. 좀 아이러니하다.</blockquote>`,
+  },
+  {
+    slug: "mammals-after-dinosaurs",
+    title: "공룡 멸종 후 포유류가 급격히 번성했다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "공룡 멸종: 약 6,600만 년 전. 소행성 충돌 후 포유류가 빈자리를 채웠다.",
+    tags: ["공룡멸종", "포유류", "소행성", "백악기", "6600만년"],
+    relatedSlugs: ["trex-stegosaurus", "shark-dinosaur"],
+    timeline: [
+      { year: "약 2억 3천만 년 전", label: "최초 포유류 출현 (쥐만한 크기)" },
+      { year: "약 6,600만 년 전", label: "소행성 충돌, 공룡 멸종", highlight: true },
+      { year: "약 5,500만 년 전", label: "포유류 대폭발 (다양한 종 출현)", highlight: true },
+      { year: "약 5,000만 년 전", label: "고래 조상 육지에서 바다로" },
+      { year: "약 30만 년 전", label: "호모 사피엔스 등장" },
+    ],
+    content: `<p>공룡 시대에도 포유류는 있었다. 근데 쥐만 했다. 공룡이 너무 셌으니까 구석에서 벌벌 떨며 살았다.</p>
+<p>약 6,600만 년 전. 직경 10km짜리 소행성이 유카탄 반도에 박혔다. 공룡 포함 생물 75%가 사라졌다.</p>
+<p>근데 포유류는 살아남았다. 작고 땅 속에 숨을 수 있었으니까. 그리고 빈자리를 미친 듯이 채웠다. 천만 년도 안 돼서 고래, 박쥐, 말, 유인원 조상이 전부 등장했다.</p>
+<p><strong>공룡이 사라지지 않았으면 우리는 없었다.</strong></p>
+<blockquote>소행성 하나가 지구의 주인을 바꿔버렸다.</blockquote>`,
+  },
+  {
+    slug: "polar-warmth",
+    title: "북극과 남극은 과거에 지금보다 훨씬 따뜻했다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "백악기(약 1억 년 전) 북극 평균 기온 약 15°C. 남극에는 숲이 있었다.",
+    tags: ["북극", "남극", "백악기", "온실지구", "기후변화"],
+    relatedSlugs: ["ice-age-repeated", "sahara-pyramid"],
+    timeline: [
+      { year: "약 1억 년 전", label: "백악기 온실기후 (북극 15°C)", highlight: true },
+      { year: "약 5,500만 년 전", label: "PETM (팔레오세-에오세 극고온기)" },
+      { year: "약 3,400만 년 전", label: "남극 빙상 형성 시작", highlight: true },
+      { year: "약 260만 년 전", label: "북극 빙하 형성" },
+      { year: "현재", label: "북극 해빙 감소 추세" },
+    ],
+    content: `<p>지금 북극 평균 기온은 영하 20~30°C. 남극은 더 춥다. 근데 항상 이랬던 게 아니다.</p>
+<p>약 1억 년 전 백악기. 북극 평균 기온이 약 15°C였다. 서울 봄 날씨다. 남극에는 숲이 있었고, 공룡이 살았다.</p>
+<p>약 5,500만 년 전에는 PETM이라는 극고온기가 왔다. 북극해 수온이 23°C까지 올라갔다는 증거가 있다. 수영할 수 있는 수온이다.</p>
+<p><strong>극지방이 얼어붙은 건 지구 역사에서 오히려 최근 일이다.</strong></p>
+<blockquote>지구는 원래 따뜻한 행성이었다. 지금이 오히려 좀 추운 편이다.</blockquote>`,
+  },
+  {
+    slug: "earth-day-shorter",
+    title: "지구의 하루 길이는 수십억 년 전보다 길어졌다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "14억 년 전 하루: 약 18시간. 현재: 24시간. 달의 조석력 때문에 점점 느려지고 있다.",
+    tags: ["하루길이", "자전", "조석력", "달", "18시간"],
+    relatedSlugs: ["moon-closer", "venus-day"],
+    timeline: [
+      { year: "약 45억 년 전", label: "지구 형성 (하루 약 4~6시간)" },
+      { year: "약 14억 년 전", label: "하루 약 18시간", highlight: true },
+      { year: "약 6억 2천만 년 전", label: "하루 약 21시간" },
+      { year: "현재", label: "하루 24시간 (매세기 약 2ms 증가)", highlight: true },
+    ],
+    content: `<p>하루가 24시간인 건 영원불변의 진리 같지만, 아니다. 지구 초기에는 하루가 4~6시간이었다.</p>
+<p>약 14억 년 전에는 18시간. 공룡 시대에는 약 23시간.</p>
+<p>왜 길어지냐고? 달 때문이다. 달의 중력(조석력)이 지구 자전에 브레이크를 건다. 매세기 약 2밀리초씩 느려지고 있다.</p>
+<p><strong>공룡은 우리보다 하루가 1시간 짧았다. 같은 지구인데.</strong></p>
+<blockquote>아주 먼 미래에는 하루가 25시간, 30시간이 될 수도 있다. 늦잠 자기 좋아지겠다.</blockquote>`,
+  },
+  {
+    slug: "volcano-climate",
+    title: "화산 폭발은 지구 기후를 단기간 변화시킬 수 있다",
+    category: "dinosaur",
+    date: "2026-03-20",
+    summary: "탐보라 화산 폭발: 1815년. 이듬해 1816년 '여름 없는 해' 발생. 전 세계 기온 급락.",
+    tags: ["화산", "탐보라", "여름없는해", "1816년", "기후변화"],
+    relatedSlugs: ["polar-warmth", "sahara-pyramid"],
+    timeline: [
+      { year: "약 7만 4천 년 전", label: "토바 화산 폭발 (인류 거의 멸종 위기)" },
+      { year: "79년", label: "베수비오 화산 폭발 (폼페이 매몰)" },
+      { year: "1815년", label: "탐보라 화산 폭발 (역사상 최대)", highlight: true },
+      { year: "1816년", label: "'여름 없는 해' — 전 세계 기온 급락", highlight: true },
+      { year: "1991년", label: "피나투보 화산 폭발 (전 세계 기온 0.5°C 하락)" },
+    ],
+    content: `<p>1815년 4월. 인도네시아 탐보라 화산이 터졌다. 역사 기록상 가장 큰 화산 폭발이다. 폭발음이 2,600km 밖까지 들렸다.</p>
+<p>이듬해인 1816년. 유럽과 북미에 여름이 오지 않았다. 6월에 눈이 내렸다. 농작물이 전멸해서 대기근이 발생했다. '여름 없는 해'라 불린다.</p>
+<p>화산재와 이산화황이 성층권을 뒤덮어 햇빛을 차단한 거다.</p>
+<p><strong>화산 한 번이 지구 전체 기후를 바꿨다.</strong></p>
+<blockquote>근데 약 7만 4천 년 전 토바 화산은 이것보다 훨씬 컸다. 인류가 거의 멸종할 뻔했다.</blockquote>`,
+  },
+  {
+    slug: "internet-military",
+    title: "인터넷은 군사 연구에서 시작됐다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "ARPANET 첫 전송: 1969년. 미 국방부 프로젝트에서 시작. 지금은 80억 인구가 쓴다.",
+    tags: ["인터넷", "ARPANET", "국방부", "1969년", "TCP/IP"],
+    relatedSlugs: ["creditcard-before-internet", "gps-military"],
+    timeline: [
+      { year: "1958년", label: "ARPA(방위고등연구계획국) 설립" },
+      { year: "1969년 10월", label: "ARPANET 첫 데이터 전송", highlight: true },
+      { year: "1983년", label: "TCP/IP 프로토콜 도입 (인터넷 탄생)" },
+      { year: "1991년", label: "월드와이드웹(WWW) 공개", highlight: true },
+      { year: "2026년", label: "전 세계 인터넷 사용자 약 55억 명" },
+    ],
+    content: `<p>1969년 10월 29일. UCLA 컴퓨터에서 스탠퍼드 컴퓨터로 메시지를 보냈다. 보내려던 단어는 "LOGIN". 근데 "LO"까지만 전송하고 시스템이 뻗었다.</p>
+<p>이게 인터넷의 시작이다. ARPANET. 미 국방부 산하 ARPA가 핵전쟁에도 통신이 유지되는 네트워크를 만들려고 시작한 프로젝트였다.</p>
+<p>1991년에 팀 버너스리가 WWW을 공개하면서 폭발적으로 퍼졌다.</p>
+<p><strong>핵전쟁 대비용으로 만든 게 고양이 영상 보는 데 쓰이고 있다.</strong></p>
+<blockquote>이건 솔직히 아무도 예상 못했을 거다.</blockquote>`,
+  },
+  {
+    slug: "gps-military",
+    title: "GPS는 원래 군사용으로 개발됐다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "GPS 개발 시작: 1973년. 민간 개방: 1983년. 완전 개방: 2000년. 원래는 미사일용이었다.",
+    tags: ["GPS", "군사", "위성", "1973년", "항법", "레이건"],
+    relatedSlugs: ["internet-military", "creditcard-before-internet"],
+    timeline: [
+      { year: "1957년", label: "소련 스푸트니크 발사 (위성 신호로 위치 추적 아이디어)" },
+      { year: "1973년", label: "미 국방부, GPS 프로젝트 시작", highlight: true },
+      { year: "1978년", label: "첫 GPS 위성 발사" },
+      { year: "1983년", label: "대한항공 007편 격추 → 레이건, GPS 민간 개방 결정", highlight: true },
+      { year: "2000년", label: "클린턴, GPS 정밀도 제한 해제 (완전 민간 개방)", highlight: true },
+    ],
+    content: `<p>GPS. 지금은 배달앱에서 치킨 위치 추적하는 데 쓰지만, 원래는 미사일이 목표물을 정확히 때리라고 만든 거다.</p>
+<p>1973년 미 국방부가 개발을 시작했다. 위성 24개로 지구 어디서든 위치를 잡는 시스템.</p>
+<p>민간에 열린 건 1983년. 대한항공 007편이 소련 영공을 침범해 격추당한 사건 때문이다. 레이건 대통령이 "민간 항공기도 GPS를 쓸 수 있게 하라"고 했다.</p>
+<p><strong>비극적 사건이 기술 개방의 계기가 됐다.</strong></p>
+<blockquote>2000년에 정밀도 제한까지 풀리면서 지금의 GPS가 됐다. 오차 몇 미터.</blockquote>`,
+  },
+  {
+    slug: "microwave-radar",
+    title: "전자레인지는 레이더 기술에서 우연히 발견됐다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "퍼시 스펜서, 레이더 앞에서 초콜릿이 녹는 걸 발견: 1945년. 최초 전자레인지: 1947년.",
+    tags: ["전자레인지", "레이더", "마이크로파", "1945년", "퍼시스펜서"],
+    relatedSlugs: ["internet-military", "gps-military"],
+    timeline: [
+      { year: "1940년", label: "영국, 레이더용 마그네트론 개발" },
+      { year: "1945년", label: "퍼시 스펜서, 마이크로파로 초콜릿 녹는 현상 발견", highlight: true },
+      { year: "1947년", label: "최초 전자레인지 'Radarange' 출시 (냉장고 크기, $5,000)", highlight: true },
+      { year: "1967년", label: "가정용 전자레인지 $500 이하로 보급" },
+      { year: "현재", label: "전 세계 가정 90% 이상 보유" },
+    ],
+    content: `<p>1945년. 미국 레이시온 사의 엔지니어 퍼시 스펜서가 레이더 장비 앞에서 일하고 있었다. 근데 주머니에 넣어둔 초콜릿 바가 녹아 있었다.</p>
+<p>보통은 "아 짜증" 하고 말 텐데, 이 사람은 달랐다. "어라? 마이크로파가 음식을 데울 수 있나?"</p>
+<p>옥수수를 갖다 놓았더니 팝콘이 튀었다. 달걀을 놓았더니 폭발했다. (진짜로)</p>
+<p>1947년에 첫 전자레인지가 나왔다. 근데 냉장고만 하고 가격이 5,000달러였다. 지금 돈으로 7만 달러 넘는다.</p>
+<p><strong>전쟁 기술에서 탄생한 가전제품. 우연이 세상을 바꿨다.</strong></p>
+<blockquote>초콜릿이 안 녹았으면 전자레인지는 더 늦게 나왔을 거다.</blockquote>`,
+  },
+  {
+    slug: "mouse-before-pc",
+    title: "컴퓨터 마우스는 개인용 컴퓨터보다 먼저 만들어졌다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "마우스 발명: 1964년. PC 대중화(IBM PC): 1981년. 17년 차이.",
+    tags: ["마우스", "더글라스엥겔바트", "PC", "1964년", "GUI"],
+    relatedSlugs: ["creditcard-before-internet", "battery-before-lightbulb"],
+    timeline: [
+      { year: "1964년", label: "더글라스 엥겔바트, 마우스 프로토타입 제작", highlight: true },
+      { year: "1968년", label: "'모든 데모의 어머니' 발표 (마우스 공개 시연)" },
+      { year: "1981년", label: "IBM PC 출시", highlight: true },
+      { year: "1984년", label: "애플 매킨토시 (마우스 기반 GUI 대중화)" },
+      { year: "현재", label: "터치스크린에 밀리는 중" },
+    ],
+    content: `<p>1964년. 더글라스 엥겔바트가 나무 상자에 바퀴 두 개를 달아서 만든 게 최초의 마우스다. 이름이 마우스인 이유? 전선이 뒤에 달려서 쥐처럼 보여서.</p>
+<p>근데 이걸 쓸 PC가 없었다. 당시 컴퓨터는 방 하나를 차지하는 괴물이었다.</p>
+<p>IBM PC가 나온 건 1981년. 마우스가 진짜로 쓸모있어진 건 1984년 매킨토시부터다.</p>
+<p><strong>마우스가 먼저 나오고, 쓸 컴퓨터가 17년 뒤에 나왔다.</strong></p>
+<blockquote>지금은 마우스가 터치에 밀리고 있다. 기술의 운명은 모르는 거다.</blockquote>`,
+  },
+  {
+    slug: "digital-camera-1975",
+    title: "디지털 카메라는 1975년에 이미 만들어졌다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "코닥 엔지니어 스티브 사슨, 최초 디지털 카메라 제작: 1975년. 해상도 0.01 메가픽셀.",
+    tags: ["디지털카메라", "코닥", "1975년", "필름", "스티브사슨"],
+    relatedSlugs: ["mouse-before-pc", "battery-before-lightbulb"],
+    timeline: [
+      { year: "1975년", label: "코닥, 최초 디지털 카메라 제작 (0.01MP)", highlight: true },
+      { year: "1981년", label: "소니, 전자 스틸 카메라 '마비카' 발표" },
+      { year: "1990년대", label: "디지털 카메라 상용화 시작" },
+      { year: "2004년경", label: "디지털 카메라 판매량, 필름 카메라 추월", highlight: true },
+      { year: "2012년", label: "코닥 파산 신청" },
+    ],
+    content: `<p>1975년. 코닥의 엔지니어 스티브 사슨이 세계 최초의 디지털 카메라를 만들었다. 토스터만 한 크기. 무게 3.6kg. 해상도 0.01 메가픽셀. 사진 한 장 찍는 데 23초.</p>
+<p>사슨이 이걸 코닥 경영진한테 보여줬더니? "재밌는 기술이네. 근데 필름이 있는데 누가 이걸 쓰겠어."</p>
+<p>결과? 2012년 코닥은 파산했다. 자기가 만든 기술에 자기가 죽은 거다.</p>
+<p><strong>디지털 카메라를 최초로 만든 회사가, 디지털 시대를 거부하다가 망했다.</strong></p>
+<blockquote>기술은 만드는 것보다 받아들이는 게 더 어렵다.</blockquote>`,
+  },
+  {
+    slug: "youtube-before-iphone",
+    title: "유튜브는 아이폰보다 먼저 등장했다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "유튜브 설립: 2005년. 아이폰 출시: 2007년. 2년 차이. 스마트폰 없이 시작한 영상 플랫폼.",
+    tags: ["유튜브", "아이폰", "2005년", "2007년", "스마트폰"],
+    relatedSlugs: ["digital-camera-1975", "creditcard-before-internet"],
+    timeline: [
+      { year: "2005년 2월", label: "유튜브 설립", highlight: true },
+      { year: "2005년 4월", label: "유튜브 첫 영상 업로드 ('Me at the Zoo')" },
+      { year: "2006년 10월", label: "구글, 유튜브 인수 (16.5억 달러)" },
+      { year: "2007년 6월", label: "아이폰 출시", highlight: true },
+      { year: "현재", label: "유튜브 월간 사용자 약 25억 명" },
+    ],
+    content: `<p>2005년. 세 명의 전 페이팔 직원이 유튜브를 만들었다. 원래 데이팅 사이트로 기획했다가 방향을 틀었다는 얘기도 있다.</p>
+<p>첫 영상은 2005년 4월 23일. 'Me at the Zoo'. 동물원에서 찍은 18초짜리 영상이다. 지금 봐도 올라와 있다.</p>
+<p>근데 그때는 아이폰이 없었다. 영상은 디지캠이나 웹캠으로 찍었다. 스마트폰으로 바로 찍어 올리는 건 2007년 아이폰 이후다.</p>
+<p><strong>스마트폰 없이 시작한 영상 플랫폼이 지금 세계 2위 검색엔진이다.</strong></p>
+<blockquote>유튜브가 아이폰보다 먼저라니. 이거 의외로 모르는 사람 많다.</blockquote>`,
+  },
+  {
+    slug: "wifi-1997",
+    title: "Wi-Fi는 1997년에 상용화됐다",
+    category: "invention",
+    date: "2026-03-20",
+    summary: "IEEE 802.11 표준 발표: 1997년. 초기 속도 2Mbps. Wi-Fi 브랜드명 등장: 1999년.",
+    tags: ["Wi-Fi", "무선인터넷", "1997년", "802.11", "무선통신"],
+    relatedSlugs: ["internet-military", "youtube-before-iphone"],
+    timeline: [
+      { year: "1991년", label: "NCR/AT&T, 무선 LAN 제품 출시" },
+      { year: "1997년", label: "IEEE 802.11 표준 발표 (2Mbps)", highlight: true },
+      { year: "1999년", label: "'Wi-Fi' 브랜드명 등장, 802.11b (11Mbps)", highlight: true },
+      { year: "2003년", label: "802.11g (54Mbps), 카페 와이파이 보급" },
+      { year: "현재", label: "Wi-Fi 7 (최대 46Gbps)" },
+    ],
+    content: `<p>1997년. IEEE에서 802.11이라는 무선 네트워크 표준을 발표했다. 속도는 2Mbps. 지금 기준으로는 말도 안 되게 느리다.</p>
+<p>'Wi-Fi'라는 이름이 붙은 건 1999년이다. 'Wireless Fidelity'의 약자라고 알려져 있지만, 사실 그냥 마케팅용 이름이다. 의미 없다.</p>
+<p>2003년쯤부터 카페에서 와이파이가 되기 시작했다. 그때 "와이파이 되는 카페"가 경쟁력이었다.</p>
+<p><strong>1997년에 2Mbps로 시작한 기술이 지금은 46Gbps까지 왔다. 23,000배.</strong></p>
+<blockquote>와이파이 안 되는 곳에 가면 불안해지는 거, 1997년 사람들은 상상도 못했을 거다.</blockquote>`,
+  },
 ];
