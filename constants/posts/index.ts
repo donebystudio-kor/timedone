@@ -732,6 +732,358 @@ export const POSTS: Post[] = [
 <blockquote>고종이 자동차를 처음 탄 건 1903년으로 알려져 있다.</blockquote>`,
   },
   {
+    slug: "joseon-founding-blackdeath",
+    title: "조선이 건국될 때 유럽은 흑사병 후유증이 한창이었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "조선 건국: 1392년. 흑사병 대유행 종식: 1351년경. 유럽 인구 1/3이 사라진 직후였다.",
+    tags: ["조선", "건국", "흑사병", "1392년", "이성계", "유럽"],
+    relatedSlugs: ["joseon-blackdeath", "hangul-columbus"],
+    timeline: [
+      { year: "1347년", label: "흑사병 유럽 상륙" },
+      { year: "1351년경", label: "흑사병 1차 대유행 종식", highlight: true },
+      { year: "1381년", label: "영국 농민 반란 (흑사병 후유증)" },
+      { year: "1388년", label: "이성계 위화도 회군" },
+      { year: "1392년", label: "조선 건국", highlight: true },
+    ],
+    content: `<p>1392년. 이성계가 조선을 건국했다. 새 왕조, 새 시대의 시작이었다.</p>
+<p>근데 같은 시기 유럽은? 흑사병 후유증으로 아직 난리였다. 1347년부터 퍼진 흑사병은 유럽 인구의 1/3을 죽였다. 어떤 지역은 절반이 날아갔다.</p>
+<p>1381년에는 영국에서 농민 반란이 터졌다. 사람이 너무 죽어서 노동력이 부족해지고, 그게 사회 구조를 뒤흔든 거다.</p>
+<p><strong>조선이 새 나라를 세울 때, 유럽은 죽음의 후유증에서 겨우 일어나는 중이었다.</strong></p>
+<blockquote>한쪽은 시작이었고, 한쪽은 재건이었다.</blockquote>`,
+  },
+  {
+    slug: "imjin-shakespeare-hamlet",
+    title: "임진왜란 때 셰익스피어는 햄릿을 쓰고 있었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "임진왜란: 1592년. 셰익스피어 햄릿 집필: 1599~1601년. 거의 같은 시기.",
+    tags: ["임진왜란", "셰익스피어", "햄릿", "1592년", "이순신", "선조"],
+    relatedSlugs: ["yisunsin-shakespeare", "hangul-columbus"],
+    timeline: [
+      { year: "1592년", label: "임진왜란 발발", highlight: true },
+      { year: "1592년", label: "셰익스피어, 런던에서 극작가로 활동 시작" },
+      { year: "1597년", label: "정유재란" },
+      { year: "1598년", label: "이순신 전사, 전쟁 종료" },
+      { year: "1600~1601년", label: "셰익스피어, 햄릿 집필", highlight: true },
+    ],
+    content: `<p>1592년. 조선 땅에 왜군 15만이 쏟아져 들어왔다. 임진왜란이다. 이순신이 바다에서 싸우고, 의병들이 산에서 싸웠다.</p>
+<p>바로 그해. 런던에서는 셰익스피어가 극작가로 본격적으로 활동을 시작했다.</p>
+<p>전쟁이 끝난 직후인 1600~1601년. 셰익스피어는 햄릿을 썼다. "사느냐 죽느냐, 그것이 문제로다."</p>
+<p><strong>조선이 진짜 삶과 죽음 사이에서 싸울 때, 셰익스피어는 무대 위에서 그걸 물었다.</strong></p>
+<blockquote>한쪽은 실전이었고, 한쪽은 무대였다. 근데 둘 다 같은 질문을 하고 있었다.</blockquote>`,
+  },
+  {
+    slug: "goryeo-jikji-handwriting",
+    title: "고려가 금속활자 쓸 때, 유럽은 양피지에 손으로 쓰고 있었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "직지심체요절 금속활자 인쇄: 1377년. 구텐베르크 활판인쇄: 1455년. 78년 차이.",
+    tags: ["금속활자", "직지", "구텐베르크", "고려", "1377년", "양피지"],
+    relatedSlugs: ["jikji-gutenberg", "joseon-founding-blackdeath"],
+    timeline: [
+      { year: "1234년경", label: "고려, 금속활자 최초 사용 추정" },
+      { year: "1377년", label: "직지심체요절 금속활자 인쇄", highlight: true },
+      { year: "1392년", label: "조선 건국" },
+      { year: "1440년대", label: "구텐베르크, 활판인쇄 개발" },
+      { year: "1455년", label: "구텐베르크 성경 인쇄", highlight: true },
+    ],
+    content: `<p>1377년. 고려에서 직지심체요절이 금속활자로 인쇄됐다. 현존하는 세계 최고(最古)의 금속활자 인쇄물이다.</p>
+<p>그때 유럽은? 수도사들이 양피지 위에 한 글자 한 글자 손으로 베끼고 있었다. 책 한 권 만드는 데 몇 달씩 걸렸다.</p>
+<p>구텐베르크가 활판인쇄를 완성한 건 1455년. <strong>고려보다 78년 늦다.</strong></p>
+<blockquote>물론 구텐베르크의 인쇄술이 유럽을 바꾼 건 맞다. 근데 "최초"는 고려다.</blockquote>`,
+  },
+  {
+    slug: "joseon-growth-religious-wars",
+    title: "16~17세기 조선이 성장할 때 유럽은 종교전쟁 중이었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "조선 전성기: 15~16세기. 유럽 종교전쟁: 1524~1648년. 한쪽은 안정, 한쪽은 피바다.",
+    tags: ["조선", "종교전쟁", "30년전쟁", "16세기", "성리학", "유럽"],
+    relatedSlugs: ["hangul-columbus", "yisunsin-shakespeare"],
+    timeline: [
+      { year: "1443년", label: "훈민정음 창제" },
+      { year: "1517년", label: "마르틴 루터 95개조 반박문", highlight: true },
+      { year: "1524년", label: "독일 농민전쟁 (종교전쟁 시작)" },
+      { year: "1592년", label: "임진왜란" },
+      { year: "1618년", label: "30년 전쟁 시작", highlight: true },
+      { year: "1648년", label: "베스트팔렌 조약 (30년 전쟁 종료)" },
+    ],
+    content: `<p>15~16세기 조선. 한글이 만들어지고, 성리학이 꽃피고, 나름 안정적인 시기였다. 물론 당쟁도 있었지만.</p>
+<p>같은 시기 유럽은? 완전 피바다였다. 1517년 루터의 종교개혁 이후, 가톨릭과 개신교가 칼을 들었다.</p>
+<p>1618년에 시작된 30년 전쟁은 유럽 역사상 가장 참혹한 전쟁 중 하나다. 독일 지역 인구가 최대 40%나 줄었다.</p>
+<p><strong>조선이 서원에서 학문을 논할 때, 유럽은 신의 이름으로 서로를 죽이고 있었다.</strong></p>
+<blockquote>어느 쪽이 더 발전했냐는 건 의미없다. 다만 시간은 같았다.</blockquote>`,
+  },
+  {
+    slug: "gwanghaegun-puritan",
+    title: "광해군이 쫓겨날 때, 영국은 청교도 혁명 직전이었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "인조반정: 1623년. 영국 청교도 혁명(내전): 1642년. 19년 차이. 왕이 쫓겨나는 건 비슷했다.",
+    tags: ["광해군", "인조반정", "청교도혁명", "1623년", "찰스1세", "영국"],
+    relatedSlugs: ["joseon-yesong-newton", "joseon-growth-religious-wars"],
+    timeline: [
+      { year: "1608년", label: "광해군 즉위" },
+      { year: "1623년", label: "인조반정 (광해군 폐위)", highlight: true },
+      { year: "1636년", label: "병자호란" },
+      { year: "1642년", label: "영국 내전 시작 (청교도 혁명)", highlight: true },
+      { year: "1649년", label: "찰스 1세 처형" },
+    ],
+    content: `<p>1623년. 광해군이 인조반정으로 쫓겨났다. 중립 외교를 펼치던 광해군 대신, 친명 노선의 인조가 왕이 됐다. 결과는? 13년 뒤 병자호란.</p>
+<p>19년 뒤인 1642년. 영국에서도 왕이 위기를 맞았다. 의회와 왕이 충돌해서 내전이 벌어졌다. 청교도 혁명이다.</p>
+<p>1649년에는 찰스 1세의 목이 날아갔다. <strong>왕의 목을 잘랐다.</strong> 유럽에서 전례 없는 일이었다.</p>
+<blockquote>비슷한 시기, 동서양 모두 왕이 흔들렸다. 방법은 달랐지만.</blockquote>`,
+  },
+  {
+    slug: "jeongjo-hwaseong-usa",
+    title: "정조가 수원화성 지을 때, 미국은 막 독립했다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "수원화성 완공: 1796년. 미국 독립선언: 1776년. 20년 차이.",
+    tags: ["정조", "수원화성", "미국독립", "1796년", "1776년", "조지워싱턴"],
+    relatedSlugs: ["jeongyagyong-usa", "joseon-yesong-newton"],
+    timeline: [
+      { year: "1776년", label: "미국 독립선언", highlight: true },
+      { year: "1789년", label: "프랑스 대혁명 / 조지 워싱턴 초대 대통령" },
+      { year: "1794년", label: "수원화성 착공" },
+      { year: "1796년", label: "수원화성 완공", highlight: true },
+      { year: "1800년", label: "정조 사망" },
+    ],
+    content: `<p>1796년. 정조가 수원화성을 완공했다. 정약용이 거중기를 설계해서 공사 기간을 단축했다. 동서양 건축 기술을 융합한 걸작이다.</p>
+<p>20년 전인 1776년. 바다 건너 미국에서는 독립선언서가 낭독됐다. "모든 사람은 평등하게 태어났다."</p>
+<p>1789년에는 프랑스 대혁명까지 터졌다. 왕의 시대가 끝나고 있었다.</p>
+<p><strong>정조가 성을 쌓을 때, 세계는 왕 없는 나라를 만들고 있었다.</strong></p>
+<blockquote>정조는 개혁군주였다. 근데 그가 꿈꾼 건 더 나은 왕조였지, 왕 없는 세상은 아니었다.</blockquote>`,
+  },
+  {
+    slug: "daewongun-japan-opened",
+    title: "흥선대원군이 쇄국할 때, 일본은 이미 개항했다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "일본 개항(미일화친조약): 1854년. 흥선대원군 쇄국: 1863년~. 9년 차이로 정반대 선택.",
+    tags: ["흥선대원군", "쇄국", "일본개항", "페리", "1854년", "메이지유신"],
+    relatedSlugs: ["joseon-sakoku-industrial", "joseon-sakoku-railroad"],
+    timeline: [
+      { year: "1853년", label: "페리 제독, 일본에 개항 요구" },
+      { year: "1854년", label: "미일화친조약 (일본 개항)", highlight: true },
+      { year: "1863년", label: "흥선대원군 집권, 쇄국 강화", highlight: true },
+      { year: "1868년", label: "메이지 유신 (일본 근대화)" },
+      { year: "1876년", label: "조선 강화도 조약 (강제 개항)" },
+    ],
+    content: `<p>1854년. 일본이 미국 페리 제독의 압박에 문을 열었다. 미일화친조약. 처음에는 치욕이었지만, 일본은 빠르게 방향을 틀었다.</p>
+<p>1868년 메이지 유신. 서양 기술을 흡수하고, 군대를 근대화하고, 산업을 일으켰다.</p>
+<p>9년 뒤인 1863년. 조선은 정반대 선택을 했다. 흥선대원군이 쇄국 정책을 강화한 거다. 척화비를 세우고, 서양 오랑캐와는 상종하지 않겠다고 선언했다.</p>
+<p><strong>이웃 나라가 문을 열고 변화할 때, 조선은 문을 닫았다.</strong></p>
+<blockquote>12년 뒤 조선은 결국 일본에 의해 강제로 문을 열었다. 강화도 조약(1876년).</blockquote>`,
+  },
+  {
+    slug: "eulsa-relativity",
+    title: "을사늑약과 상대성이론 발표는 같은 해다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "을사늑약: 1905년 11월. 아인슈타인 특수상대성이론: 1905년 6월. 같은 해, 5개월 차이.",
+    tags: ["을사늑약", "아인슈타인", "상대성이론", "1905년", "기적의해"],
+    relatedSlugs: ["korean-war-dna", "daehan-empire-film"],
+    timeline: [
+      { year: "1905년 3월", label: "아인슈타인, 광양자 가설 논문" },
+      { year: "1905년 6월", label: "특수상대성이론 논문 발표", highlight: true },
+      { year: "1905년 9월", label: "E=mc² 논문" },
+      { year: "1905년 11월", label: "을사늑약 체결 (외교권 박탈)", highlight: true },
+      { year: "1906년", label: "민영환 순국, 장지연 시일야방성대곡" },
+    ],
+    content: `<p>1905년은 물리학에서 '기적의 해(Annus Mirabilis)'라 불린다. 아인슈타인이 혼자서 논문 4편을 쏟아냈다. 광양자 가설, 브라운 운동, 특수상대성이론, E=mc².</p>
+<p>같은 해 11월. 대한제국에서는 을사늑약이 체결됐다. 일본이 외교권을 빼앗은 거다. 사실상 나라를 잃어가는 과정이었다.</p>
+<p><strong>우주의 비밀이 풀리던 해에, 한 나라의 주권이 무너졌다.</strong></p>
+<blockquote>아인슈타인의 1905년은 빛났고, 대한제국의 1905년은 어두웠다. 같은 해다.</blockquote>`,
+  },
+  {
+    slug: "gojong-coffee-eiffel",
+    title: "고종이 커피 마실 때, 파리는 에펠탑 세우고 있었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "에펠탑 완공: 1889년. 고종 커피 입문: 1896년경. 비슷한 시기, 다른 풍경.",
+    tags: ["고종", "커피", "에펠탑", "1889년", "1896년", "아관파천"],
+    relatedSlugs: ["daehan-empire-film", "car-joseon"],
+    timeline: [
+      { year: "1889년", label: "에펠탑 완공 (파리 만국박람회)", highlight: true },
+      { year: "1893년", label: "시카고 만국박람회" },
+      { year: "1896년", label: "아관파천 (고종, 러시아 공사관으로)", highlight: true },
+      { year: "1896~1897년경", label: "고종, 러시아 공사관에서 커피를 접함" },
+      { year: "1897년", label: "대한제국 선포" },
+    ],
+    content: `<p>1889년. 파리에 에펠탑이 세워졌다. 만국박람회를 위해 지은 건데, 처음에는 "흉물"이라고 욕을 엄청 먹었다. 지금은 파리의 상징이지만.</p>
+<p>7년 뒤인 1896년. 고종은 러시아 공사관으로 피신했다. 아관파천이다. 거기서 러시아 공사 웨베르를 통해 커피를 처음 맛봤다고 전해진다.</p>
+<p><strong>파리에서 철탑이 하늘을 찌를 때, 조선의 왕은 외국 공사관에 숨어서 커피를 마셨다.</strong></p>
+<blockquote>커피 한 잔의 여유가 아니었다. 목숨을 건 피신이었다.</blockquote>`,
+  },
+  {
+    slug: "korean-war-uk-rationing",
+    title: "한국전쟁 때 영국은 아직 식량 배급제였다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "한국전쟁: 1950~1953년. 영국 식량 배급제 종료: 1954년. 2차 대전 끝나고도 9년간 배급.",
+    tags: ["한국전쟁", "영국", "배급제", "1950년", "2차대전", "식량"],
+    relatedSlugs: ["korean-war-dna", "japanese-occupation-jazz"],
+    timeline: [
+      { year: "1940년", label: "영국 식량 배급제 시작 (2차 대전)", highlight: true },
+      { year: "1945년", label: "2차 세계대전 종전" },
+      { year: "1950년 6월", label: "한국전쟁 발발", highlight: true },
+      { year: "1953년 7월", label: "한국전쟁 휴전" },
+      { year: "1954년 7월", label: "영국 식량 배급제 완전 종료", highlight: true },
+    ],
+    content: `<p>한국전쟁이 한창이던 1950~1953년. 영국에서는 아직 식량 배급제가 돌아가고 있었다.</p>
+<p>어라? 2차 대전은 1945년에 끝나지 않았나? 맞다. 근데 전쟁이 끝났다고 경제가 바로 살아나는 게 아니다. 영국은 전쟁으로 완전히 거덜났다.</p>
+<p>고기, 치즈, 버터, 설탕... 배급 카드 없으면 못 샀다. 배급제가 완전히 끝난 건 <strong>1954년 7월</strong>이다. 2차 대전 끝나고도 9년이나 더 걸렸다.</p>
+<p>한국에 파병까지 하면서도 자국민 식량을 배급으로 돌리고 있었던 거다.</p>
+<blockquote>전쟁은 끝나도 전쟁의 그림자는 오래간다. 영국도, 한국도.</blockquote>`,
+  },
+  {
+    slug: "silla-unification-islam",
+    title: "신라 삼국통일 때 이슬람 제국이 팽창 중이었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "신라 삼국통일: 668년. 우마이야 왕조 팽창: 661~750년. 같은 시기, 동서양에서 판이 흔들렸다.",
+    tags: ["신라", "삼국통일", "이슬람", "우마이야", "668년", "문무왕"],
+    relatedSlugs: ["silla-bulguksa-charlemagne", "gwanggaeto-rome"],
+    timeline: [
+      { year: "660년", label: "백제 멸망" },
+      { year: "661년", label: "우마이야 왕조 수립", highlight: true },
+      { year: "668년", label: "신라 삼국통일 (고구려 멸망)", highlight: true },
+      { year: "711년", label: "이슬람, 이베리아 반도 정복" },
+      { year: "750년", label: "우마이야 왕조 멸망, 압바스 왕조 수립" },
+    ],
+    content: `<p>668년. 신라가 고구려를 멸망시키고 삼국통일을 이뤘다. 한반도 역사의 거대한 전환점이다.</p>
+<p>근데 그때 서쪽에서도 엄청난 일이 벌어지고 있었다. 661년에 수립된 우마이야 왕조가 미친 듯이 영토를 넓히고 있었다.</p>
+<p>711년에는 이베리아 반도(지금의 스페인)까지 먹었다. <strong>동쪽에서 신라가 통일하는 동안, 서쪽에서는 이슬람이 세계를 삼키고 있었다.</strong></p>
+<blockquote>같은 시기에 동서양 모두 판이 뒤집혔다. 근데 교과서에선 따로 배운다.</blockquote>`,
+  },
+  {
+    slug: "baekje-buddhism-japan",
+    title: "백제가 일본에 불교 전할 때, 유럽은 혼란의 시대였다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "백제 불교 전래(일본): 552년. 서로마 멸망 후 유럽 암흑기 한창: 476~800년.",
+    tags: ["백제", "불교", "일본", "암흑기", "552년", "성왕"],
+    relatedSlugs: ["silla-bulguksa-charlemagne", "silla-unification-islam"],
+    timeline: [
+      { year: "476년", label: "서로마 제국 멸망", highlight: true },
+      { year: "538~552년", label: "백제 성왕, 일본에 불교 전래", highlight: true },
+      { year: "589년", label: "수나라 중국 통일" },
+      { year: "660년", label: "백제 멸망" },
+      { year: "800년", label: "카롤루스 대제 대관 (암흑기 끝)" },
+    ],
+    content: `<p>552년경. 백제 성왕이 일본에 불교를 전했다. 불상이랑 경전을 보냈다고 한다.</p>
+<p>어라? 그때 유럽은 뭐 하고 있었냐면. 서로마가 476년에 망한 뒤로 완전 혼란이었다. 게르만족이 여기저기 왕국 세우고, 문화 수준은 급락했다.</p>
+<p><strong>백제가 바다 건너 문화를 전파하던 시기에, 유럽은 '암흑기'라 불리는 시대 한복판이었다.</strong></p>
+<blockquote>한쪽은 문명을 수출하고, 한쪽은 문명이 무너지고 있었다.</blockquote>`,
+  },
+  {
+    slug: "joseon-yesong-newton",
+    title: "조선 예송논쟁 때 뉴턴이 만유인력을 발견했다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "예송논쟁: 1659~1674년. 뉴턴 만유인력 연구: 1665~1666년. 상복 기간 vs 우주 법칙.",
+    tags: ["예송논쟁", "뉴턴", "만유인력", "조선", "1665년", "현종"],
+    relatedSlugs: ["harvard-calculus", "jeongyagyong-usa"],
+    timeline: [
+      { year: "1659년", label: "1차 예송논쟁 시작 (효종 사망)", highlight: true },
+      { year: "1665년", label: "뉴턴, 만유인력 연구 시작", highlight: true },
+      { year: "1666년", label: "뉴턴, 프리즘 실험 (빛의 분산)" },
+      { year: "1674년", label: "2차 예송논쟁 (효종비 사망)" },
+      { year: "1687년", label: "뉴턴, 프린키피아 출간" },
+    ],
+    content: `<p>1659년. 조선 효종이 죽었다. 그러자 나라 전체가 논쟁에 빠졌다. "상복을 1년 입을까, 3년 입을까?"</p>
+<p>이게 그냥 옷 문제가 아니라 왕실 정통성 싸움이었다. 서인과 남인이 피 터지게 싸웠다.</p>
+<p>그 와중에 1665년. 영국에서는 23살 뉴턴이 사과나무 아래서 생각에 빠져 있었다. 만유인력. 우주를 지배하는 법칙을 떠올린 거다.</p>
+<p><strong>상복 기간을 두고 싸우는 동안, 누군가는 우주의 법칙을 발견했다.</strong></p>
+<blockquote>뭐가 맞고 틀리고의 문제는 아니다. 근데 이 시간차는 좀 씁쓸하다.</blockquote>`,
+  },
+  {
+    slug: "daehan-empire-film",
+    title: "대한제국 선포 때 영화가 막 발명됐다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "뤼미에르 형제 최초 영화 상영: 1895년. 대한제국 선포: 1897년. 2년 차이.",
+    tags: ["대한제국", "영화", "뤼미에르", "1897년", "고종", "시네마토그래프"],
+    relatedSlugs: ["film-gojong", "car-joseon"],
+    timeline: [
+      { year: "1894년", label: "갑오개혁 / 청일전쟁" },
+      { year: "1895년 12월", label: "뤼미에르 형제, 최초 영화 상영 (파리)", highlight: true },
+      { year: "1896년", label: "아관파천 (고종, 러시아 공사관으로)" },
+      { year: "1897년", label: "대한제국 선포", highlight: true },
+      { year: "1903년", label: "한국 최초 영화 상영 (동대문)" },
+    ],
+    content: `<p>1895년 12월 28일. 파리의 한 카페에서 뤼미에르 형제가 시네마토그래프를 돌렸다. 세계 최초 영화 상영이었다. 기차가 달려오는 영상에 관객들이 도망쳤다는 유명한 일화.</p>
+<p>2년 뒤인 1897년. 고종이 대한제국을 선포했다. 황제국을 자처하며 근대화를 시도했다.</p>
+<p><strong>영화가 탄생한 바로 그 시기에, 대한제국이 출범했다.</strong></p>
+<blockquote>한국에 영화가 처음 상영된 건 1903년, 동대문 근처였다고 한다.</blockquote>`,
+  },
+  {
+    slug: "march1st-spanish-flu",
+    title: "3.1운동 때 스페인 독감이 전 세계를 덮쳤다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "3.1운동: 1919년 3월. 스페인 독감: 1918~1920년. 독립운동과 팬데믹이 겹쳤다.",
+    tags: ["3.1운동", "스페인독감", "1919년", "팬데믹", "독립운동"],
+    relatedSlugs: ["joseon-sakoku-industrial", "anne-frank-mlk"],
+    timeline: [
+      { year: "1918년 3월", label: "스페인 독감 1차 유행 시작", highlight: true },
+      { year: "1918년 11월", label: "1차 세계대전 종전" },
+      { year: "1919년 1월", label: "고종 사망" },
+      { year: "1919년 3월 1일", label: "3.1운동", highlight: true },
+      { year: "1919년 4월", label: "대한민국 임시정부 수립" },
+      { year: "1920년", label: "스페인 독감 종식 (사망자 약 5천만 명)" },
+    ],
+    content: `<p>1919년 3월 1일. "대한 독립 만세." 전국에서 만세 운동이 터져 나왔다.</p>
+<p>근데 그때 세계는 또 다른 재난과 싸우고 있었다. 스페인 독감. 1918년부터 시작된 이 팬데믹은 전 세계에서 약 5천만 명을 죽였다. 1차 대전 사망자보다 많다.</p>
+<p>조선에서도 스페인 독감이 퍼졌다. 당시 조선 인구 약 1,700만 명 중 740만 명이 감염됐다는 기록이 있다.</p>
+<p><strong>독립을 외치는 와중에, 전염병까지 덮친 거다.</strong></p>
+<blockquote>만세를 부르던 그 겨울, 기침 소리도 함께 울렸다.</blockquote>`,
+  },
+  {
+    slug: "japanese-occupation-jazz",
+    title: "일제강점기 때 미국은 재즈 시대였다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "일제강점기: 1910~1945년. 미국 재즈 에이지: 1920년대. 같은 시기, 극과 극.",
+    tags: ["일제강점기", "재즈", "미국", "1920년대", "대공황", "해방"],
+    relatedSlugs: ["march1st-spanish-flu", "joseon-sakoku-railroad"],
+    timeline: [
+      { year: "1910년", label: "일제 강점 시작", highlight: true },
+      { year: "1920년대", label: "미국 재즈 에이지 (Roaring Twenties)", highlight: true },
+      { year: "1929년", label: "미국 대공황 시작" },
+      { year: "1941년", label: "태평양 전쟁 발발" },
+      { year: "1945년 8월", label: "광복", highlight: true },
+    ],
+    content: `<p>1920년대 미국. '광란의 20년대(Roaring Twenties)'라 불리는 시기. 재즈가 울려 퍼지고, 자동차가 넘치고, 주식 시장이 하늘을 뚫었다.</p>
+<p>같은 시기 조선. 일제강점기 한복판이었다. 토지를 빼앗기고, 말과 이름을 빼앗기고, 독립운동가들은 감옥에 갇혔다.</p>
+<p>1929년 미국에 대공황이 터졌다. 그 여파로 전 세계가 흔들렸고, 결국 2차 대전으로 이어졌다.</p>
+<p><strong>한쪽은 재즈를 듣고, 한쪽은 독립을 꿈꿨다.</strong></p>
+<blockquote>같은 지구 위에서 이렇게 다른 시간을 살았다.</blockquote>`,
+  },
+  {
+    slug: "korean-war-dna",
+    title: "6.25 휴전협정 때 DNA 이중나선 구조가 처음 밝혀졌다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "6.25 휴전협정: 1953년 7월. DNA 이중나선 발견: 1953년 4월. 3개월 차이.",
+    tags: ["6.25", "휴전", "DNA", "왓슨", "크릭", "1953년"],
+    relatedSlugs: ["march1st-spanish-flu", "japanese-occupation-jazz"],
+    timeline: [
+      { year: "1950년 6월", label: "6.25 전쟁 발발", highlight: true },
+      { year: "1953년 2월", label: "왓슨과 크릭, DNA 이중나선 모델 완성" },
+      { year: "1953년 4월", label: "네이처지에 DNA 논문 발표", highlight: true },
+      { year: "1953년 7월", label: "6.25 휴전협정 체결", highlight: true },
+      { year: "1962년", label: "왓슨·크릭·윌킨스 노벨상 수상" },
+    ],
+    content: `<p>1953년. 이 한 해에 두 가지 역사적 사건이 벌어졌다.</p>
+<p>4월. 제임스 왓슨과 프랜시스 크릭이 네이처지에 논문을 실었다. DNA 이중나선 구조. 생명의 비밀을 풀어낸 거다. 논문은 겨우 한 페이지였다.</p>
+<p>3개월 뒤인 7월 27일. 판문점에서 휴전협정이 체결됐다. 3년간의 전쟁이 멈췄다. 끝난 게 아니라 멈춘 거다.</p>
+<p><strong>생명의 설계도가 밝혀진 해에, 수백만 명의 생명이 스러진 전쟁이 멈췄다.</strong></p>
+<blockquote>1953년. 누군가는 생명을 해독했고, 누군가는 생명을 잃었다.</blockquote>`,
+  },
+  {
     slug: "joseon-sakoku-industrial",
     title: "조선이 쇄국할 때 영국은 증기기관으로 세계를 제패하고 있었다",
     category: "korea-world",
