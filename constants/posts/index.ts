@@ -731,4 +731,87 @@ export const POSTS: Post[] = [
 <p>그때 조선의 교통수단은 말과 가마였다.</p>
 <blockquote>고종이 자동차를 처음 탄 건 1903년으로 알려져 있다.</blockquote>`,
   },
+  {
+    slug: "joseon-sakoku-industrial",
+    title: "조선이 쇄국할 때 영국은 증기기관으로 세계를 제패하고 있었다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "영국 산업혁명: 1760~1840년. 조선 쇄국: 1863년~. 증기기관이 세계를 바꾸는 동안 조선은 문을 닫았다.",
+    tags: ["쇄국", "산업혁명", "증기기관", "조선", "영국", "흥선대원군"],
+    relatedSlugs: ["daedongyeojido-subway", "car-joseon"],
+    timeline: [
+      { year: "1760년경", label: "영국 산업혁명 시작", highlight: true },
+      { year: "1769년", label: "제임스 와트, 증기기관 개량" },
+      { year: "1825년", label: "세계 최초 공공 철도 개통 (영국)" },
+      { year: "1840년경", label: "산업혁명 1차 완료" },
+      { year: "1863년", label: "흥선대원군 집권, 쇄국 정책 강화", highlight: true },
+      { year: "1876년", label: "강화도 조약 (개항)" },
+    ],
+    content: `<p>영국 산업혁명: 1760년경 시작. 증기기관, 방적기, 철도가 세상을 바꿨다.</p>
+<p>1825년에는 세계 최초 공공 철도가 달렸다. 1840년경 산업혁명 1차가 마무리됐다.</p>
+<p>그로부터 20여 년 뒤인 1863년. 조선에서는 흥선대원군이 집권하며 <strong>쇄국 정책을 강화했다.</strong></p>
+<blockquote>증기기관이 대륙을 연결하는 동안, 조선은 성문을 걸어 잠갔다.</blockquote>`,
+  },
+  {
+    slug: "joseon-sakoku-railroad",
+    title: "조선이 쇄국 정책 펼치던 1860년대, 미국은 대륙횡단철도를 완성했다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "미국 대륙횡단철도 완성: 1869년. 조선 쇄국 정책 한창: 1860년대. 같은 시기 다른 세상.",
+    tags: ["대륙횡단철도", "쇄국", "조선", "미국", "1869년", "흥선대원군"],
+    relatedSlugs: ["joseon-sakoku-industrial", "daedongyeojido-subway"],
+    timeline: [
+      { year: "1863년", label: "흥선대원군 집권, 쇄국 강화", highlight: true },
+      { year: "1863년", label: "미국 대륙횡단철도 착공" },
+      { year: "1866년", label: "병인양요" },
+      { year: "1869년 5월", label: "미국 대륙횡단철도 완성", highlight: true },
+      { year: "1871년", label: "신미양요" },
+      { year: "1876년", label: "강화도 조약 (개항)" },
+    ],
+    content: `<p>1863년. 조선에서는 흥선대원군이 집권해 쇄국 정책을 강화했다.</p>
+<p>같은 해. 미국에서는 대륙횡단철도 건설이 시작됐다.</p>
+<p>1869년 5월 10일. 유타주 프로몬토리에서 동서 철도가 연결됐다. <strong>3,000km를 기차로 횡단하는 시대가 열렸다.</strong></p>
+<blockquote>쇄국령이 내려진 조선과, 대륙을 철도로 연결한 미국. 같은 시기, 완전히 다른 세상이었다.</blockquote>`,
+  },
+  {
+    slug: "goryeo-mongol-europe",
+    title: "고려가 몽골 침략을 버텨낼 때, 유럽 일부는 몽골에 짓밟혔다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "고려 대몽항쟁: 1231~1270년. 몽골의 유럽 침공(모히 전투): 1241년. 같은 적, 같은 시기.",
+    tags: ["고려", "몽골", "대몽항쟁", "모히전투", "유럽침공", "바투"],
+    relatedSlugs: ["gwanggaeto-rome", "goryeo-viking"],
+    timeline: [
+      { year: "1231년", label: "몽골 1차 고려 침입", highlight: true },
+      { year: "1232년", label: "고려, 강화도로 천도" },
+      { year: "1241년", label: "몽골, 유럽 침공 (모히 전투)", highlight: true },
+      { year: "1258년", label: "고려 무신정권 붕괴" },
+      { year: "1270년", label: "고려, 개경 환도 (항쟁 종료)" },
+    ],
+    content: `<p>1231년. 몽골이 고려를 침략했다. 고려는 강화도로 수도를 옮기며 약 40년간 항쟁했다.</p>
+<p>그 사이 1241년. 몽골군은 유럽까지 밀고 들어갔다. 헝가리 모히 전투에서 유럽 연합군을 궤멸시켰다.</p>
+<p><strong>고려가 몽골에 맞서 버티는 동안, 유럽은 같은 몽골에게 짓밟혔다.</strong></p>
+<blockquote>같은 적, 같은 시기. 고려는 40년을 버텼다.</blockquote>`,
+  },
+  {
+    slug: "silla-bulguksa-charlemagne",
+    title: "신라가 불국사 지을 때, 유럽은 카롤루스 대제 시대였다",
+    category: "korea-world",
+    date: "2026-03-20",
+    summary: "불국사 창건: 751년. 카롤루스 대제 재위: 768~814년. 17년 차이.",
+    tags: ["신라", "불국사", "카롤루스대제", "샤를마뉴", "751년", "경덕왕"],
+    relatedSlugs: ["gwanggaeto-rome", "goryeo-viking"],
+    timeline: [
+      { year: "742년", label: "신라 경덕왕 즉위" },
+      { year: "751년", label: "불국사·석굴암 창건", highlight: true },
+      { year: "768년", label: "카롤루스 대제 즉위", highlight: true },
+      { year: "774년", label: "경덕왕 사망" },
+      { year: "800년", label: "카롤루스 대제, 서로마 황제 대관" },
+      { year: "814년", label: "카롤루스 대제 사망" },
+    ],
+    content: `<p>751년. 신라 경덕왕 시기. 김대성이 불국사와 석굴암을 짓기 시작했다. 신라 불교 예술의 정점이다.</p>
+<p>17년 뒤인 768년. 유럽에서는 카롤루스 대제(샤를마뉴)가 프랑크 왕국의 왕위에 올랐다.</p>
+<p><strong>신라가 석굴암의 부처를 조각할 때, 유럽은 중세 질서의 기틀을 잡고 있었다.</strong></p>
+<blockquote>한쪽은 돌에 부처를 새기고, 한쪽은 칼로 유럽을 통일했다. 같은 시대, 다른 문명의 절정.</blockquote>`,
+  },
 ];
