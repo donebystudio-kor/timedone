@@ -32,15 +32,6 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-.post-content blockquote {
-  border-left: 3px solid #d64045;
-  padding: 0.8rem 1.2rem;
-  margin: 1.5rem 0;
-  background: #faf5f5;
-  font-size: 1.05rem;
-  color: #333;
-  font-style: italic;
-}
 
 .post-content strong {
   color: #d64045;
