@@ -25,8 +25,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
   ).filter(Boolean) as Post[];
 
   const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
-  const pagedPosts = sortedPosts.slice(0, page * POSTS_PER_PAGE);
-  const hasMore = page < totalPages;
+  const pagedPosts = sortedPosts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 
   return (
     <div>
@@ -63,14 +62,35 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
         ))}
       </div>
 
-      {/* 더 보기 */}
-      {hasMore && (
-        <div className="text-center mt-8 pb-4">
+      {/* 페이지네이션 */}
+      {totalPages > 1 && (
+        <div className="flex justify-center items-center gap-1 mt-8 pb-4">
           <button
-            onClick={() => setPage((p) => p + 1)}
-            className="text-sm text-[#666] border border-[#e8e8e8] px-6 py-2.5 hover:border-[#d64045] hover:text-[#d64045] transition-colors"
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            disabled={page === 1}
+            className="text-sm text-[#666] border border-[#e8e8e8] px-3 py-2 hover:border-[#d64045] hover:text-[#d64045] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
           >
-            더 보기 ({pagedPosts.length}/{sortedPosts.length})
+            ←
+          </button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <button
+              key={p}
+              onClick={() => setPage(p)}
+              className={`text-sm border px-3 py-2 transition-colors ${
+                p === page
+                  ? "border-[#d64045] text-[#d64045] font-bold"
+                  : "border-[#e8e8e8] text-[#666] hover:border-[#d64045] hover:text-[#d64045]"
+              }`}
+            >
+              {p}
+            </button>
+          ))}
+          <button
+            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+            disabled={page === totalPages}
+            className="text-sm text-[#666] border border-[#e8e8e8] px-3 py-2 hover:border-[#d64045] hover:text-[#d64045] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            →
           </button>
         </div>
       )}
