@@ -1944,4 +1944,1302 @@ export const POSTS: Post[] = [
 <p><strong>M87 은하 중심의 초대질량 블랙홀.</strong> 지구에서 5,500만 광년 거리.</p>
 <p>전 세계 8개 전파망원경을 연결해서 지구 크기의 가상 망원경(EHT)을 만들었다. 데이터 처리에만 2년 걸렸다.</p>`,
   },
+  // ── dinosaur 카테고리 추가 (14개) ──
+  {
+    slug: "dinosaur-antarctica",
+    title: "공룡은 남극에서도 살았다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "남극에서 공룡 화석이 발견됐다. 중생대 남극은 숲이 우거진 따뜻한 땅이었다.",
+    tags: ["공룡", "남극", "크라이올로포사우루스", "중생대", "대륙이동"],
+    relatedSlugs: ["continental-drift", "polar-warmth"],
+    timeline: [
+      { year: "2억 5천만 년 전", label: "판게아 초대륙 시기" },
+      { year: "1억 9천만 년 전", label: "크라이올로포사우루스 생존 시기 (남극)", highlight: true },
+      { year: "6600만 년 전", label: "공룡 멸종" },
+      { year: "1991년", label: "남극에서 크라이올로포사우루스 화석 발견", highlight: true },
+    ],
+    content: `<p>1991년. 남극 대륙에서 크라이올로포사우루스 화석이 발견됐다.</p>
+<p>약 1억 9천만 년 전. 남극은 지금과 전혀 달랐다. <strong>숲이 우거지고, 기온이 따뜻한 땅이었다.</strong></p>
+<p>중생대에는 남극이 더 낮은 위도에 있었다. 대륙이동 때문이다.</p>
+<p>남극에 공룡이 살았다는 건, 지구가 지금과 얼마나 달랐는지를 보여준다.</p>`,
+  },
+  {
+    slug: "biggest-dinosaur-not-trex",
+    title: "가장 큰 공룡은 티라노사우루스가 아니었다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "아르젠티노사우루스: 길이 약 30~40m, 무게 약 70톤 추정. 티라노사우루스는 12m, 9톤.",
+    tags: ["아르젠티노사우루스", "티라노사우루스", "용각류", "거대공룡", "크기비교"],
+    relatedSlugs: ["trex-stegosaurus", "dinosaur-antarctica"],
+    timeline: [
+      { year: "1억 년 전", label: "아르젠티노사우루스 생존 시기 (백악기)", highlight: true },
+      { year: "6800만 년 전", label: "티라노사우루스 생존 시기" },
+      { year: "1987년", label: "아르젠티노사우루스 화석 발견 (아르헨티나)", highlight: true },
+    ],
+    content: `<p>티라노사우루스: 길이 약 12m, 무게 약 9톤. 충분히 크다.</p>
+<p>하지만 가장 큰 공룡은 따로 있다. <strong>아르젠티노사우루스.</strong> 길이 약 30~40m, 무게 약 70톤 추정.</p>
+<p>용각류(목이 긴 초식공룡)는 육상 동물 중 가장 거대한 생물이었다.</p>
+<p>티라노사우루스는 가장 유명한 공룡이지, 가장 큰 공룡은 아니다.</p>`,
+  },
+  {
+    slug: "feathered-dinosaurs",
+    title: "깃털 달린 공룡이 실제로 존재했다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "1990년대 중국에서 깃털 공룡 화석 대량 발견. 벨로키랍토르도 깃털이 있었다.",
+    tags: ["깃털공룡", "시노사우롭테릭스", "벨로키랍토르", "수각류", "진화"],
+    relatedSlugs: ["birds-are-dinosaurs", "biggest-dinosaur-not-trex"],
+    timeline: [
+      { year: "1억 2500만 년 전", label: "시노사우롭테릭스 생존 시기", highlight: true },
+      { year: "1996년", label: "시노사우롭테릭스 화석 발견 (중국 랴오닝)", highlight: true },
+      { year: "2007년", label: "벨로키랍토르 팔뼈에서 깃털 부착점 확인" },
+    ],
+    content: `<p>1996년. 중국 랴오닝성에서 시노사우롭테릭스 화석이 발견됐다. <strong>몸 전체에 솜털 같은 깃털 흔적이 있었다.</strong></p>
+<p>영화 속 벨로키랍토르는 비늘 피부지만, 실제로는 깃털이 있었다. 2007년 팔뼈에서 깃털 부착점이 확인됐다.</p>
+<p>깃털은 처음에 비행이 아니라 체온 조절용이었을 것으로 추정된다.</p>`,
+  },
+  {
+    slug: "asteroid-dinosaur-extinction",
+    title: "공룡 멸종 소행성은 지름 10~15km였다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "6600만 년 전. 지름 약 10~15km 소행성이 유카탄반도에 충돌. 충돌구 지름 180km.",
+    tags: ["소행성", "칙술루브", "공룡멸종", "백악기", "대멸종"],
+    relatedSlugs: ["trex-stegosaurus", "five-mass-extinctions"],
+    timeline: [
+      { year: "6600만 년 전", label: "소행성 충돌 (유카탄반도 칙술루브)", highlight: true },
+      { year: "충돌 직후", label: "먼지 구름으로 수년간 햇빛 차단" },
+      { year: "수천~수만 년", label: "공룡 포함 생물종 75% 멸종", highlight: true },
+      { year: "1980년", label: "앨버레즈 부자, 소행성 충돌설 발표" },
+      { year: "1991년", label: "칙술루브 충돌구 확인", highlight: true },
+    ],
+    content: `<p>6600만 년 전. 지름 약 10~15km짜리 소행성이 지금의 멕시코 유카탄반도에 떨어졌다.</p>
+<p><strong>충돌구 지름: 약 180km.</strong> 히로시마 원폭의 100억 배 에너지.</p>
+<p>충돌로 먼지와 황산 입자가 대기를 뒤덮었다. 수년간 햇빛이 차단됐고, 광합성이 멈췄다.</p>
+<p>생물종의 약 75%가 사라졌다. 공룡 시대가 끝났다.</p>`,
+  },
+  {
+    slug: "dinosaur-eggs-small",
+    title: "공룡 알은 생각보다 작았다 — 가장 큰 것도 농구공 안팎",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "가장 큰 공룡 알 화석: 길이 약 30cm. 몸집에 비해 놀랍도록 작다.",
+    tags: ["공룡알", "화석", "크기비교", "번식", "공룡"],
+    relatedSlugs: ["biggest-dinosaur-not-trex", "feathered-dinosaurs"],
+    timeline: [
+      { year: "백악기", label: "대부분의 공룡 알 화석이 이 시기" },
+      { year: "1923년", label: "고비 사막에서 공룡 알 화석 최초 대량 발견", highlight: true },
+      { year: "현재", label: "가장 큰 공룡 알 화석: 길이 약 30cm", highlight: true },
+    ],
+    content: `<p>가장 큰 공룡 알 화석: 길이 약 30cm. <strong>농구공(지름 24cm) 정도 크기다.</strong></p>
+<p>몸길이 30m가 넘는 용각류도 알에서 태어났다. 몸집 대비 알은 놀랍도록 작다.</p>
+<p>알이 너무 크면 껍질이 두꺼워져서 산소가 통하지 않는다. 물리적 한계가 있다.</p>
+<p>거대한 공룡도 아기 때는 작았다. 성장 속도가 엄청났다는 뜻이다.</p>`,
+  },
+  {
+    slug: "birds-are-dinosaurs",
+    title: "새는 공룡의 후손이다 — 조류는 수각류 공룡에서 진화했다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "현대 조류는 수각류 공룡의 직계 후손이다. 공룡은 완전히 멸종하지 않았다.",
+    tags: ["조류", "수각류", "공룡후손", "시조새", "진화"],
+    relatedSlugs: ["feathered-dinosaurs", "trex-stegosaurus"],
+    timeline: [
+      { year: "1억 5천만 년 전", label: "시조새 생존 시기 (쥐라기 후기)", highlight: true },
+      { year: "6600만 년 전", label: "비조류 공룡 멸종" },
+      { year: "현재", label: "약 1만 종의 조류 생존 중", highlight: true },
+    ],
+    content: `<p>티라노사우루스의 가장 가까운 현생 친척은 닭과 타조다.</p>
+<p><strong>조류는 수각류 공룡에서 진화한 직계 후손이다.</strong> 이건 가설이 아니라 학계 정설이다.</p>
+<p>6600만 년 전 소행성 충돌로 비조류 공룡은 멸종했지만, 조류 계통은 살아남았다.</p>
+<p>현재 약 1만 종의 새가 있다. 공룡은 사라지지 않았다. 형태를 바꿨을 뿐이다.</p>`,
+  },
+  {
+    slug: "trilobite-before-dinosaurs",
+    title: "삼엽충은 공룡보다 약 3억 년 먼저 지구에 나타났다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "삼엽충 출현: 약 5억 2천만 년 전. 공룡 출현: 약 2억 3천만 년 전. 2억 9천만 년 차이.",
+    tags: ["삼엽충", "캄브리아기", "공룡", "고생대", "화석"],
+    relatedSlugs: ["shark-dinosaur", "oldest-fossil"],
+    timeline: [
+      { year: "5억 4천만 년 전", label: "캄브리아기 대폭발" },
+      { year: "5억 2천만 년 전", label: "삼엽충 출현", highlight: true },
+      { year: "2억 5천만 년 전", label: "페름기 대멸종 — 삼엽충 멸종", highlight: true },
+      { year: "2억 3천만 년 전", label: "최초의 공룡 등장" },
+    ],
+    content: `<p>삼엽충 출현: 약 5억 2천만 년 전. 공룡 출현: 약 2억 3천만 년 전.</p>
+<p><strong>삼엽충이 약 2억 9천만 년 먼저다.</strong></p>
+<p>삼엽충은 약 2억 7천만 년간 바다를 지배했다. 2만 종 이상이 있었다.</p>
+<p>페름기 대멸종(2억 5천만 년 전)에서 사라졌다. 공룡이 등장하기 2천만 년 전이다.</p>`,
+  },
+  {
+    slug: "whale-ancestor-land",
+    title: "고래의 조상은 육지 동물이었다 — 약 5000만 년 전",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "파키세투스: 약 5000만 년 전 육지에서 살던 포유류. 현대 고래의 조상.",
+    tags: ["고래", "파키세투스", "진화", "포유류", "바다"],
+    relatedSlugs: ["mammals-after-dinosaurs", "birds-are-dinosaurs"],
+    timeline: [
+      { year: "5000만 년 전", label: "파키세투스 — 육지에서 살던 고래 조상", highlight: true },
+      { year: "4700만 년 전", label: "앰불로세투스 — 반수생 생활" },
+      { year: "4000만 년 전", label: "바실로사우루스 — 완전 수생", highlight: true },
+      { year: "현재", label: "대왕고래 — 지구 역사상 가장 큰 동물" },
+    ],
+    content: `<p>약 5000만 년 전. 파키세투스라는 동물이 있었다. 개만 한 크기의 네 발 달린 포유류.</p>
+<p><strong>이게 고래의 조상이다.</strong></p>
+<p>수백만 년에 걸쳐 물속 생활에 적응했다. 뒷다리가 사라지고, 몸이 유선형으로 바뀌었다.</p>
+<p>현재 대왕고래는 몸길이 30m, 무게 150톤. 지구 역사상 가장 큰 동물이다. 공룡보다 크다.</p>`,
+  },
+  {
+    slug: "five-mass-extinctions",
+    title: "인류가 나타나기 전 지구에는 5번의 대멸종이 있었다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "오르도비스기, 데본기, 페름기, 트라이아스기, 백악기. 가장 심한 건 페름기 — 생물종 96% 소멸.",
+    tags: ["대멸종", "페름기", "백악기", "지구역사", "생물다양성"],
+    relatedSlugs: ["asteroid-dinosaur-extinction", "sixth-mass-extinction"],
+    timeline: [
+      { year: "4억 4천만 년 전", label: "1차 — 오르도비스기 대멸종 (85%)", highlight: true },
+      { year: "3억 7천만 년 전", label: "2차 — 데본기 대멸종 (75%)" },
+      { year: "2억 5천만 년 전", label: "3차 — 페름기 대멸종 (96%)", highlight: true },
+      { year: "2억 년 전", label: "4차 — 트라이아스기 대멸종 (80%)" },
+      { year: "6600만 년 전", label: "5차 — 백악기 대멸종 (76%)", highlight: true },
+    ],
+    content: `<p>지구는 5번의 대멸종을 겪었다.</p>
+<p><strong>가장 심했던 건 페름기 대멸종(2억 5천만 년 전).</strong> 해양 생물종의 96%가 사라졌다. "대죽음(The Great Dying)"이라고 부른다.</p>
+<p>가장 유명한 건 5차 백악기 대멸종. 소행성 충돌로 공룡이 사라진 사건.</p>
+<p>매번 멸종 뒤에는 새로운 생물이 번성했다. 공룡 멸종 뒤 포유류가 지배자가 된 것처럼.</p>`,
+  },
+  {
+    slug: "fossil-fuels-not-dinosaurs",
+    title: "화석 연료는 공룡 뼈가 아니라 식물과 플랑크톤에서 만들어졌다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "석유는 해양 플랑크톤, 석탄은 고대 식물에서 형성됐다. 공룡 뼈와는 무관하다.",
+    tags: ["화석연료", "석유", "석탄", "플랑크톤", "오해"],
+    relatedSlugs: ["oxygen-not-always", "trilobite-before-dinosaurs"],
+    timeline: [
+      { year: "3억 5900만 년 전", label: "석탄기 시작 — 거대 식물이 석탄의 원료", highlight: true },
+      { year: "2억 5천만~6600만 년 전", label: "중생대 해양 플랑크톤 → 석유 원료", highlight: true },
+      { year: "1859년", label: "에드윈 드레이크, 최초의 상업적 석유 시추" },
+    ],
+    content: `<p>"화석 연료"라는 이름 때문에 공룡 뼈에서 만들어졌다고 오해하기 쉽다.</p>
+<p><strong>석유는 해양 플랑크톤과 조류(藻類)가 수천만 년에 걸쳐 변한 것이다.</strong></p>
+<p>석탄은 석탄기(약 3억 5900만~2억 9900만 년 전)의 거대한 양치류와 나무에서 형성됐다. 공룡이 등장하기 훨씬 전이다.</p>
+<p>화석 연료의 "화석"은 고대 생물 잔해라는 뜻이지, 공룡 화석이라는 뜻이 아니다.</p>`,
+  },
+  {
+    slug: "dinosaurs-warm-blooded",
+    title: "공룡은 온혈동물이었을 가능성이 높다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "뼈 성장 속도, 깃털, 활동량 분석 결과 많은 공룡이 온혈 또는 중온성이었을 것으로 추정.",
+    tags: ["온혈동물", "공룡", "체온조절", "중온성", "고생물학"],
+    relatedSlugs: ["feathered-dinosaurs", "birds-are-dinosaurs"],
+    timeline: [
+      { year: "1960년대", label: "존 오스트롬, 공룡 온혈설 주장" },
+      { year: "2014년", label: "대규모 연구 — 공룡은 중온성(내온성과 외온성 사이)", highlight: true },
+      { year: "2022년", label: "달걀 화석 분석으로 체온 측정 연구", highlight: true },
+    ],
+    content: `<p>오랫동안 공룡은 파충류니까 냉혈동물이라고 생각됐다.</p>
+<p><strong>최근 연구들은 많은 공룡이 온혈 또는 중온성이었다고 본다.</strong></p>
+<p>근거: 빠른 뼈 성장 속도, 깃털 보온, 높은 활동량, 달걀 화석에서 측정된 체온.</p>
+<p>특히 수각류(티라노사우루스, 벨로키랍토르 등)는 높은 대사율을 가졌을 가능성이 크다.</p>`,
+  },
+  {
+    slug: "oldest-fossil",
+    title: "가장 오래된 생물 화석은 35억 년 전이다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "호주 서부에서 발견된 스트로마톨라이트 화석. 약 35억 년 전. 단세포 미생물의 흔적.",
+    tags: ["스트로마톨라이트", "화석", "35억년", "생명기원", "호주"],
+    relatedSlugs: ["trilobite-before-dinosaurs", "five-mass-extinctions"],
+    timeline: [
+      { year: "46억 년 전", label: "지구 탄생" },
+      { year: "35억 년 전", label: "가장 오래된 생물 화석 (스트로마톨라이트)", highlight: true },
+      { year: "5억 4천만 년 전", label: "캄브리아기 대폭발 (복잡한 생물 등장)" },
+      { year: "2억 3천만 년 전", label: "공룡 등장" },
+    ],
+    content: `<p>호주 서부 필바라 지역. 약 35억 년 된 암석에서 스트로마톨라이트 화석이 발견됐다.</p>
+<p><strong>지구 최초의 생명 흔적이다.</strong> 남세균(시아노박테리아)이 만든 층상 구조.</p>
+<p>지구 나이 46억 년. 생명은 지구가 생긴 지 약 11억 년 만에 나타났다.</p>
+<p>복잡한 다세포 생물이 나타나기까지는 그로부터 약 30억 년이 더 걸렸다.</p>`,
+  },
+  {
+    slug: "cockroach-before-dinosaurs",
+    title: "바퀴벌레는 공룡보다 먼저 지구에 나타났다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "바퀴벌레 조상 출현: 약 3억 2천만 년 전. 공룡 등장: 약 2억 3천만 년 전. 9천만 년 선배.",
+    tags: ["바퀴벌레", "석탄기", "공룡", "생존", "곤충"],
+    relatedSlugs: ["shark-dinosaur", "trilobite-before-dinosaurs"],
+    timeline: [
+      { year: "3억 2천만 년 전", label: "바퀴벌레 조상 출현 (석탄기)", highlight: true },
+      { year: "2억 3천만 년 전", label: "최초의 공룡 등장" },
+      { year: "6600만 년 전", label: "공룡 멸종 — 바퀴벌레는 생존", highlight: true },
+      { year: "현재", label: "바퀴벌레 약 4,600종 생존 중" },
+    ],
+    content: `<p>바퀴벌레 조상 출현: 약 3억 2천만 년 전. 석탄기.</p>
+<p>공룡 등장: 약 2억 3천만 년 전. <strong>바퀴벌레가 9천만 년 선배다.</strong></p>
+<p>공룡은 멸종했지만 바퀴벌레는 살아남았다. 상어처럼 대멸종을 여러 번 버텼다.</p>
+<p>현재 약 4,600종이 있다. 3억 년 넘게 기본 형태가 거의 바뀌지 않았다.</p>`,
+  },
+  {
+    slug: "sixth-mass-extinction",
+    title: "현재 지구는 6번째 대멸종 진행 중이라는 주장이 있다",
+    category: "dinosaur",
+    date: "2026-03-21",
+    summary: "현재 생물종 멸종 속도가 자연 배경 멸종률의 100~1,000배. 인간 활동이 원인.",
+    tags: ["6번째대멸종", "홀로세", "생물다양성", "멸종속도", "인간활동"],
+    relatedSlugs: ["five-mass-extinctions", "asteroid-dinosaur-extinction"],
+    timeline: [
+      { year: "6600만 년 전", label: "5차 대멸종 (공룡 멸종)" },
+      { year: "약 1만 년 전", label: "농업 혁명 시작" },
+      { year: "1500년 이후", label: "인간 활동으로 수백 종 멸종 기록", highlight: true },
+      { year: "2019년", label: "UN 보고서: 100만 종이 멸종 위기", highlight: true },
+    ],
+    content: `<p>2019년 UN 생물다양성 보고서. <strong>약 100만 종의 동식물이 멸종 위기에 처해 있다.</strong></p>
+<p>현재 멸종 속도는 자연 배경 멸종률의 100~1,000배로 추정된다.</p>
+<p>서식지 파괴, 기후변화, 남획, 오염이 원인이다.</p>
+<p>일부 과학자들은 이를 "6번째 대멸종(홀로세 멸종)"이라고 부른다. 이번에는 소행성이 아니라 인간이 원인이다.</p>`,
+  },
+  // ── invention 카테고리 추가 (9개) ──
+  {
+    slug: "aspirin-over-100-years",
+    title: "아스피린은 100년 넘은 약이다 — 1899년 출시",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "바이엘이 아스피린을 상표 등록한 해: 1899년. 지금까지 팔리고 있다.",
+    tags: ["아스피린", "바이엘", "1899년", "의약품", "역사"],
+    relatedSlugs: ["penicillin-accident", "glasses-before-printing"],
+    timeline: [
+      { year: "고대", label: "버드나무 껍질을 진통제로 사용" },
+      { year: "1897년", label: "바이엘의 호프만, 아세틸살리실산 합성", highlight: true },
+      { year: "1899년", label: "아스피린 상표 등록 및 출시", highlight: true },
+      { year: "현재", label: "연간 약 400억 알 소비 추정" },
+    ],
+    content: `<p>1899년. 독일 바이엘사가 "아스피린"이라는 이름으로 약을 출시했다.</p>
+<p><strong>127년째 팔리고 있다.</strong></p>
+<p>원리는 더 오래됐다. 고대부터 버드나무 껍질이 진통에 쓰였다. 그 유효 성분이 살리실산이다.</p>
+<p>1897년 바이엘의 펠릭스 호프만이 부작용을 줄인 아세틸살리실산을 합성했다. 지금도 진통, 해열, 항혈전에 쓰인다.</p>`,
+  },
+  {
+    slug: "aircon-1902-fridge-later",
+    title: "현대식 에어컨은 1902년에 발명됐다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "윌리스 캐리어가 1902년 최초의 현대식 에어컨을 만들었다. 가정용 냉장고 보급은 그 이후.",
+    tags: ["에어컨", "냉장고", "1902년", "캐리어", "냉방"],
+    relatedSlugs: ["steam-engine-1769", "aspirin-over-100-years"],
+    timeline: [
+      { year: "1834년", label: "제이콥 퍼킨스, 증기압축 냉동 장치 특허" },
+      { year: "1902년", label: "윌리스 캐리어, 현대식 에어컨 발명", highlight: true },
+      { year: "1913년", label: "가정용 전기냉장고 첫 출시" },
+      { year: "1930년대", label: "가정용 에어컨 보급 시작", highlight: true },
+    ],
+    content: `<p>1902년. 윌리스 캐리어가 인쇄소의 습도 문제를 해결하기 위해 에어컨을 발명했다.</p>
+<p><strong>원래 사람을 위한 게 아니라 종이를 위한 거였다.</strong></p>
+<p>가정용 전기냉장고가 시장에 나온 건 1913년. 보급이 본격화된 건 1920~30년대다.</p>
+<p>에어컨이 가정에 들어온 건 1930년대 이후. 두 기술 모두 생각보다 오래됐다.</p>`,
+  },
+  {
+    slug: "eniac-room-size-computer",
+    title: "최초의 컴퓨터 ENIAC은 방 한 칸 크기였다 — 1945년",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "ENIAC: 무게 27톤, 진공관 17,468개, 면적 약 167㎡. 스마트폰보다 성능이 낮았다.",
+    tags: ["ENIAC", "컴퓨터", "1945년", "진공관", "크기비교"],
+    relatedSlugs: ["first-website-still-live", "3d-printer-1984"],
+    timeline: [
+      { year: "1945년", label: "ENIAC 완성 (펜실베이니아 대학)", highlight: true },
+      { year: "1947년", label: "트랜지스터 발명 (벨 연구소)" },
+      { year: "1971년", label: "인텔 4004 마이크로프로세서" },
+      { year: "2007년", label: "아이폰 출시 — ENIAC보다 수만 배 빠름", highlight: true },
+    ],
+    content: `<p>1945년. ENIAC이 완성됐다. 세계 최초의 범용 전자 컴퓨터.</p>
+<p><strong>무게 27톤. 진공관 17,468개. 면적 약 167㎡.</strong> 방 한 칸을 가득 채웠다.</p>
+<p>초당 5,000번의 덧셈이 가능했다. 지금 스마트폰의 수십억 분의 1 성능.</p>
+<p>80년 만에 방 한 칸짜리 기계가 주머니 속으로 들어왔다.</p>`,
+  },
+  {
+    slug: "penicillin-accident",
+    title: "페니실린은 우연히 발견됐다 — 1928년",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "알렉산더 플레밍이 휴가 갔다 온 사이 배양접시에 곰팡이가 자랐다. 그게 페니실린이었다.",
+    tags: ["페니실린", "플레밍", "1928년", "항생제", "우연한발견"],
+    relatedSlugs: ["aspirin-over-100-years", "first-photo-8-hours"],
+    timeline: [
+      { year: "1928년 9월", label: "플레밍, 곰팡이가 세균을 죽이는 것 발견", highlight: true },
+      { year: "1940년", label: "플로리와 체인, 페니실린 대량 생산법 개발", highlight: true },
+      { year: "1943년", label: "제2차 세계대전에서 본격 사용" },
+      { year: "1945년", label: "플레밍·플로리·체인 노벨 생리의학상" },
+    ],
+    content: `<p>1928년. 알렉산더 플레밍이 휴가를 갔다 왔다. 실험실에 놔둔 포도상구균 배양접시에 곰팡이가 피어 있었다.</p>
+<p><strong>곰팡이 주변의 세균이 죽어 있었다.</strong> 이게 페니실린의 발견이다.</p>
+<p>실용화까지는 12년이 걸렸다. 1940년 플로리와 체인이 대량 생산법을 개발했다.</p>
+<p>제2차 세계대전에서 수만 명의 목숨을 살렸다. 현대 의학을 바꾼 우연한 발견.</p>`,
+  },
+  {
+    slug: "telephone-patent-same-day",
+    title: "전화기 특허를 벨과 그레이가 같은 날 출원했다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "1876년 2월 14일. 벨과 엘리샤 그레이가 같은 날 전화기 관련 특허를 출원했다.",
+    tags: ["전화기", "벨", "엘리샤그레이", "1876년", "특허경쟁"],
+    relatedSlugs: ["eniac-room-size-computer", "first-website-still-live"],
+    timeline: [
+      { year: "1876년 2월 14일", label: "벨, 전화기 특허 출원 / 그레이, 예비 특허 출원", highlight: true },
+      { year: "1876년 3월 7일", label: "벨, 특허 획득 (US 174,465)", highlight: true },
+      { year: "1876년 3월 10일", label: "벨, 최초의 전화 통화 성공" },
+      { year: "이후", label: "약 600건의 특허 소송 발생" },
+    ],
+    content: `<p>1876년 2월 14일. 알렉산더 그레이엄 벨이 전화기 특허를 출원했다.</p>
+<p><strong>같은 날 엘리샤 그레이도 전화 장치에 대한 예비 특허를 출원했다.</strong></p>
+<p>벨이 몇 시간 먼저였다는 설, 사실 관련 논쟁은 지금까지 이어진다.</p>
+<p>벨이 특허를 받았고, 이후 약 600건의 소송이 벌어졌다. 모두 벨의 승리로 끝났다.</p>`,
+  },
+  {
+    slug: "first-website-still-live",
+    title: "최초의 웹사이트는 아직도 접속 가능하다 — 1991년",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "팀 버너스리가 만든 최초의 웹사이트: info.cern.ch. 1991년 공개. 지금도 접속된다.",
+    tags: ["웹사이트", "팀버너스리", "1991년", "CERN", "인터넷역사"],
+    relatedSlugs: ["eniac-room-size-computer", "3d-printer-1984"],
+    timeline: [
+      { year: "1989년", label: "팀 버너스리, 월드 와이드 웹 제안" },
+      { year: "1990년", label: "최초의 웹 브라우저와 서버 개발" },
+      { year: "1991년 8월", label: "최초의 웹사이트 공개 (info.cern.ch)", highlight: true },
+      { year: "현재", label: "전 세계 웹사이트 약 20억 개", highlight: true },
+    ],
+    content: `<p>1991년 8월 6일. 팀 버너스리가 CERN에서 최초의 웹사이트를 공개했다.</p>
+<p><strong>그 페이지는 지금도 접속할 수 있다.</strong> 월드 와이드 웹이 무엇인지 설명하는 텍스트 페이지.</p>
+<p>디자인은 없다. 링크와 텍스트뿐이다. 하지만 이게 시작이었다.</p>
+<p>35년 만에 전 세계 웹사이트가 약 20억 개가 됐다.</p>`,
+  },
+  {
+    slug: "glasses-before-printing",
+    title: "안경은 13세기에 발명됐다 — 인쇄술보다 200년 먼저",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "최초의 안경: 1280년대 이탈리아. 구텐베르크 인쇄술: 1440년대. 안경이 약 160년 먼저.",
+    tags: ["안경", "13세기", "인쇄술", "이탈리아", "발명순서"],
+    relatedSlugs: ["steam-engine-1769", "aspirin-over-100-years"],
+    timeline: [
+      { year: "1280년대", label: "이탈리아에서 최초의 안경 제작", highlight: true },
+      { year: "1440년대", label: "구텐베르크, 활판 인쇄술 발명", highlight: true },
+      { year: "1604년", label: "케플러, 근시·원시 광학 이론 정립" },
+      { year: "1784년", label: "벤저민 프랭클린, 이중초점렌즈 발명" },
+    ],
+    content: `<p>최초의 안경: 1280년대. 이탈리아 수도사들이 만들었다고 전해진다.</p>
+<p>구텐베르크 인쇄술: 1440년대. <strong>안경이 약 160년 먼저다.</strong></p>
+<p>재밌는 건, 인쇄술이 보급되면서 읽을 거리가 많아지고, 안경 수요가 폭발했다는 점이다.</p>
+<p>먼저 발명된 기술이 나중에 발명된 기술 덕분에 대중화됐다.</p>`,
+  },
+  {
+    slug: "steam-engine-1769",
+    title: "증기기관이 산업혁명의 핵심이었다 — 1769년 와트 개량",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "토머스 뉴커먼의 증기기관: 1712년. 제임스 와트의 개량: 1769년. 산업혁명이 시작됐다.",
+    tags: ["증기기관", "와트", "1769년", "산업혁명", "뉴커먼"],
+    relatedSlugs: ["aircon-1902-fridge-later", "first-photo-8-hours"],
+    timeline: [
+      { year: "1712년", label: "뉴커먼, 최초의 실용 증기기관", highlight: true },
+      { year: "1769년", label: "와트, 분리 응축기로 효율 대폭 개선", highlight: true },
+      { year: "1804년", label: "트레비식, 증기기관차 첫 운행" },
+      { year: "1825년", label: "스티븐슨, 세계 최초 공공 철도 개통" },
+    ],
+    content: `<p>1712년. 토머스 뉴커먼이 탄광의 물을 퍼내기 위해 증기기관을 만들었다.</p>
+<p>1769년. 제임스 와트가 분리 응축기를 추가해 효율을 대폭 높였다. <strong>이게 산업혁명의 엔진이 됐다.</strong></p>
+<p>공장, 기관차, 증기선. 와트의 증기기관이 세상을 바꿨다.</p>
+<p>"마력(horsepower)"이라는 단위도 와트가 만든 것이다. 증기기관의 성능을 말에 비유하기 위해.</p>`,
+  },
+  {
+    slug: "first-photo-8-hours",
+    title: "최초의 사진을 찍는 데 8시간이 걸렸다 — 1826년",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "조제프 니세포르 니에프스가 1826년 촬영한 '르 그라의 창에서 본 풍경'. 노출 시간 약 8시간.",
+    tags: ["사진", "니에프스", "1826년", "노출시간", "최초"],
+    relatedSlugs: ["eniac-room-size-computer", "glasses-before-printing"],
+    timeline: [
+      { year: "1826년", label: "니에프스, 최초의 사진 촬영 (노출 약 8시간)", highlight: true },
+      { year: "1839년", label: "다게르, 다게레오타입 발표 (노출 수십 분)" },
+      { year: "1888년", label: "코닥, 롤 필름 카메라 출시" },
+      { year: "1975년", label: "코닥 엔지니어, 최초의 디지털 카메라 시제품", highlight: true },
+    ],
+    content: `<p>1826년. 조제프 니세포르 니에프스가 자기 집 창문에서 바깥을 찍었다.</p>
+<p><strong>노출 시간: 약 8시간.</strong> 해가 움직여서 사진 속 건물 양쪽에 다 햇빛이 비쳐 있다.</p>
+<p>이 사진이 현존하는 가장 오래된 사진이다. "르 그라의 창에서 본 풍경."</p>
+<p>200년 만에 노출 시간이 8시간에서 1/10000초로 줄었다.</p>`,
+  },
+  {
+    slug: "radio-not-just-marconi",
+    title: "라디오는 마르코니 혼자 발명한 게 아니다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "테슬라, 포포프, 마르코니 등 여러 발명가가 무선 통신 기술에 기여했다.",
+    tags: ["라디오", "마르코니", "테슬라", "포포프", "무선통신"],
+    relatedSlugs: ["telephone-patent-same-day", "first-website-still-live"],
+    timeline: [
+      { year: "1887년", label: "헤르츠, 전자기파 존재 실험으로 증명", highlight: true },
+      { year: "1893년", label: "테슬라, 무선 통신 시스템 시연" },
+      { year: "1895년", label: "마르코니, 무선 전신 실험 / 포포프, 수신기 시연", highlight: true },
+      { year: "1901년", label: "마르코니, 대서양 횡단 무선 통신 성공" },
+    ],
+    content: `<p>라디오를 발명한 사람은 마르코니라고 알려져 있다. 하지만 그렇게 단순하지 않다.</p>
+<p>테슬라는 1893년에 무선 통신 원리를 시연했다. 러시아의 포포프는 1895년에 수신기를 시연했다.</p>
+<p><strong>마르코니는 이 기술을 상업화하는 데 성공한 사람이다.</strong></p>
+<p>1943년 미국 대법원은 테슬라의 무선 통신 특허 우선권을 인정했다. 마르코니 사후 6개월 뒤.</p>`,
+  },
+  {
+    slug: "concrete-roman",
+    title: "콘크리트는 로마인이 대규모로 발전시킨 기술이다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "로마 콘크리트(오푸스 카이멘티키움)는 2000년 넘게 버티고 있다. 판테온이 대표적.",
+    tags: ["콘크리트", "로마", "판테온", "건축", "고대기술"],
+    relatedSlugs: ["glasses-before-printing", "paper-china-105"],
+    timeline: [
+      { year: "기원전 3세기", label: "로마, 콘크리트 본격 사용 시작", highlight: true },
+      { year: "기원후 125년", label: "판테온 완공 — 비보강 콘크리트 돔 (지름 43m)", highlight: true },
+      { year: "1824년", label: "조셉 아스프딘, 포틀랜드 시멘트 특허" },
+      { year: "현재", label: "콘크리트 = 세계에서 가장 많이 쓰이는 인공 재료" },
+    ],
+    content: `<p>로마인들은 화산재(포졸란)를 석회와 섞어 콘크리트를 만들었다.</p>
+<p><strong>판테온의 콘크리트 돔은 지름 43m. 2000년 가까이 서 있다.</strong> 철근 없이.</p>
+<p>현대 콘크리트는 100년이면 열화가 시작되는데, 로마 콘크리트는 바닷물에서 오히려 강해진다는 연구도 있다.</p>
+<p>콘크리트는 현대 발명품이 아니다. 로마가 먼저였다.</p>`,
+  },
+  {
+    slug: "paper-china-105",
+    title: "종이는 중국에서 발명됐다 — 기원후 105년",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "후한의 채륜이 105년에 종이 제조법을 개량. 유럽에 전파된 건 1000년 이상 뒤.",
+    tags: ["종이", "채륜", "중국", "105년", "4대발명"],
+    relatedSlugs: ["gunpowder-china-9th", "compass-china-11th"],
+    timeline: [
+      { year: "기원후 105년", label: "채륜, 종이 제조법 개량 (후한)", highlight: true },
+      { year: "751년", label: "탈라스 전투 후 이슬람 세계에 제지술 전파", highlight: true },
+      { year: "12세기", label: "유럽에 종이 전파 (스페인, 이탈리아)" },
+      { year: "1440년대", label: "구텐베르크 인쇄술 — 종이 수요 폭발" },
+    ],
+    content: `<p>기원후 105년. 후한의 채륜이 나무껍질, 삼베, 헌 천 등으로 종이 제조법을 개량했다.</p>
+<p><strong>유럽에 종이가 전파된 건 12세기.</strong> 약 1000년 이상 뒤다.</p>
+<p>751년 탈라스 전투에서 당나라 포로들이 이슬람 세계에 제지술을 전했다는 기록이 있다.</p>
+<p>구텐베르크 인쇄술(1440년대)이 가능했던 건 종이가 이미 유럽에 있었기 때문이다.</p>`,
+  },
+  {
+    slug: "gunpowder-china-9th",
+    title: "화약도 중국 발명품이다 — 9세기",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "9세기 당나라 연금술사들이 화약을 발견. 유럽 전파는 13세기.",
+    tags: ["화약", "중국", "당나라", "4대발명", "군사기술"],
+    relatedSlugs: ["paper-china-105", "compass-china-11th"],
+    timeline: [
+      { year: "9세기", label: "당나라, 화약 발견 (초석+유황+숯)", highlight: true },
+      { year: "10세기", label: "송나라, 화약 무기 사용 시작" },
+      { year: "13세기", label: "몽골 원정을 통해 유럽에 전파", highlight: true },
+      { year: "14세기", label: "유럽에서 화포·총 본격 발전" },
+    ],
+    content: `<p>9세기. 당나라 연금술사들이 불로장생약을 찾다가 화약을 발견했다.</p>
+<p><strong>초석, 유황, 숯을 섞으면 폭발한다.</strong></p>
+<p>처음에는 불꽃놀이와 신호용이었다. 송나라 때 군사용으로 발전했다.</p>
+<p>13세기 몽골 원정을 통해 유럽에 전파됐다. 유럽의 성벽 전쟁 방식을 완전히 바꿔놓았다.</p>`,
+  },
+  {
+    slug: "compass-china-11th",
+    title: "나침반도 중국 발명품이다 — 11세기 항해용",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "자석의 방향성은 기원전부터 알려졌지만, 항해용 나침반은 11세기 송나라에서 시작.",
+    tags: ["나침반", "중국", "송나라", "4대발명", "항해"],
+    relatedSlugs: ["paper-china-105", "gunpowder-china-9th"],
+    timeline: [
+      { year: "기원전 4세기", label: "중국, 자석(자남석)의 방향성 인식" },
+      { year: "11세기", label: "송나라, 항해용 나침반 사용 시작", highlight: true },
+      { year: "12세기", label: "유럽에 나침반 전파", highlight: true },
+      { year: "15세기", label: "대항해시대 — 나침반이 핵심 항해 도구" },
+    ],
+    content: `<p>자석이 남북을 가리킨다는 건 기원전부터 알려져 있었다. 풍수에 쓰였다.</p>
+<p><strong>항해용 나침반은 11세기 송나라에서 시작됐다.</strong></p>
+<p>12세기에 유럽에 전파됐고, 대항해시대의 핵심 도구가 됐다.</p>
+<p>콜럼버스도, 마젤란도 나침반 없이는 항해할 수 없었다. 중국의 발명이 세계를 연결했다.</p>`,
+  },
+  {
+    slug: "early-car-speed-limit",
+    title: "초기 자동차 속도제한은 걷는 속도 수준이었다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "영국 적기법(1865년): 자동차 앞에서 붉은 깃발 든 사람이 걸어가야 했다. 제한 속도 시속 3.2km.",
+    tags: ["자동차", "속도제한", "적기법", "영국", "1865년"],
+    relatedSlugs: ["steam-engine-1769", "telephone-patent-same-day"],
+    timeline: [
+      { year: "1865년", label: "영국 적기법 시행 — 시속 3.2km 제한", highlight: true },
+      { year: "1886년", label: "카를 벤츠, 최초의 가솔린 자동차 특허" },
+      { year: "1896년", label: "적기법 폐지", highlight: true },
+      { year: "현재", label: "고속도로 제한 속도 110~130km/h" },
+    ],
+    content: `<p>1865년 영국. "적기법(Red Flag Act)"이 시행됐다.</p>
+<p><strong>자동차 앞에서 붉은 깃발을 든 사람이 걸어가야 했다.</strong> 제한 속도: 시속 3.2km. 걷는 속도.</p>
+<p>마차 산업과 보행자 안전을 위한 법이었다. 자동차 산업 발전을 30년 가까이 늦췄다는 평가도 있다.</p>
+<p>1896년 폐지. 130년 뒤 자동차는 시속 300km를 넘긴다.</p>`,
+  },
+  {
+    slug: "xray-accident-1895",
+    title: "엑스레이는 우연히 발견됐다 — 1895년 뢴트겐",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "빌헬름 뢴트겐이 1895년 음극선 실험 중 우연히 엑스레이를 발견. 아내 손뼈 사진이 유명.",
+    tags: ["엑스레이", "뢴트겐", "1895년", "의학", "우연한발견"],
+    relatedSlugs: ["penicillin-accident", "aspirin-over-100-years"],
+    timeline: [
+      { year: "1895년 11월", label: "뢴트겐, 엑스레이 발견", highlight: true },
+      { year: "1895년 12월", label: "아내 안나의 손뼈 사진 촬영", highlight: true },
+      { year: "1896년", label: "전 세계적으로 의료용 활용 시작" },
+      { year: "1901년", label: "뢴트겐, 최초의 노벨 물리학상 수상" },
+    ],
+    content: `<p>1895년 11월. 뢴트겐이 음극선관 실험을 하고 있었다. 어두운 방에서 형광 스크린이 빛나는 걸 발견했다.</p>
+<p><strong>뭔가 보이지 않는 광선이 나오고 있었다.</strong> 정체를 모르겠어서 "X선"이라고 불렀다.</p>
+<p>12월. 아내 안나의 손을 촬영했다. 뼈와 반지가 선명하게 찍혔다. 세계 최초의 엑스레이 사진.</p>
+<p>1901년 최초의 노벨 물리학상을 받았다. 상금은 전액 대학에 기부했다.</p>`,
+  },
+  {
+    slug: "first-mobile-call-1973",
+    title: "최초의 휴대폰 통화는 1973년이었다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "1973년 4월 3일. 모토로라의 마틴 쿠퍼가 뉴욕 거리에서 최초의 휴대폰 통화. 무게 약 1.1kg.",
+    tags: ["휴대폰", "모토로라", "1973년", "마틴쿠퍼", "첫통화"],
+    relatedSlugs: ["telephone-patent-same-day", "first-website-still-live"],
+    timeline: [
+      { year: "1973년 4월", label: "마틴 쿠퍼, 최초의 휴대폰 통화 (DynaTAC)", highlight: true },
+      { year: "1983년", label: "DynaTAC 8000X 상용 출시 ($3,995)", highlight: true },
+      { year: "1992년", label: "최초의 문자 메시지(SMS) 전송" },
+      { year: "2007년", label: "아이폰 출시" },
+    ],
+    content: `<p>1973년 4월 3일. 모토로라 엔지니어 마틴 쿠퍼가 뉴욕 6번가에서 전화를 걸었다.</p>
+<p><strong>상대는 경쟁사 벨 연구소의 연구원이었다.</strong> "지금 휴대폰으로 전화하고 있다"고 말했다.</p>
+<p>그 전화기: DynaTAC. 무게 약 1.1kg. 통화 가능 시간 30분. 충전 10시간.</p>
+<p>상용 출시는 10년 뒤인 1983년. 가격 $3,995. 지금 가치로 약 $12,000.</p>`,
+  },
+  {
+    slug: "fax-before-internet",
+    title: "팩스는 인터넷 대중화보다 먼저 널리 보급됐다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "팩스 전성기: 1980~90년대. 인터넷 대중화: 1990년대 중후반. 팩스가 먼저였다.",
+    tags: ["팩스", "인터넷", "1980년대", "사무실", "통신기술"],
+    relatedSlugs: ["first-website-still-live", "first-mobile-call-1973"],
+    timeline: [
+      { year: "1843년", label: "알렉산더 베인, 팩스 원형 특허" },
+      { year: "1960년대", label: "제록스, 상업용 팩스기 보급 시작" },
+      { year: "1980년대", label: "팩스기 전성기 — 사무실 필수 장비", highlight: true },
+      { year: "1995년", label: "인터넷 대중화 시작 (이메일 보급)", highlight: true },
+    ],
+    content: `<p>1980~90년대. 모든 사무실에 팩스기가 있었다. 문서를 보내는 가장 빠른 방법이었다.</p>
+<p><strong>이메일이 대중화된 건 1990년대 중후반이다.</strong> 팩스가 먼저 자리를 잡았다.</p>
+<p>팩스의 원형 기술은 1843년에 특허가 나왔다. 전화기(1876년)보다 33년 먼저.</p>
+<p>일본과 한국에서는 2020년대까지도 팩스가 공공기관에서 쓰이고 있다.</p>`,
+  },
+  {
+    slug: "3d-printer-1984",
+    title: "3D 프린터는 1984년에 이미 발명됐다",
+    category: "invention",
+    date: "2026-03-21",
+    summary: "척 헐이 1984년 광경화 수지 조형(SLA) 기술 특허 출원. 3D 프린팅은 40년 된 기술.",
+    tags: ["3D프린터", "1984년", "척헐", "SLA", "적층제조"],
+    relatedSlugs: ["eniac-room-size-computer", "first-website-still-live"],
+    timeline: [
+      { year: "1984년", label: "척 헐, SLA(광경화 수지 조형) 특허 출원", highlight: true },
+      { year: "1988년", label: "3D Systems, 최초의 상업용 3D 프린터 출시" },
+      { year: "2009년", label: "FDM 특허 만료 — 저가 3D 프린터 등장", highlight: true },
+      { year: "현재", label: "의료, 항공, 건축 등 전 분야 활용" },
+    ],
+    content: `<p>1984년. 척 헐이 빛으로 수지를 굳혀 물체를 만드는 기술(SLA)의 특허를 출원했다.</p>
+<p><strong>3D 프린터는 40년 넘은 기술이다.</strong></p>
+<p>오랫동안 산업용으로만 쓰였다. 2009년 FDM 특허가 만료되면서 가격이 크게 떨어졌다.</p>
+<p>지금은 집, 장기, 로켓 부품까지 3D 프린터로 만든다. 하지만 시작은 1984년이었다.</p>`,
+  },
+  // ── space 카테고리 추가 (10개) ──
+  {
+    slug: "no-sound-in-space",
+    title: "우주에는 소리가 없다 — 진공이라 파동 전달 불가",
+    category: "space",
+    date: "2026-03-21",
+    summary: "소리는 매질(공기, 물 등)이 있어야 전달된다. 우주는 진공이라 소리가 전파되지 않는다.",
+    tags: ["우주", "진공", "소리", "음파", "물리"],
+    relatedSlugs: ["sunlight-8-minutes", "iss-16-orbits"],
+    timeline: [
+      { year: "기본 원리", label: "소리 = 매질의 진동. 진공에는 매질 없음", highlight: true },
+      { year: "영화 속", label: "우주 폭발 장면에 소리가 나지만 — 실제로는 무음" },
+      { year: "2022년", label: "NASA, 블랙홀 음파 변환 데이터 공개 (가청 주파수로 변환한 것)", highlight: true },
+    ],
+    content: `<p>소리는 공기나 물 같은 매질의 진동으로 전달된다.</p>
+<p><strong>우주는 진공이다. 매질이 없으니 소리도 없다.</strong></p>
+<p>영화에서 우주 폭발에 굉음이 나는 건 연출이다. 실제로는 완전한 침묵.</p>
+<p>2022년 NASA가 블랙홀의 음파 데이터를 가청 주파수로 변환해 공개했지만, 이건 직접 들은 게 아니라 데이터를 소리로 바꾼 것이다.</p>`,
+  },
+  {
+    slug: "andromeda-250million-ly",
+    title: "지구에서 가장 가까운 은하(안드로메다)까지 250만 광년이다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "안드로메다 은하: 약 250만 광년 거리. 빛의 속도로 250만 년 걸린다.",
+    tags: ["안드로메다", "은하", "250만광년", "우주거리", "우리은하"],
+    relatedSlugs: ["proxima-centauri-4years", "universe-age-138"],
+    timeline: [
+      { year: "4.24광년", label: "가장 가까운 별 (프록시마 센타우리)" },
+      { year: "250만 광년", label: "가장 가까운 대형 은하 (안드로메다)", highlight: true },
+      { year: "약 45억 년 후", label: "안드로메다와 우리 은하 충돌 예정", highlight: true },
+    ],
+    content: `<p>가장 가까운 대형 은하: 안드로메다. 약 250만 광년 거리.</p>
+<p><strong>지금 보이는 안드로메다의 빛은 250만 년 전에 출발한 빛이다.</strong></p>
+<p>안드로메다는 우리 은하를 향해 초속 약 110km로 다가오고 있다.</p>
+<p>약 45억 년 후 두 은하가 충돌한다. 하지만 별 사이 간격이 워낙 넓어서 실제 충돌은 거의 없을 것이다.</p>`,
+  },
+  {
+    slug: "sun-130million-earths",
+    title: "태양은 지구보다 부피 기준 130만 배 크다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "태양 지름: 약 139만 km. 지구 지름: 약 1만 2,742km. 부피로 약 130만 배.",
+    tags: ["태양", "지구", "크기비교", "부피", "항성"],
+    relatedSlugs: ["sunlight-8-minutes", "jupiter-mass"],
+    timeline: [
+      { year: "지구", label: "지름 약 12,742km", highlight: true },
+      { year: "목성", label: "지름 약 139,820km (지구의 11배)" },
+      { year: "태양", label: "지름 약 1,392,700km (지구의 109배)", highlight: true },
+      { year: "부피 비교", label: "태양 안에 지구 약 130만 개가 들어감" },
+    ],
+    content: `<p>태양 지름: 약 139만 km. 지구 지름: 약 1만 2,742km.</p>
+<p><strong>태양 안에 지구가 약 130만 개 들어간다.</strong></p>
+<p>그런데 태양은 별 중에서 평균 크기다. 베텔게우스 같은 초거성은 태양의 700배가 넘는다.</p>
+<p>태양계에서는 압도적이지만, 우주에서는 평범한 별이다.</p>`,
+  },
+  {
+    slug: "venus-hotter-than-mercury",
+    title: "수성은 태양에 가장 가깝지만 가장 뜨겁지 않다 — 금성이 더 뜨겁다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "수성 표면 온도: 최대 430°C. 금성 표면 온도: 평균 465°C. 온실효과 때문.",
+    tags: ["금성", "수성", "온도", "온실효과", "행성비교"],
+    relatedSlugs: ["mars-day-37min-longer", "sun-130million-earths"],
+    timeline: [
+      { year: "수성", label: "태양에서 가장 가까움. 대기 거의 없음. 최대 430°C" },
+      { year: "금성", label: "두 번째로 가까움. 두꺼운 CO₂ 대기. 평균 465°C", highlight: true },
+      { year: "차이 원인", label: "금성의 극단적 온실효과", highlight: true },
+    ],
+    content: `<p>수성: 태양에서 가장 가까운 행성. 표면 최대 온도 약 430°C.</p>
+<p>금성: 두 번째로 가까운 행성. 표면 평균 온도 약 465°C.</p>
+<p><strong>더 먼 금성이 더 뜨겁다.</strong></p>
+<p>원인: 금성의 대기. 96%가 이산화탄소다. 극단적인 온실효과로 열이 빠져나가지 못한다. 수성은 대기가 거의 없어서 열을 잡아두지 못한다.</p>`,
+  },
+  {
+    slug: "universe-age-138",
+    title: "우주의 나이는 약 138억 년이다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "빅뱅: 약 138억 년 전. 우주배경복사와 허블 상수 측정으로 추정.",
+    tags: ["빅뱅", "우주나이", "138억년", "우주배경복사", "허블"],
+    relatedSlugs: ["andromeda-250million-ly", "blackhole-first-photo-2019"],
+    timeline: [
+      { year: "138억 년 전", label: "빅뱅 — 우주 탄생", highlight: true },
+      { year: "약 46억 년 전", label: "태양과 지구 형성" },
+      { year: "약 38만 년 후", label: "우주배경복사 방출 (빅뱅 후)", highlight: true },
+      { year: "1965년", label: "펜지어스·윌슨, 우주배경복사 발견" },
+    ],
+    content: `<p>우주의 나이: 약 138억 년. 정확히는 137.87 ± 0.20억 년.</p>
+<p><strong>빅뱅 후 약 38만 년이 지나서 나온 우주배경복사를 측정해서 알아냈다.</strong></p>
+<p>태양과 지구가 생긴 건 약 46억 년 전. 우주 나이의 약 1/3 시점이다.</p>
+<p>138억 년이라는 숫자도, 관측 기술이 발전하면 더 정밀해질 수 있다.</p>`,
+  },
+  {
+    slug: "speed-of-light-300k",
+    title: "빛은 1초에 약 30만km를 이동한다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "광속: 초속 약 299,792km. 1초에 지구를 7.5바퀴 돈다.",
+    tags: ["광속", "빛", "30만km", "물리상수", "아인슈타인"],
+    relatedSlugs: ["sunlight-8-minutes", "proxima-centauri-4years"],
+    timeline: [
+      { year: "1초", label: "지구 7.5바퀴", highlight: true },
+      { year: "1.3초", label: "지구 → 달" },
+      { year: "8분 20초", label: "태양 → 지구" },
+      { year: "4.24년", label: "태양 → 프록시마 센타우리", highlight: true },
+    ],
+    content: `<p>빛의 속도: 초속 약 299,792km. 보통 "초속 30만km"라고 부른다.</p>
+<p><strong>1초에 지구를 7.5바퀴 돈다.</strong></p>
+<p>아인슈타인의 특수상대성이론에 따르면, 질량이 있는 물체는 광속에 도달할 수 없다.</p>
+<p>빛은 우주에서 가장 빠르다. 그런데도 가장 가까운 별까지 4년이 넘게 걸린다.</p>`,
+  },
+  {
+    slug: "neutron-star-density",
+    title: "중성자별은 각설탕 크기가 10억 톤이다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "중성자별 밀도: 1cm³에 약 10억 톤. 태양 질량의 1.4~2배가 지름 20km에 압축.",
+    tags: ["중성자별", "밀도", "초신성", "천체물리", "극한물질"],
+    relatedSlugs: ["blackhole-first-photo-2019", "sun-130million-earths"],
+    timeline: [
+      { year: "초신성 폭발 후", label: "무거운 별의 핵이 중성자별로 붕괴", highlight: true },
+      { year: "지름", label: "약 20km (서울 시내 크기)" },
+      { year: "질량", label: "태양의 1.4~2배", highlight: true },
+      { year: "밀도", label: "1cm³ ≈ 10억 톤" },
+    ],
+    content: `<p>무거운 별이 초신성 폭발을 일으킨 뒤, 핵이 압축되면 중성자별이 된다.</p>
+<p><strong>지름 약 20km. 질량은 태양의 1.4~2배.</strong></p>
+<p>각설탕(1cm³) 크기의 중성자별 물질 무게: 약 10억 톤. 에베레스트 산 무게와 비슷하다.</p>
+<p>1초에 수백 바퀴 자전하는 것도 있다. 우주에서 가장 극단적인 천체 중 하나.</p>`,
+  },
+  {
+    slug: "more-stars-than-sand",
+    title: "우주에는 지구 해변 모래알보다 별이 더 많다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "관측 가능한 우주의 별: 약 2000억 × 2조 개 은하 = 약 10²⁴개. 지구 모래알: 약 7.5 × 10¹⁸개.",
+    tags: ["별", "모래알", "우주규모", "은하", "숫자비교"],
+    relatedSlugs: ["andromeda-250million-ly", "universe-age-138"],
+    timeline: [
+      { year: "지구 모래알", label: "약 7.5 × 10¹⁸개 (추정)" },
+      { year: "우리 은하 별", label: "약 1000억~4000억 개" },
+      { year: "관측 가능 은하", label: "약 2조 개", highlight: true },
+      { year: "우주 전체 별", label: "약 10²⁴개 (추정)", highlight: true },
+    ],
+    content: `<p>지구의 모든 해변 모래알: 약 7.5 × 10¹⁸개로 추정된다.</p>
+<p>관측 가능한 우주의 별: <strong>약 10²⁴개.</strong> 모래알의 약 100만 배.</p>
+<p>우리 은하에만 별이 1000억~4000억 개. 그런 은하가 약 2조 개 있다.</p>
+<p>이건 관측 가능한 범위만의 이야기다. 우주 전체는 더 클 수 있다.</p>`,
+  },
+  {
+    slug: "pluto-demoted-2006",
+    title: "명왕성은 2006년에 행성에서 퇴출됐다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "1930년 발견, 76년간 9번째 행성. 2006년 IAU가 왜소행성으로 재분류.",
+    tags: ["명왕성", "행성", "왜소행성", "IAU", "2006년"],
+    relatedSlugs: ["jupiter-mass", "saturn-floats"],
+    timeline: [
+      { year: "1930년", label: "클라이드 톰보, 명왕성 발견", highlight: true },
+      { year: "1930~2006년", label: "태양계 9번째 행성으로 분류" },
+      { year: "2005년", label: "에리스 발견 — 명왕성과 비슷한 크기의 천체" },
+      { year: "2006년", label: "IAU, 명왕성을 왜소행성으로 재분류", highlight: true },
+      { year: "2015년", label: "뉴호라이즌스, 명왕성 근접 비행" },
+    ],
+    content: `<p>1930년. 명왕성이 발견됐다. 76년간 태양계의 9번째 행성이었다.</p>
+<p>2005년. 명왕성보다 큰 에리스가 발견됐다. "10번째 행성"을 추가할지 논쟁이 벌어졌다.</p>
+<p><strong>2006년 IAU(국제천문연맹)는 행성의 정의를 새로 만들었다. 명왕성은 "왜소행성"이 됐다.</strong></p>
+<p>"궤도 주변을 지배하는 천체"라는 조건을 충족하지 못했기 때문이다.</p>`,
+  },
+  {
+    slug: "jupiter-great-red-spot",
+    title: "목성의 대적점은 300년 넘게 지속된 폭풍이다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "대적점: 최소 1665년부터 관측. 지구 1~2개가 들어가는 크기의 거대 폭풍.",
+    tags: ["목성", "대적점", "폭풍", "300년", "태양계"],
+    relatedSlugs: ["jupiter-mass", "saturn-floats"],
+    timeline: [
+      { year: "1665년", label: "카시니, 목성 표면의 큰 점 관측 기록", highlight: true },
+      { year: "1831년", label: "현재의 대적점으로 확인되는 관측 시작" },
+      { year: "현재", label: "300년 이상 지속. 크기 약 16,000km (지구 1.3배)", highlight: true },
+      { year: "추세", label: "점점 줄어들고 있음 — 언젠가 사라질 수도" },
+    ],
+    content: `<p>목성의 대적점: 최소 1665년부터 관측된 거대한 폭풍.</p>
+<p><strong>300년 넘게 멈추지 않았다.</strong> 현재 크기는 약 16,000km. 지구 1.3개가 들어간다.</p>
+<p>풍속은 시속 약 680km. 지구 최강 태풍의 2배가 넘는다.</p>
+<p>최근 수십 년간 크기가 줄고 있다. 19세기에는 지구 3개가 들어갈 크기였다. 언젠가 사라질 수도 있다.</p>`,
+  },
+  {
+    slug: "saturn-rings-ice-rock",
+    title: "토성의 고리는 얼음과 암석으로 이루어져 있다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "토성 고리: 99% 이상이 얼음. 나머지는 암석과 먼지. 폭 28만km, 두께는 수십 m에 불과.",
+    tags: ["토성", "고리", "얼음", "카시니", "토성탐사"],
+    relatedSlugs: ["saturn-floats", "jupiter-great-red-spot"],
+    timeline: [
+      { year: "1610년", label: "갈릴레오, 토성 주변의 이상한 형태 관측" },
+      { year: "1655년", label: "하위헌스, 고리 구조 확인", highlight: true },
+      { year: "2004~2017년", label: "카시니 탐사선, 토성 고리 정밀 탐사", highlight: true },
+      { year: "추정", label: "고리 나이: 약 1~4억 년 (생각보다 젊음)" },
+    ],
+    content: `<p>토성의 고리: 폭 약 28만km. 하지만 두께는 수십 미터에 불과하다.</p>
+<p><strong>99% 이상이 물 얼음이다.</strong> 나머지는 암석과 먼지.</p>
+<p>입자 크기는 모래알만 한 것부터 집만 한 것까지 다양하다.</p>
+<p>카시니 탐사선(2004~2017) 데이터에 따르면, 고리는 약 1~4억 년 전에 형성됐다. 토성(46억 년) 나이에 비하면 최근이다.</p>`,
+  },
+  {
+    slug: "olympus-mons-mars",
+    title: "화성에는 에베레스트의 약 2.5배 높이인 산이 있다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "올림푸스 몬스: 높이 약 21.9km. 에베레스트(8.8km)의 약 2.5배. 태양계 최대 화산.",
+    tags: ["올림푸스몬스", "화성", "화산", "에베레스트", "태양계최대"],
+    relatedSlugs: ["mars-day-37min-longer", "jupiter-great-red-spot"],
+    timeline: [
+      { year: "에베레스트", label: "높이 약 8,849m", highlight: true },
+      { year: "올림푸스 몬스", label: "높이 약 21,900m (2.5배)", highlight: true },
+      { year: "밑면 지름", label: "약 600km — 프랑스 면적과 비슷" },
+      { year: "1971년", label: "마리너 9호가 최초 촬영" },
+    ],
+    content: `<p>화성의 올림푸스 몬스: 높이 약 21.9km. <strong>에베레스트의 약 2.5배.</strong></p>
+<p>밑면 지름은 약 600km. 프랑스 면적과 비슷하다. 태양계에서 가장 큰 화산.</p>
+<p>화성은 지구보다 중력이 약하고 판 구조 운동이 없다. 마그마가 한 곳에서 계속 분출되니 이렇게 커졌다.</p>
+<p>순상 화산이라 경사가 완만하다. 정상에 서면 산 위에 있다는 걸 느끼기 어려울 정도.</p>`,
+  },
+  {
+    slug: "earth-rotation-speed",
+    title: "지구 자전 속도는 적도에서 시속 약 1,670km다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "적도 기준 자전 속도: 시속 약 1,670km. 음속(약 1,235km/h)보다 빠르다.",
+    tags: ["지구", "자전", "속도", "적도", "물리"],
+    relatedSlugs: ["earth-day-shorter", "iss-16-orbits"],
+    timeline: [
+      { year: "적도", label: "자전 속도 시속 약 1,670km", highlight: true },
+      { year: "위도 45°", label: "시속 약 1,180km" },
+      { year: "극지방", label: "시속 거의 0km" },
+      { year: "참고", label: "음속: 시속 약 1,235km", highlight: true },
+    ],
+    content: `<p>지구 둘레: 적도 기준 약 40,075km. 24시간에 한 바퀴.</p>
+<p><strong>적도에서의 자전 속도: 시속 약 1,670km.</strong> 음속보다 빠르다.</p>
+<p>위도가 올라갈수록 느려진다. 서울(위도 37°)에서는 시속 약 1,330km.</p>
+<p>우리가 느끼지 못하는 이유: 대기, 지표, 우리 모두가 같은 속도로 움직이고 있기 때문이다.</p>`,
+  },
+  {
+    slug: "hubble-telescope-1990",
+    title: "허블 우주망원경은 1990년에 발사됐다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "1990년 발사. 35년 넘게 운용 중. 허블 딥 필드 사진은 가장 유명한 천문 이미지 중 하나.",
+    tags: ["허블", "우주망원경", "1990년", "NASA", "딥필드"],
+    relatedSlugs: ["blackhole-first-photo-2019", "voyager-still-flying"],
+    timeline: [
+      { year: "1990년 4월", label: "허블 우주망원경 발사 (디스커버리 호)", highlight: true },
+      { year: "1993년", label: "거울 결함 수리 미션 (STS-61)" },
+      { year: "1995년", label: "허블 딥 필드 촬영 — 수천 개 은하 포착", highlight: true },
+      { year: "2021년", label: "제임스 웹 우주망원경(JWST) 발사" },
+    ],
+    content: `<p>1990년 4월. 허블 우주망원경이 우주왕복선 디스커버리에 실려 발사됐다.</p>
+<p>초기에 주경 결함으로 흐릿한 사진만 찍혔다. 1993년 우주비행사들이 직접 수리했다.</p>
+<p><strong>1995년 허블 딥 필드: 바늘구멍만 한 하늘을 10일간 촬영했더니 수천 개의 은하가 찍혔다.</strong></p>
+<p>35년 넘게 운용 중이다. 2021년 후계자 JWST가 발사됐지만, 허블도 여전히 작동 중.</p>`,
+  },
+  {
+    slug: "universe-expanding-faster-than-light",
+    title: "우주 팽창은 빛보다 빠르다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "우주 자체의 팽창 속도는 빛의 속도 제한을 받지 않는다. 관측 불가능한 영역이 생긴다.",
+    tags: ["우주팽창", "광속", "상대성이론", "관측한계", "암흑에너지"],
+    relatedSlugs: ["speed-of-light-300k", "universe-age-138"],
+    timeline: [
+      { year: "1929년", label: "허블, 은하들이 멀어지고 있음을 발견", highlight: true },
+      { year: "1998년", label: "우주 팽창이 가속되고 있음을 발견 (암흑 에너지)", highlight: true },
+      { year: "현재", label: "충분히 먼 은하는 빛보다 빠르게 멀어지고 있음" },
+    ],
+    content: `<p>아인슈타인: "질량이 있는 물체는 빛보다 빠를 수 없다."</p>
+<p><strong>하지만 우주 공간 자체의 팽창은 이 제한을 받지 않는다.</strong></p>
+<p>충분히 먼 은하는 우주 팽창 때문에 빛보다 빠르게 우리에게서 멀어지고 있다. 그 은하의 빛은 영원히 우리에게 도달하지 못한다.</p>
+<p>이것이 "관측 가능한 우주"에 한계가 있는 이유다.</p>`,
+  },
+  {
+    slug: "earth-magnetic-field-shield",
+    title: "지구 자기장과 대기가 없으면 태양풍에 노출된다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "태양풍: 초속 400~800km의 하전 입자 흐름. 지구 자기장이 이를 막아준다.",
+    tags: ["자기장", "태양풍", "대기", "방패", "지구"],
+    relatedSlugs: ["sunlight-8-minutes", "venus-hotter-than-mercury"],
+    timeline: [
+      { year: "상시", label: "태양에서 하전 입자(태양풍) 방출", highlight: true },
+      { year: "지구", label: "자기장(자기권)이 태양풍을 편향시킴", highlight: true },
+      { year: "화성", label: "자기장 없음 → 태양풍에 대기 유실" },
+      { year: "오로라", label: "태양풍 입자가 극지방으로 유입돼 발생" },
+    ],
+    content: `<p>태양은 끊임없이 하전 입자를 뿜어낸다. 태양풍. 초속 400~800km.</p>
+<p><strong>지구의 자기장이 이 입자를 편향시켜 지표면까지 도달하지 못하게 한다.</strong></p>
+<p>화성은 자기장이 거의 없다. 태양풍에 대기가 벗겨졌다. 지금의 얇은 대기가 된 이유.</p>
+<p>오로라는 태양풍 입자 일부가 극지방 자기장 틈으로 들어와 대기와 충돌하며 생기는 빛이다.</p>`,
+  },
+  {
+    slug: "spacesuit-cost",
+    title: "우주복 한 벌은 약 1억 달러다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "NASA의 EVA용 우주복(EMU): 약 1억 2천만 달러. 소형 우주선에 가까운 가격.",
+    tags: ["우주복", "NASA", "가격", "EVA", "우주장비"],
+    relatedSlugs: ["iss-16-orbits", "voyager-still-flying"],
+    timeline: [
+      { year: "1965년", label: "최초의 우주유영 (알렉세이 레오노프)" },
+      { year: "1981년", label: "NASA EMU(선외활동용 우주복) 도입", highlight: true },
+      { year: "현재", label: "EMU 한 벌 약 1억 2천만 달러", highlight: true },
+      { year: "개발 중", label: "차세대 xEMU — 더 유연하고 업그레이드된 설계" },
+    ],
+    content: `<p>NASA의 선외활동(EVA)용 우주복 EMU: <strong>한 벌에 약 1억 2천만 달러.</strong></p>
+<p>산소 공급, 온도 조절, 방사선 차폐, 미세 운석 방어까지 해야 하는 소형 우주선이나 다름없다.</p>
+<p>진공, 극한 온도(-157°C~121°C), 방사선을 동시에 막아야 한다.</p>
+<p>현재 ISS에서 쓰는 우주복은 1981년에 도입된 설계다. 40년 넘게 써왔다.</p>`,
+  },
+  // ── people 카테고리 추가 (10개) ──
+  {
+    slug: "einstein-chaplin-friends",
+    title: "아인슈타인과 찰리 채플린은 서로 친분이 있었다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "1931년 채플린 영화 시사회에 아인슈타인이 참석. 둘은 서로 교류하며 우정을 나눴다.",
+    tags: ["아인슈타인", "채플린", "1931년", "친분", "동시대인"],
+    relatedSlugs: ["chaplin-hitler", "freud-einstein-letters"],
+    timeline: [
+      { year: "1879년", label: "알베르트 아인슈타인 출생", highlight: true },
+      { year: "1889년", label: "찰리 채플린 출생", highlight: true },
+      { year: "1931년", label: "채플린 '시티 라이트' 시사회에 아인슈타인 참석", highlight: true },
+      { year: "1955년", label: "아인슈타인 사망" },
+      { year: "1977년", label: "채플린 사망" },
+    ],
+    content: `<p>1931년. 채플린의 영화 '시티 라이트' 시사회. 아인슈타인이 초대받아 참석했다.</p>
+<p>둘은 나란히 걸으며 환호하는 군중 앞에 섰다.</p>
+<p><strong>채플린이 말했다고 전해진다. "사람들은 당신에게 환호합니다. 아무도 당신을 이해하지 못하니까요."</strong></p>
+<p>아인슈타인이 답했다. "사람들은 당신에게 환호합니다. 누구나 당신을 이해하니까요."</p>`,
+  },
+  {
+    slug: "jobs-gates-same-age",
+    title: "스티브 잡스와 빌 게이츠는 동갑이다 — 1955년생",
+    category: "people",
+    date: "2026-03-21",
+    summary: "잡스: 1955년 2월 24일. 게이츠: 1955년 10월 28일. 8개월 차이.",
+    tags: ["스티브잡스", "빌게이츠", "1955년", "동갑", "IT"],
+    relatedSlugs: ["monroe-queen-same-age", "lincoln-darwin-same-birthday"],
+    timeline: [
+      { year: "1955년 2월", label: "스티브 잡스 출생 (샌프란시스코)", highlight: true },
+      { year: "1955년 10월", label: "빌 게이츠 출생 (시애틀)", highlight: true },
+      { year: "1975년", label: "게이츠, 마이크로소프트 공동 창업" },
+      { year: "1976년", label: "잡스, 애플 공동 창업" },
+      { year: "2011년", label: "잡스 사망 (56세)", highlight: true },
+    ],
+    content: `<p>스티브 잡스: 1955년 2월 24일. 빌 게이츠: 1955년 10월 28일. <strong>8개월 차이.</strong></p>
+<p>1975~76년. 거의 같은 시기에 각각 마이크로소프트와 애플을 창업했다.</p>
+<p>경쟁하고, 협력하고, 비판하고, 존경했다. PC 시대를 함께 열었다.</p>
+<p>잡스는 56살에 세상을 떠났다. 게이츠는 자선사업가로 살고 있다.</p>`,
+  },
+  {
+    slug: "armstrong-aldrin-same-year",
+    title: "닐 암스트롱과 버즈 올드린은 같은 해에 태어났다 — 1930년",
+    category: "people",
+    date: "2026-03-21",
+    summary: "암스트롱: 1930년 8월 5일. 올드린: 1930년 1월 20일. 같은 해, 달에 함께 섰다.",
+    tags: ["닐암스트롱", "버즈올드린", "1930년", "아폴로11호", "달착륙"],
+    relatedSlugs: ["moon-moving-away", "voyager-still-flying"],
+    timeline: [
+      { year: "1930년 1월", label: "버즈 올드린 출생", highlight: true },
+      { year: "1930년 8월", label: "닐 암스트롱 출생", highlight: true },
+      { year: "1969년 7월", label: "아폴로 11호 — 인류 최초 달 착륙", highlight: true },
+      { year: "2012년", label: "암스트롱 사망 (82세)" },
+    ],
+    content: `<p>닐 암스트롱: 1930년 8월 5일. 버즈 올드린: 1930년 1월 20일.</p>
+<p><strong>같은 해에 태어난 두 사람이 1969년 함께 달에 섰다.</strong></p>
+<p>암스트롱이 먼저 내렸다. "한 사람에게는 작은 한 걸음이지만, 인류에게는 위대한 도약."</p>
+<p>올드린은 19분 뒤에 내렸다. 두 번째 사람. 하지만 같은 순간이었다.</p>`,
+  },
+  {
+    slug: "marie-curie-two-nobels",
+    title: "마리 퀴리는 노벨상을 두 번 받은 최초의 인물이다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "1903년 물리학상, 1911년 화학상. 서로 다른 분야에서 두 번 수상한 최초이자 유일한 인물.",
+    tags: ["마리퀴리", "노벨상", "물리학", "화학", "방사능"],
+    relatedSlugs: ["freud-einstein-letters", "penicillin-accident"],
+    timeline: [
+      { year: "1867년", label: "마리 퀴리 출생 (폴란드 바르샤바)", highlight: true },
+      { year: "1898년", label: "폴로늄, 라듐 발견" },
+      { year: "1903년", label: "노벨 물리학상 수상 (방사능 연구)", highlight: true },
+      { year: "1911년", label: "노벨 화학상 수상 (라듐·폴로늄 분리)", highlight: true },
+      { year: "1934년", label: "마리 퀴리 사망 (방사능 노출로 인한 재생불량성 빈혈)" },
+    ],
+    content: `<p>1903년. 마리 퀴리가 남편 피에르 퀴리, 앙리 베크렐과 함께 노벨 물리학상을 받았다.</p>
+<p>1911년. <strong>노벨 화학상을 단독 수상했다.</strong> 서로 다른 분야에서 두 번. 최초이자 유일.</p>
+<p>그녀의 연구 노트는 지금도 방사능에 오염되어 있다. 열람하려면 방호복을 입어야 한다.</p>
+<p>1934년 사망. 원인은 오랜 방사능 노출로 인한 재생불량성 빈혈.</p>`,
+  },
+  {
+    slug: "teresa-diana-same-day-death",
+    title: "테레사 수녀와 다이애나 비는 같은 주에 세상을 떠났다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "다이애나 비 사망: 1997년 8월 31일. 테레사 수녀 사망: 1997년 9월 5일. 6일 차이.",
+    tags: ["테레사수녀", "다이애나", "1997년", "사망", "동시대"],
+    relatedSlugs: ["monroe-queen-same-age", "anne-frank-mlk"],
+    timeline: [
+      { year: "1910년", label: "테레사 수녀 출생 (마케도니아 스코페)" },
+      { year: "1961년", label: "다이애나 스펜서 출생 (영국 노퍽)" },
+      { year: "1997년 8월 31일", label: "다이애나 비 사망 (파리 교통사고)", highlight: true },
+      { year: "1997년 9월 5일", label: "테레사 수녀 사망 (콜카타)", highlight: true },
+    ],
+    content: `<p>1997년 8월 31일. 다이애나 비가 파리에서 교통사고로 사망했다. 36세.</p>
+<p>6일 뒤인 9월 5일. 테레사 수녀가 콜카타에서 사망했다. 87세.</p>
+<p><strong>같은 주에 세계가 주목하는 두 사람이 떠났다.</strong></p>
+<p>다이애나의 장례식은 전 세계 25억 명이 시청했다. 테레사 수녀의 장례식은 그 직후에 치러졌다.</p>`,
+  },
+  {
+    slug: "confucius-socrates-contemporary",
+    title: "공자와 소크라테스는 동시대 사람이다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "공자: 기원전 551~479년. 소크라테스: 기원전 470~399년. 약 10년간 동시대를 살았다.",
+    tags: ["공자", "소크라테스", "동시대인", "기원전5세기", "철학"],
+    relatedSlugs: ["cleopatra-caesar-met", "aristotle-alexander"],
+    timeline: [
+      { year: "기원전 551년", label: "공자 출생 (중국 노나라)", highlight: true },
+      { year: "기원전 470년", label: "소크라테스 출생 (그리스 아테네)", highlight: true },
+      { year: "기원전 479년", label: "공자 사망" },
+      { year: "기원전 399년", label: "소크라테스 사망 (독배)" },
+    ],
+    content: `<p>공자: 기원전 551~479년. 소크라테스: 기원전 470~399년.</p>
+<p><strong>약 10년간 같은 시대를 살았다.</strong> 공자가 세상을 떠날 때 소크라테스는 9살이었다.</p>
+<p>동양 철학의 기초를 세운 사람과 서양 철학의 아버지가 동시대에 존재했다.</p>
+<p>서로의 존재를 몰랐다. 하지만 같은 시대에 같은 질문을 했다. "어떻게 살아야 하는가."</p>`,
+  },
+  {
+    slug: "aristotle-alexander",
+    title: "아리스토텔레스는 알렉산더 대왕의 스승이었다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "기원전 343년부터 약 3년간 아리스토텔레스가 13세 알렉산더를 가르쳤다.",
+    tags: ["아리스토텔레스", "알렉산더대왕", "스승", "기원전4세기", "마케도니아"],
+    relatedSlugs: ["confucius-socrates-contemporary", "cleopatra-caesar-met"],
+    timeline: [
+      { year: "기원전 384년", label: "아리스토텔레스 출생", highlight: true },
+      { year: "기원전 356년", label: "알렉산더 대왕 출생", highlight: true },
+      { year: "기원전 343년", label: "아리스토텔레스, 알렉산더의 개인교사 시작", highlight: true },
+      { year: "기원전 336년", label: "알렉산더, 마케도니아 왕 즉위" },
+      { year: "기원전 323년", label: "알렉산더 사망 (32세)" },
+      { year: "기원전 322년", label: "아리스토텔레스 사망" },
+    ],
+    content: `<p>기원전 343년. 마케도니아 왕 필리포스 2세가 아리스토텔레스를 아들의 교사로 초빙했다.</p>
+<p><strong>아리스토텔레스가 13살 알렉산더를 약 3년간 가르쳤다.</strong></p>
+<p>철학, 과학, 문학, 의학. 알렉산더는 원정 중에도 호메로스의 일리아스를 갖고 다녔다고 한다.</p>
+<p>서양 사상의 기초를 세운 철학자와, 역사상 가장 넓은 제국을 세운 정복자. 스승과 제자였다.</p>`,
+  },
+  {
+    slug: "davinci-michelangelo-rivals",
+    title: "레오나르도 다빈치와 미켈란젤로는 동시대 라이벌이었다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "다빈치: 1452년생. 미켈란젤로: 1475년생. 23살 차이. 피렌체에서 직접 경쟁했다.",
+    tags: ["다빈치", "미켈란젤로", "르네상스", "라이벌", "피렌체"],
+    relatedSlugs: ["columbus-davinci", "shakespeare-galileo-same-year"],
+    timeline: [
+      { year: "1452년", label: "레오나르도 다빈치 출생", highlight: true },
+      { year: "1475년", label: "미켈란젤로 출생", highlight: true },
+      { year: "1504년", label: "피렌체 시뇨리아 궁전 벽화 경쟁 (둘 다 의뢰받음)", highlight: true },
+      { year: "1519년", label: "다빈치 사망" },
+      { year: "1564년", label: "미켈란젤로 사망" },
+    ],
+    content: `<p>다빈치: 1452년생. 미켈란젤로: 1475년생. <strong>23살 차이.</strong></p>
+<p>1504년. 피렌체 시뇨리아 궁전 벽화를 둘 다 의뢰받았다. 직접적인 경쟁이었다.</p>
+<p>다빈치는 미켈란젤로의 조각에 비판적이었고, 미켈란젤로는 다빈치의 미완성 습관을 비꼬았다고 전해진다.</p>
+<p>모나리자와 다비드상. 르네상스 최고의 두 천재는 라이벌이었다.</p>`,
+  },
+  {
+    slug: "luther-copernicus-contemporary",
+    title: "마르틴 루터와 코페르니쿠스는 동시대 사람이다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "루터: 1483년생. 코페르니쿠스: 1473년생. 10살 차이. 둘 다 기존 체제를 뒤흔들었다.",
+    tags: ["루터", "코페르니쿠스", "동시대인", "종교개혁", "지동설"],
+    relatedSlugs: ["shakespeare-galileo-same-year", "columbus-davinci"],
+    timeline: [
+      { year: "1473년", label: "코페르니쿠스 출생 (폴란드)", highlight: true },
+      { year: "1483년", label: "마르틴 루터 출생 (독일)", highlight: true },
+      { year: "1517년", label: "루터, 95개조 반박문 게시 (종교개혁)", highlight: true },
+      { year: "1543년", label: "코페르니쿠스, '천구의 회전에 관하여' 출판 / 사망", highlight: true },
+      { year: "1546년", label: "루터 사망" },
+    ],
+    content: `<p>코페르니쿠스: 1473년생. 루터: 1483년생. <strong>10살 차이.</strong></p>
+<p>1517년. 루터가 95개조 반박문을 내걸며 종교개혁을 시작했다. 교회의 권위에 도전한 것.</p>
+<p>1543년. 코페르니쿠스가 지동설을 담은 책을 출판했다. 우주의 중심이 지구가 아니라고 한 것.</p>
+<p>같은 시대에, 한 명은 종교를, 한 명은 우주관을 뒤집었다.</p>`,
+  },
+  {
+    slug: "queen-victoria-63-years",
+    title: "빅토리아 여왕은 63년 7개월 넘게 재위했다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "빅토리아 여왕 재위: 1837~1901년. 63년 7개월. 대영제국 전성기를 이끌었다.",
+    tags: ["빅토리아", "영국", "재위", "대영제국", "63년"],
+    relatedSlugs: ["monroe-queen-same-age", "napoleon-not-short"],
+    timeline: [
+      { year: "1819년", label: "빅토리아 출생", highlight: true },
+      { year: "1837년", label: "18세에 여왕 즉위", highlight: true },
+      { year: "1876년", label: "인도 여제 칭호 추가" },
+      { year: "1901년", label: "빅토리아 사망 — 재위 63년 7개월", highlight: true },
+      { year: "2015년", label: "엘리자베스 2세가 빅토리아 기록 경신" },
+    ],
+    content: `<p>1837년. 18세의 빅토리아가 영국 여왕에 올랐다.</p>
+<p><strong>63년 7개월간 재위했다.</strong> 대영제국이 세계 최대 제국이 된 시기.</p>
+<p>전 세계 육지의 약 1/4이 영국 영토였다. "해가 지지 않는 나라."</p>
+<p>2015년 엘리자베스 2세가 이 기록을 넘겼다. 엘리자베스 2세 재위: 70년 7개월.</p>`,
+  },
+  {
+    slug: "cleopatra-was-greek",
+    title: "클레오파트라는 그리스계였다 — 이집트인이 아니었다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "클레오파트라는 프톨레마이오스 왕조 출신. 마케도니아 그리스계 혈통.",
+    tags: ["클레오파트라", "그리스", "프톨레마이오스", "이집트", "오해"],
+    relatedSlugs: ["cleopatra-pyramid", "cleopatra-caesar-met"],
+    timeline: [
+      { year: "기원전 323년", label: "알렉산더 대왕 사망 후 프톨레마이오스 왕조 시작", highlight: true },
+      { year: "기원전 69년", label: "클레오파트라 7세 출생", highlight: true },
+      { year: "기원전 30년", label: "클레오파트라 사망 — 프톨레마이오스 왕조 멸망" },
+    ],
+    content: `<p>클레오파트라는 이집트 여왕이지만, 혈통은 이집트인이 아니다.</p>
+<p><strong>마케도니아 그리스계인 프톨레마이오스 왕조 출신이다.</strong></p>
+<p>알렉산더 대왕의 장군 프톨레마이오스가 세운 왕조. 약 300년간 이집트를 통치했다.</p>
+<p>다만 클레오파트라는 프톨레마이오스 왕조에서 이집트어를 배운 최초의 왕으로 알려져 있다.</p>`,
+  },
+  {
+    slug: "mozart-died-at-35",
+    title: "모차르트는 35살에 사망했다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "모차르트: 1756~1791. 35세에 사망. 600곡 이상을 남겼다.",
+    tags: ["모차르트", "35세", "사망", "천재", "클래식"],
+    relatedSlugs: ["mozart-american-independence", "napoleon-beethoven"],
+    timeline: [
+      { year: "1756년", label: "모차르트 출생 (잘츠부르크)", highlight: true },
+      { year: "1762년", label: "6살에 유럽 궁정 순회 연주" },
+      { year: "1786년", label: "피가로의 결혼 초연" },
+      { year: "1791년", label: "레퀴엠 미완성으로 남기고 사망 (35세)", highlight: true },
+    ],
+    content: `<p>모차르트: 1756~1791. <strong>35년의 생애 동안 600곡 이상을 작곡했다.</strong></p>
+<p>5살에 작곡을 시작했다. 6살에 유럽 궁정을 돌며 연주했다.</p>
+<p>마지막 작품은 레퀴엠. 완성하지 못하고 세상을 떠났다.</p>
+<p>사인은 아직도 논쟁 중이다. 류마티스열, 신장 질환 등 여러 설이 있다.</p>`,
+  },
+  {
+    slug: "beethoven-deaf-9th-symphony",
+    title: "베토벤은 귀가 거의 들리지 않을 때 9번 교향곡을 작곡했다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "베토벤은 1818년경 거의 완전히 청력을 잃었다. 9번 교향곡 초연: 1824년.",
+    tags: ["베토벤", "청력상실", "9번교향곡", "환희의송가", "음악"],
+    relatedSlugs: ["napoleon-beethoven", "mozart-died-at-35"],
+    timeline: [
+      { year: "1770년", label: "베토벤 출생", highlight: true },
+      { year: "1798년경", label: "청력 저하 시작" },
+      { year: "1818년경", label: "거의 완전한 청력 상실", highlight: true },
+      { year: "1824년", label: "교향곡 9번 초연 (환희의 송가)", highlight: true },
+      { year: "1827년", label: "베토벤 사망" },
+    ],
+    content: `<p>베토벤은 20대 후반부터 청력이 나빠지기 시작했다.</p>
+<p>1818년경. <strong>거의 완전히 귀가 들리지 않게 됐다.</strong> 대화는 필담으로 했다.</p>
+<p>1824년. 교향곡 9번 초연. 환희의 송가. 초연이 끝났을 때 객석의 박수를 듣지 못해 다른 사람이 돌려세워줬다고 전해진다.</p>
+<p>소리를 듣지 못하면서 인류 역사상 가장 위대한 곡 중 하나를 만들었다.</p>`,
+  },
+  {
+    slug: "newton-plague-discoveries",
+    title: "뉴턴은 페스트 피난 시기에 핵심 이론들을 발전시켰다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "1665~1666년. 페스트로 케임브리지 폐쇄. 뉴턴은 고향에서 미적분, 광학, 중력 이론을 발전시켰다.",
+    tags: ["뉴턴", "페스트", "미적분", "중력", "경이의해"],
+    relatedSlugs: ["newton-gogh-not-contemporary", "freud-einstein-letters"],
+    timeline: [
+      { year: "1665년", label: "런던 대역병 (페스트) — 케임브리지 폐쇄", highlight: true },
+      { year: "1665~1666년", label: "뉴턴, 고향 울스소프에서 연구 (경이의 해)", highlight: true },
+      { year: "1687년", label: "프린키피아 출판 — 만유인력의 법칙" },
+    ],
+    content: `<p>1665년. 런던에 페스트가 퍼졌다. 케임브리지 대학이 문을 닫았다.</p>
+<p>23살의 뉴턴은 고향 울스소프로 돌아갔다. <strong>약 18개월간 미적분, 광학, 중력 이론의 기초를 발전시켰다.</strong></p>
+<p>이 기간을 "경이의 해(Annus Mirabilis)"라고 부른다.</p>
+<p>역병이 닫은 문 뒤에서, 근대 과학의 토대가 만들어졌다.</p>`,
+  },
+  {
+    slug: "van-gogh-one-painting-sold",
+    title: "반 고흐는 생전에 그림을 딱 한 점 팔았다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "고흐 생전 유일하게 팔린 작품: '아를의 붉은 포도밭' (1890년, 400프랑).",
+    tags: ["반고흐", "화가", "생전", "한점", "아를"],
+    relatedSlugs: ["gogh-eiffel-tower", "newton-gogh-not-contemporary"],
+    timeline: [
+      { year: "1853년", label: "고흐 출생" },
+      { year: "1881년", label: "본격적으로 그림 시작" },
+      { year: "1890년", label: "'아를의 붉은 포도밭' 판매 (400프랑)", highlight: true },
+      { year: "1890년 7월", label: "고흐 사망 (37세)", highlight: true },
+      { year: "현재", label: "고흐 작품 경매가 수천억 원대" },
+    ],
+    content: `<p>고흐는 10년간 약 900점의 그림을 그렸다.</p>
+<p><strong>생전에 팔린 건 딱 한 점.</strong> '아를의 붉은 포도밭'. 1890년, 400프랑에 팔렸다.</p>
+<p>동생 테오가 평생 경제적으로 지원했다. 고흐의 편지 대부분이 테오에게 보낸 것이다.</p>
+<p>사후 명성이 폭발했다. 지금 그의 작품은 수천억 원에 거래된다.</p>`,
+  },
+  {
+    slug: "einstein-refused-israel-presidency",
+    title: "아인슈타인은 이스라엘 초대 대통령 제안을 거절했다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "1952년 이스라엘이 아인슈타인에게 대통령직을 제안했다. 아인슈타인은 정중히 거절.",
+    tags: ["아인슈타인", "이스라엘", "대통령", "거절", "1952년"],
+    relatedSlugs: ["freud-einstein-letters", "einstein-chaplin-friends"],
+    timeline: [
+      { year: "1879년", label: "아인슈타인 출생 (독일)" },
+      { year: "1948년", label: "이스라엘 건국" },
+      { year: "1952년", label: "이스라엘, 아인슈타인에게 대통령직 제안 → 거절", highlight: true },
+      { year: "1955년", label: "아인슈타인 사망" },
+    ],
+    content: `<p>1952년. 이스라엘 초대 대통령 하임 바이츠만이 사망했다.</p>
+<p><strong>이스라엘 정부가 아인슈타인에게 2대 대통령직을 제안했다.</strong></p>
+<p>아인슈타인은 정중히 거절했다. "자연과학에 대한 적성은 있지만, 사람을 다루는 능력은 부족합니다."</p>
+<p>물리학자가 한 나라의 대통령 제안을 받은 것 자체가 그의 위상을 보여준다.</p>`,
+  },
+  {
+    slug: "jobs-fired-returned",
+    title: "스티브 잡스는 자신이 만든 회사에서 쫓겨났다가 돌아왔다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "1985년 애플에서 퇴출. 1997년 복귀. 이후 아이팟, 아이폰, 아이패드를 만들었다.",
+    tags: ["스티브잡스", "애플", "퇴출", "복귀", "아이폰"],
+    relatedSlugs: ["jobs-gates-same-age", "einstein-refused-israel-presidency"],
+    timeline: [
+      { year: "1976년", label: "애플 공동 창업", highlight: true },
+      { year: "1985년", label: "이사회에서 잡스 축출", highlight: true },
+      { year: "1986년", label: "NeXT 창업 / 픽사 인수" },
+      { year: "1997년", label: "애플 복귀 (CEO)", highlight: true },
+      { year: "2007년", label: "아이폰 출시" },
+      { year: "2011년", label: "잡스 사망" },
+    ],
+    content: `<p>1985년. 스티브 잡스가 자신이 세운 회사 애플에서 쫓겨났다. 이사회와의 갈등이었다.</p>
+<p>12년 뒤인 1997년. <strong>애플이 위기에 빠지자 잡스를 다시 불렀다.</strong></p>
+<p>복귀 후 아이맥, 아이팟, 아이폰, 아이패드. 애플을 세계에서 가장 가치 있는 회사로 만들었다.</p>
+<p>잡스는 나중에 말했다. "애플에서 쫓겨난 건 내 인생 최고의 사건이었다."</p>`,
+  },
+  {
+    slug: "genghis-khan-dna",
+    title: "칭기즈칸의 후손 추정 Y염색체가 전 세계 남성의 약 0.5%에서 발견된다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "2003년 유전학 연구: 특정 Y염색체 계통이 아시아 남성의 약 8%, 전 세계 남성의 약 0.5%.",
+    tags: ["칭기즈칸", "DNA", "Y염색체", "유전학", "몽골제국"],
+    relatedSlugs: ["genghis-khan-davinci-not-contemporary", "confucius-socrates-contemporary"],
+    timeline: [
+      { year: "1162년경", label: "칭기즈칸 출생" },
+      { year: "1227년", label: "칭기즈칸 사망" },
+      { year: "13세기", label: "몽골 제국 — 역사상 가장 넓은 연속 영토", highlight: true },
+      { year: "2003년", label: "유전학 연구 발표 — 특정 Y염색체 계통 아시아 남성 8%", highlight: true },
+    ],
+    content: `<p>2003년. 유전학 연구가 발표됐다. 아시아 남성의 약 8%가 같은 Y염색체 계통을 공유한다.</p>
+<p><strong>약 1,600만 명의 남성이 약 1,000년 전 한 남성의 직계 남계 후손일 수 있다.</strong></p>
+<p>시기와 지역으로 보아 칭기즈칸 또는 그의 가까운 남계 친족일 가능성이 제기됐다.</p>
+<p>확정은 아니다. 칭기즈칸의 무덤이 발견되지 않아 직접 대조가 불가능하기 때문이다.</p>`,
+  },
 ];
