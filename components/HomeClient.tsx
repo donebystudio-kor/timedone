@@ -5,12 +5,6 @@ import { Post, CATEGORIES } from "@/constants/posts";
 import PostCard from "@/components/PostCard";
 import Link from "next/link";
 
-const FEATURED_SLUGS = [
-  "cleopatra-pyramid",
-  "trex-stegosaurus",
-  "guillotine-starwars",
-];
-
 const POSTS_PER_PAGE = 10;
 
 export default function HomeClient({ posts }: { posts: Post[] }) {
@@ -20,12 +14,11 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
-  const featuredPosts = FEATURED_SLUGS.map((slug) =>
-    posts.find((p) => p.slug === slug)
-  ).filter(Boolean) as Post[];
+  const featuredPosts = sortedPosts.slice(0, 3);
+  const remainingPosts = sortedPosts.slice(3);
 
-  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
-  const pagedPosts = sortedPosts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+  const totalPages = Math.ceil(remainingPosts.length / POSTS_PER_PAGE);
+  const pagedPosts = remainingPosts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 
   return (
     <div>
