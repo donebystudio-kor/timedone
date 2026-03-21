@@ -1585,4 +1585,461 @@ export const POSTS: Post[] = [
 <p><strong>1997년에 2Mbps로 시작한 기술이 지금은 46Gbps까지 왔다. 23,000배.</strong></p>
 <blockquote>와이파이 안 되는 곳에 가면 불안해지는 거, 1997년 사람들은 상상도 못했을 거다.</blockquote>`,
   },
+  // ── people 카테고리 추가 (13개) ──
+  {
+    slug: "newton-gogh-not-contemporary",
+    title: "뉴턴과 고흐는 동시대 사람이 아니다 — 100년 이상 차이",
+    category: "people",
+    date: "2026-03-21",
+    summary: "뉴턴(1643~1727), 고흐(1853~1890). 126년 차이. 뉴턴이 죽고 126년 뒤에 고흐가 태어났다.",
+    tags: ["뉴턴", "고흐", "시간감각", "동시대아님", "과학", "예술"],
+    relatedSlugs: ["yisunsin-shakespeare", "napoleon-beethoven"],
+    timeline: [
+      { year: "1643년", label: "아이작 뉴턴 출생", highlight: true },
+      { year: "1687년", label: "뉴턴, 프린키피아 출판" },
+      { year: "1727년", label: "뉴턴 사망", highlight: true },
+      { year: "1853년", label: "빈센트 반 고흐 출생", highlight: true },
+      { year: "1888년", label: "고흐, '별이 빛나는 밤' 시기" },
+      { year: "1890년", label: "고흐 사망" },
+    ],
+    content: `<p>뉴턴: 1643~1727. 고흐: 1853~1890.</p>
+<p><strong>뉴턴이 죽고 126년 뒤에 고흐가 태어났다.</strong></p>
+<p>뉴턴은 만유인력을 발견한 과학자. 고흐는 별이 빛나는 밤을 그린 화가. 둘 다 유명하지만, 같은 시대 사람이 아니다.</p>
+<blockquote>왠지 비슷한 시대 사람 같지만, 사이에 산업혁명 하나가 통째로 들어간다.</blockquote>`,
+  },
+  {
+    slug: "lincoln-darwin-same-birthday",
+    title: "링컨과 다윈은 같은 날 태어났다 — 1809년 2월 12일",
+    category: "people",
+    date: "2026-03-21",
+    summary: "에이브러햄 링컨과 찰스 다윈. 둘 다 1809년 2월 12일생. 같은 날, 다른 대륙.",
+    tags: ["링컨", "다윈", "1809년", "같은생일", "미국", "영국"],
+    relatedSlugs: ["chaplin-hitler", "napoleon-beethoven"],
+    timeline: [
+      { year: "1809년 2월 12일", label: "링컨 출생 (미국 켄터키) / 다윈 출생 (영국 슈루즈버리)", highlight: true },
+      { year: "1831년", label: "다윈, 비글호 항해 출발" },
+      { year: "1859년", label: "다윈, '종의 기원' 출판" },
+      { year: "1861년", label: "링컨, 미국 대통령 취임" },
+      { year: "1865년", label: "링컨 암살", highlight: true },
+      { year: "1882년", label: "다윈 사망" },
+    ],
+    content: `<p>1809년 2월 12일. 같은 날, 두 사람이 태어났다.</p>
+<p>하나는 미국 켄터키의 통나무집에서. <strong>에이브러햄 링컨.</strong></p>
+<p>하나는 영국 슈루즈버리의 부유한 집에서. <strong>찰스 다윈.</strong></p>
+<p>링컨은 노예를 해방했다. 다윈은 종의 기원을 썼다. 둘 다 세상을 바꿨다.</p>
+<blockquote>같은 날 태어나서 전혀 다른 방식으로 역사를 뒤집었다.</blockquote>`,
+  },
+  {
+    slug: "monroe-queen-same-age",
+    title: "마릴린 먼로와 엘리자베스 2세는 동갑이다 — 둘 다 1926년생",
+    category: "people",
+    date: "2026-03-21",
+    summary: "마릴린 먼로: 1926년 6월 1일. 엘리자베스 2세: 1926년 4월 21일. 동갑.",
+    tags: ["마릴린먼로", "엘리자베스2세", "1926년", "동갑", "할리우드", "영국왕실"],
+    relatedSlugs: ["chaplin-hitler", "anne-frank-mlk"],
+    timeline: [
+      { year: "1926년 4월", label: "엘리자베스 2세 출생 (런던)", highlight: true },
+      { year: "1926년 6월", label: "마릴린 먼로 출생 (로스앤젤레스)", highlight: true },
+      { year: "1952년", label: "엘리자베스 2세 즉위" },
+      { year: "1953년", label: "먼로, '신사는 금발을 좋아해' 개봉" },
+      { year: "1962년", label: "먼로 사망 (36세)", highlight: true },
+      { year: "2022년", label: "엘리자베스 2세 사망 (96세)" },
+    ],
+    content: `<p>마릴린 먼로: 1926년 6월 1일. 엘리자베스 2세: 1926년 4월 21일.</p>
+<p><strong>동갑이다.</strong> 40일 차이.</p>
+<p>1953년. 엘리자베스 2세가 대관식을 올렸다. 같은 해 먼로가 '신사는 금발을 좋아해'로 스타가 됐다.</p>
+<p>먼로는 36살에 죽었다. 여왕은 96살까지 살았다.</p>
+<blockquote>같은 해에 태어난 두 사람. 한 명은 60년을 더 살았다.</blockquote>`,
+  },
+  {
+    slug: "hitler-stalin-contemporary",
+    title: "히틀러와 스탈린은 동시대 사람이다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "히틀러: 1889년생. 스탈린: 1878년생. 11살 차이. 둘 다 1945년에 끝났다.",
+    tags: ["히틀러", "스탈린", "동시대인", "제2차세계대전", "독재자"],
+    relatedSlugs: ["chaplin-hitler", "lincoln-ripper"],
+    timeline: [
+      { year: "1878년", label: "이오시프 스탈린 출생 (조지아 고리)", highlight: true },
+      { year: "1889년", label: "아돌프 히틀러 출생 (오스트리아 브라우나우)", highlight: true },
+      { year: "1933년", label: "히틀러, 독일 총리 취임" },
+      { year: "1939년", label: "독소 불가침 조약 / 제2차 세계대전 발발" },
+      { year: "1941년", label: "독일의 소련 침공 (바르바로사 작전)" },
+      { year: "1945년", label: "히틀러 자살 / 독일 항복", highlight: true },
+      { year: "1953년", label: "스탈린 사망" },
+    ],
+    content: `<p>스탈린: 1878년생. 히틀러: 1889년생. <strong>11살 차이.</strong></p>
+<p>1939년. 둘은 불가침 조약을 맺었다. 1941년. 히틀러가 그걸 깨고 소련을 침공했다.</p>
+<p>1945년 4월 30일. 히틀러 자살. 같은 해 소련이 베를린을 점령했다.</p>
+<blockquote>스탈린은 히틀러보다 8년을 더 살았다. 1953년 사망.</blockquote>`,
+  },
+  {
+    slug: "freud-einstein-letters",
+    title: "프로이트와 아인슈타인은 실제로 편지를 주고받았다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "1932년, 아인슈타인이 프로이트에게 편지를 보냈다. 주제는 '전쟁은 왜 일어나는가'.",
+    tags: ["프로이트", "아인슈타인", "편지", "1932년", "전쟁과평화"],
+    relatedSlugs: ["napoleon-beethoven", "lincoln-darwin-same-birthday"],
+    timeline: [
+      { year: "1856년", label: "지그문트 프로이트 출생", highlight: true },
+      { year: "1879년", label: "알베르트 아인슈타인 출생", highlight: true },
+      { year: "1905년", label: "아인슈타인, 특수상대성이론 발표" },
+      { year: "1932년", label: "아인슈타인 → 프로이트 서신 교환 ('전쟁은 왜?')", highlight: true },
+      { year: "1939년", label: "프로이트 사망 (런던)" },
+      { year: "1955년", label: "아인슈타인 사망 (프린스턴)" },
+    ],
+    content: `<p>1932년. 국제연맹의 요청으로 아인슈타인이 프로이트에게 편지를 보냈다.</p>
+<p><strong>"인간을 전쟁의 멸망에서 구할 방법이 있습니까?"</strong></p>
+<p>프로이트가 답장했다. 인간 안의 파괴 본능에 대해, 그리고 문명이 그것을 억제하는 과정에 대해 썼다.</p>
+<p>이 서신은 '왜 전쟁인가(Why War?)'라는 제목으로 출판됐다.</p>
+<blockquote>물리학의 천재와 정신분석의 창시자가 전쟁에 대해 편지를 주고받았다.</blockquote>`,
+  },
+  {
+    slug: "mozart-american-independence",
+    title: "모차르트와 미국 독립은 같은 시대다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "모차르트: 1756~1791. 미국 독립선언: 1776년. 모차르트 20살 때 미국이 독립했다.",
+    tags: ["모차르트", "미국독립", "1776년", "같은시대", "18세기"],
+    relatedSlugs: ["napoleon-beethoven", "columbus-davinci"],
+    timeline: [
+      { year: "1756년", label: "볼프강 아마데우스 모차르트 출생 (잘츠부르크)", highlight: true },
+      { year: "1773년", label: "보스턴 차 사건" },
+      { year: "1776년", label: "미국 독립선언", highlight: true },
+      { year: "1787년", label: "모차르트, 오페라 '돈 조반니' 초연" },
+      { year: "1789년", label: "프랑스 혁명" },
+      { year: "1791년", label: "모차르트 사망 (35세)", highlight: true },
+    ],
+    content: `<p>모차르트: 1756년생. 미국 독립선언: 1776년.</p>
+<p><strong>모차르트가 20살 때 미국이 독립했다.</strong></p>
+<p>모차르트가 피가로의 결혼을 작곡하던 1786년, 미국은 독립 10주년이었다.</p>
+<p>모차르트 사망: 1791년. 프랑스 혁명이 한창이던 때.</p>
+<blockquote>클래식 음악의 천재와 민주주의의 탄생이 같은 시대에 있었다.</blockquote>`,
+  },
+  {
+    slug: "nightingale-edison-contemporary",
+    title: "나이팅게일과 에디슨은 동시대 사람이다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "나이팅게일: 1820~1910. 에디슨: 1847~1931. 63년간 동시대를 살았다.",
+    tags: ["나이팅게일", "에디슨", "동시대인", "19세기", "빅토리아시대"],
+    relatedSlugs: ["lincoln-darwin-same-birthday", "napoleon-beethoven"],
+    timeline: [
+      { year: "1820년", label: "플로렌스 나이팅게일 출생", highlight: true },
+      { year: "1847년", label: "토머스 에디슨 출생", highlight: true },
+      { year: "1854년", label: "나이팅게일, 크림전쟁 간호 활동" },
+      { year: "1879년", label: "에디슨, 실용적 전구 발명" },
+      { year: "1910년", label: "나이팅게일 사망 (90세)", highlight: true },
+      { year: "1931년", label: "에디슨 사망 (84세)" },
+    ],
+    content: `<p>나이팅게일: 1820~1910. 에디슨: 1847~1931.</p>
+<p><strong>63년간 같은 시대를 살았다.</strong></p>
+<p>1854년. 나이팅게일이 크림전쟁에서 램프를 들고 병동을 돌았다. 25년 뒤인 1879년, 에디슨이 전구를 발명했다.</p>
+<blockquote>램프의 천사가 살아있을 때, 전구가 발명됐다.</blockquote>`,
+  },
+  {
+    slug: "shakespeare-galileo-same-year",
+    title: "셰익스피어와 갈릴레오는 동갑이다 — 둘 다 1564년생",
+    category: "people",
+    date: "2026-03-21",
+    summary: "셰익스피어: 1564년 4월생. 갈릴레오: 1564년 2월생. 2개월 차이.",
+    tags: ["셰익스피어", "갈릴레오", "1564년", "동갑", "르네상스"],
+    relatedSlugs: ["yisunsin-shakespeare", "columbus-davinci"],
+    timeline: [
+      { year: "1564년 2월", label: "갈릴레오 갈릴레이 출생 (피사)", highlight: true },
+      { year: "1564년 4월", label: "윌리엄 셰익스피어 출생 (스트랫퍼드)", highlight: true },
+      { year: "1609년", label: "갈릴레오, 망원경으로 목성의 위성 관측" },
+      { year: "1611년", label: "셰익스피어, '템페스트' 집필" },
+      { year: "1616년", label: "셰익스피어 사망", highlight: true },
+      { year: "1642년", label: "갈릴레오 사망" },
+    ],
+    content: `<p>갈릴레오: 1564년 2월 15일. 셰익스피어: 1564년 4월 26일.</p>
+<p><strong>동갑이다.</strong> 2개월 차이.</p>
+<p>갈릴레오는 망원경으로 하늘을 봤다. 셰익스피어는 펜으로 인간을 봤다.</p>
+<p>셰익스피어 사망: 1616년. 갈릴레오는 26년을 더 살며 종교재판을 받았다.</p>
+<blockquote>"그래도 지구는 돈다"와 "사느냐 죽느냐"가 같은 시대에서 나왔다.</blockquote>`,
+  },
+  {
+    slug: "mao-anne-frank-contemporary",
+    title: "마오쩌둥과 안네 프랑크는 동시대 사람이다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "마오쩌둥: 1893년생. 안네 프랑크: 1929년생. 안네 프랑크가 숨어살던 시기, 마오쩌둥은 중국을 바꾸고 있었다.",
+    tags: ["마오쩌둥", "안네프랑크", "동시대인", "제2차세계대전", "중국"],
+    relatedSlugs: ["anne-frank-mlk", "hitler-stalin-contemporary"],
+    timeline: [
+      { year: "1893년", label: "마오쩌둥 출생 (후난성)", highlight: true },
+      { year: "1929년", label: "안네 프랑크 출생 (프랑크푸르트)", highlight: true },
+      { year: "1942년", label: "안네 프랑크, 은신 시작 / 일기 집필" },
+      { year: "1945년", label: "안네 프랑크 사망 (베르겐벨젠 수용소)", highlight: true },
+      { year: "1949년", label: "마오쩌둥, 중화인민공화국 수립" },
+      { year: "1976년", label: "마오쩌둥 사망" },
+    ],
+    content: `<p>마오쩌둥: 1893년생. 안네 프랑크: 1929년생.</p>
+<p>1942~1944년. 안네 프랑크가 암스테르담 다락방에서 일기를 쓰고 있었다.</p>
+<p><strong>같은 시기, 마오쩌둥은 옌안에서 중국 공산당을 이끌고 있었다.</strong></p>
+<p>안네 프랑크 사망: 1945년. 4년 뒤인 1949년, 마오쩌둥이 중화인민공화국을 선포했다.</p>
+<blockquote>다락방의 소녀와 대륙의 혁명가가 같은 시대를 살았다.</blockquote>`,
+  },
+  {
+    slug: "gogh-eiffel-tower",
+    title: "반 고흐가 죽던 해에 에펠탑이 막 완성됐다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "에펠탑 완공: 1889년. 반 고흐 사망: 1890년. 1년 차이.",
+    tags: ["반고흐", "에펠탑", "1889년", "1890년", "파리", "시간감각"],
+    relatedSlugs: ["newton-gogh-not-contemporary", "napoleon-beethoven"],
+    timeline: [
+      { year: "1853년", label: "빈센트 반 고흐 출생 (네덜란드)", highlight: true },
+      { year: "1886년", label: "고흐, 파리에서 활동" },
+      { year: "1889년 3월", label: "에펠탑 완공 (파리 만국박람회)", highlight: true },
+      { year: "1889년 6월", label: "고흐, '별이 빛나는 밤' 제작" },
+      { year: "1890년 7월", label: "고흐 사망 (37세)", highlight: true },
+    ],
+    content: `<p>1889년. 파리 만국박람회를 위해 에펠탑이 완공됐다.</p>
+<p>같은 해. 고흐는 생레미 정신병원에서 '별이 빛나는 밤'을 그렸다.</p>
+<p><strong>1년 뒤인 1890년 7월, 고흐가 죽었다.</strong></p>
+<blockquote>에펠탑이 세워지던 시대에, 고흐는 살아있었다. 거의 같은 시간이다.</blockquote>`,
+  },
+  {
+    slug: "genghis-khan-davinci-not-contemporary",
+    title: "칭기즈칸과 레오나르도 다빈치는 200년 이상 차이 난다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "칭기즈칸 사망: 1227년. 다빈치 출생: 1452년. 225년 차이.",
+    tags: ["칭기즈칸", "다빈치", "동시대아님", "몽골", "르네상스"],
+    relatedSlugs: ["newton-gogh-not-contemporary", "columbus-davinci"],
+    timeline: [
+      { year: "1162년경", label: "칭기즈칸 출생", highlight: true },
+      { year: "1206년", label: "몽골 제국 건국" },
+      { year: "1227년", label: "칭기즈칸 사망", highlight: true },
+      { year: "1452년", label: "레오나르도 다빈치 출생", highlight: true },
+      { year: "1503년", label: "다빈치, 모나리자 제작 시작" },
+      { year: "1519년", label: "다빈치 사망" },
+    ],
+    content: `<p>칭기즈칸 사망: 1227년. 다빈치 출생: 1452년.</p>
+<p><strong>225년 차이.</strong></p>
+<p>칭기즈칸이 유라시아를 정복하던 시대와, 다빈치가 모나리자를 그리던 시대 사이에 200년이 넘게 있다.</p>
+<blockquote>둘 다 역사 속 위인이지만, 같은 시대가 아니다. 사이에 흑사병(1347)이 끼어 있다.</blockquote>`,
+  },
+  {
+    slug: "cleopatra-caesar-met",
+    title: "클레오파트라와 카이사르는 실제로 만났다",
+    category: "people",
+    date: "2026-03-21",
+    summary: "기원전 48년. 클레오파트라가 카이사르를 만났다. 아들도 낳았다.",
+    tags: ["클레오파트라", "카이사르", "실제만남", "이집트", "로마"],
+    relatedSlugs: ["cleopatra-pyramid", "genghis-khan-davinci-not-contemporary"],
+    timeline: [
+      { year: "기원전 100년", label: "율리우스 카이사르 출생", highlight: true },
+      { year: "기원전 69년", label: "클레오파트라 7세 출생", highlight: true },
+      { year: "기원전 48년", label: "클레오파트라, 카이사르와 만남 (알렉산드리아)", highlight: true },
+      { year: "기원전 47년", label: "아들 카이사리온 출생" },
+      { year: "기원전 44년", label: "카이사르 암살 (로마 원로원)" },
+      { year: "기원전 30년", label: "클레오파트라 사망" },
+    ],
+    content: `<p>기원전 48년. 클레오파트라는 카이사르를 만나기 위해 양탄자에 몸을 숨겨 궁전에 들어갔다고 전해진다.</p>
+<p><strong>둘은 연인이 됐고, 아들 카이사리온을 낳았다.</strong></p>
+<p>기원전 44년. 카이사르가 원로원에서 암살당했다. 클레오파트라는 이후 마르쿠스 안토니우스와 동맹을 맺었다.</p>
+<blockquote>이집트의 여왕과 로마의 독재관. 실제로 만났고, 실제로 사랑했다.</blockquote>`,
+  },
+  {
+    slug: "napoleon-not-short",
+    title: "나폴레옹은 생각보다 키가 작지 않았다 — 당시 기준 평균",
+    category: "people",
+    date: "2026-03-21",
+    summary: "나폴레옹 키: 약 170cm. 당시 프랑스 남성 평균: 164~168cm. 오히려 평균 이상.",
+    tags: ["나폴레옹", "키", "오해", "역사상식", "프랑스"],
+    relatedSlugs: ["napoleon-beethoven", "lincoln-darwin-same-birthday"],
+    timeline: [
+      { year: "1769년", label: "나폴레옹 출생", highlight: true },
+      { year: "1799년", label: "나폴레옹, 프랑스 제1통령 취임" },
+      { year: "1804년", label: "황제 즉위" },
+      { year: "1815년", label: "워털루 전투 패배" },
+      { year: "1821년", label: "나폴레옹 사망 (세인트헬레나)", highlight: true },
+    ],
+    content: `<p>나폴레옹의 키: 약 5피트 2인치. 이건 <strong>프랑스 단위</strong>다.</p>
+<p>프랑스 피트는 영국 피트보다 길다. 영국 단위로 환산하면 약 5피트 7인치, <strong>약 170cm</strong>다.</p>
+<p>당시 프랑스 남성 평균: 164~168cm. 나폴레옹은 오히려 평균 이상이었다.</p>
+<blockquote>"나폴레옹은 키가 작다"는 영국의 풍자 만화에서 시작된 이미지다. 사실이 아니다.</blockquote>`,
+  },
+  // ── space 카테고리 추가 (9개) ──
+  {
+    slug: "sunlight-8-minutes",
+    title: "태양 빛이 지구에 도달하는 데 8분 걸린다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "태양에서 지구까지 약 1억 5천만 km. 빛의 속도로 8분 20초.",
+    tags: ["태양", "빛", "8분", "거리", "광속"],
+    relatedSlugs: ["proxima-centauri-4years", "moon-moving-away"],
+    timeline: [
+      { year: "0초", label: "태양 표면에서 빛 출발", highlight: true },
+      { year: "1.3초", label: "달까지 도달" },
+      { year: "8분 20초", label: "지구에 도달", highlight: true },
+      { year: "약 4시간", label: "해왕성까지 도달" },
+      { year: "약 5.5시간", label: "명왕성까지 도달" },
+    ],
+    content: `<p>태양에서 지구까지 약 1억 5천만 km.</p>
+<p><strong>빛의 속도로 8분 20초.</strong></p>
+<p>지금 보이는 햇빛은 8분 전에 태양을 떠난 빛이다. 만약 지금 태양이 사라진다면, 우리는 8분 동안 모른다.</p>
+<blockquote>우리는 항상 8분 전의 태양을 보고 있다.</blockquote>`,
+  },
+  {
+    slug: "proxima-centauri-4years",
+    title: "가장 가까운 별까지 빛의 속도로 4.2년이다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "프록시마 센타우리: 약 4.24광년. 빛의 속도로 4년 넘게 걸린다.",
+    tags: ["프록시마센타우리", "광년", "별", "우주거리", "항성"],
+    relatedSlugs: ["sunlight-8-minutes", "voyager-still-flying"],
+    timeline: [
+      { year: "8분 20초", label: "태양 → 지구 (빛의 속도)" },
+      { year: "5.5시간", label: "태양 → 명왕성 (빛의 속도)" },
+      { year: "4.24년", label: "태양 → 프록시마 센타우리 (빛의 속도)", highlight: true },
+      { year: "약 7만 3천 년", label: "보이저 1호 속도로 프록시마까지 도달 예상", highlight: true },
+    ],
+    content: `<p>태양에서 가장 가까운 별: 프록시마 센타우리. 약 4.24광년 거리.</p>
+<p><strong>빛의 속도(초속 30만 km)로 4년 넘게 걸린다.</strong></p>
+<p>보이저 1호 속도(시속 약 6만 km)로 가면 약 7만 3천 년이다.</p>
+<blockquote>가장 가까운 별이 이 정도다. 우주는 상상 이상으로 넓다.</blockquote>`,
+  },
+  {
+    slug: "iss-16-orbits",
+    title: "국제우주정거장은 하루에 지구를 16바퀴 돈다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "ISS 고도: 약 408km. 속도: 시속 약 27,600km. 90분에 지구 한 바퀴.",
+    tags: ["ISS", "국제우주정거장", "궤도", "우주", "속도"],
+    relatedSlugs: ["sunlight-8-minutes", "voyager-still-flying"],
+    timeline: [
+      { year: "1998년", label: "ISS 최초 모듈 발사", highlight: true },
+      { year: "2000년", label: "최초 장기 체류 시작" },
+      { year: "매 90분", label: "지구 한 바퀴 (시속 27,600km)", highlight: true },
+      { year: "하루", label: "16바퀴 = 일출 16번", highlight: true },
+    ],
+    content: `<p>ISS는 지상 약 408km 상공을 시속 약 27,600km로 날고 있다.</p>
+<p><strong>90분에 지구 한 바퀴. 하루에 16바퀴.</strong></p>
+<p>우주비행사들은 하루에 일출을 16번 본다.</p>
+<blockquote>서울에서 부산까지 약 1분. 우주정거장 안의 시간은 지상과 다르게 흐른다.</blockquote>`,
+  },
+  {
+    slug: "mars-day-37min-longer",
+    title: "화성의 하루는 지구보다 37분 길다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "화성의 자전 주기: 24시간 37분. 지구보다 37분 길다.",
+    tags: ["화성", "하루", "자전", "솔", "행성비교"],
+    relatedSlugs: ["jupiter-mass", "sunlight-8-minutes"],
+    timeline: [
+      { year: "24시간 0분", label: "지구의 하루", highlight: true },
+      { year: "24시간 37분", label: "화성의 하루 (솔)", highlight: true },
+      { year: "9시간 56분", label: "목성의 하루" },
+      { year: "10시간 33분", label: "토성의 하루" },
+    ],
+    content: `<p>화성의 자전 주기: 24시간 37분. 이것을 '솔(sol)'이라고 부른다.</p>
+<p><strong>지구보다 37분 길다.</strong> 놀랍도록 비슷하다.</p>
+<p>NASA의 화성 탐사 팀은 실제로 '솔' 단위로 생활한 적이 있다. 매일 37분씩 밀리는 스케줄.</p>
+<blockquote>화성에 가면 매일 37분의 여유가 더 생긴다. 대신 1년은 687일이다.</blockquote>`,
+  },
+  {
+    slug: "jupiter-mass",
+    title: "목성은 태양계 다른 행성을 다 합친 것보다 질량이 크다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "목성 질량: 지구의 318배. 나머지 7개 행성 합친 것의 2.5배.",
+    tags: ["목성", "질량", "태양계", "행성", "가스행성"],
+    relatedSlugs: ["saturn-floats", "mars-day-37min-longer"],
+    timeline: [
+      { year: "지구", label: "질량 1 (기준)" },
+      { year: "토성", label: "질량 95배" },
+      { year: "목성", label: "질량 318배", highlight: true },
+      { year: "나머지 7개 합계", label: "약 130배" },
+      { year: "태양", label: "질량 33만 배", highlight: true },
+    ],
+    content: `<p>목성의 질량: 지구의 약 318배.</p>
+<p>토성, 천왕성, 해왕성, 지구, 금성, 화성, 수성을 전부 합쳐도 목성의 절반이 안 된다.</p>
+<p><strong>목성 하나가 나머지 전부의 2.5배다.</strong></p>
+<blockquote>태양계에서 태양 빼면, 사실상 목성의 세상이다.</blockquote>`,
+  },
+  {
+    slug: "saturn-floats",
+    title: "토성의 밀도는 물보다 낮아서 이론적으로 물에 뜬다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "토성 밀도: 0.687 g/cm³. 물: 1.0 g/cm³. 토성이 더 가볍다.",
+    tags: ["토성", "밀도", "물", "가스행성", "우주상식"],
+    relatedSlugs: ["jupiter-mass", "mars-day-37min-longer"],
+    timeline: [
+      { year: "물", label: "밀도 1.0 g/cm³" },
+      { year: "지구", label: "밀도 5.5 g/cm³" },
+      { year: "목성", label: "밀도 1.33 g/cm³" },
+      { year: "토성", label: "밀도 0.687 g/cm³", highlight: true },
+    ],
+    content: `<p>토성의 밀도: 0.687 g/cm³. 물의 밀도: 1.0 g/cm³.</p>
+<p><strong>토성이 물보다 가볍다.</strong></p>
+<p>만약 토성을 담글 만큼 거대한 욕조가 있다면, 이론적으로 토성은 뜬다.</p>
+<p>물론 실제로는 불가능하다. 토성 지름이 약 12만 km니까.</p>
+<blockquote>태양계에서 두 번째로 큰 행성이 물에 뜬다. 직관과 다르다.</blockquote>`,
+  },
+  {
+    slug: "moon-moving-away",
+    title: "달은 매년 지구에서 3.8cm씩 멀어지고 있다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "달은 매년 3.8cm씩 지구에서 멀어진다. 아폴로 미션의 반사경으로 측정.",
+    tags: ["달", "지구", "거리", "조석력", "아폴로"],
+    relatedSlugs: ["sunlight-8-minutes", "iss-16-orbits"],
+    timeline: [
+      { year: "45억 년 전", label: "달 형성 (지구 충돌설)", highlight: true },
+      { year: "1969년", label: "아폴로 11호, 달 표면에 반사경 설치", highlight: true },
+      { year: "매년", label: "달, 지구에서 3.8cm 멀어짐", highlight: true },
+      { year: "6억 년 후", label: "개기일식 불가능 (달이 너무 멀어져서)" },
+    ],
+    content: `<p>달은 매년 3.8cm씩 지구에서 멀어지고 있다.</p>
+<p><strong>아폴로 우주비행사들이 달에 놓고 온 반사경에 레이저를 쏴서 측정한 값이다.</strong></p>
+<p>원인: 조석력. 달의 중력이 바다를 당기고, 그 에너지가 달을 조금씩 밀어낸다.</p>
+<blockquote>약 6억 년 후, 달이 충분히 멀어지면 개기일식은 더 이상 일어나지 않는다.</blockquote>`,
+  },
+  {
+    slug: "voyager-still-flying",
+    title: "보이저 1호는 1977년에 발사됐는데 아직 날아가고 있다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "1977년 발사. 현재 지구에서 약 240억 km. 인류가 만든 가장 먼 물체.",
+    tags: ["보이저1호", "1977년", "태양계", "성간우주", "NASA"],
+    relatedSlugs: ["proxima-centauri-4years", "sunlight-8-minutes"],
+    timeline: [
+      { year: "1977년 9월", label: "보이저 1호 발사", highlight: true },
+      { year: "1979년", label: "목성 근접 비행" },
+      { year: "1980년", label: "토성 근접 비행" },
+      { year: "1990년", label: "'창백한 푸른 점' 사진 촬영" },
+      { year: "2012년", label: "성간 우주 진입 (태양계 밖)", highlight: true },
+      { year: "2026년", label: "여전히 신호 송신 중 (49년째)", highlight: true },
+    ],
+    content: `<p>1977년 9월 5일 발사. 49년째 날아가고 있다.</p>
+<p><strong>현재 지구에서 약 240억 km.</strong> 빛의 속도로도 신호가 오는 데 22시간 넘게 걸린다.</p>
+<p>2012년, 태양계를 벗어나 성간 우주에 진입했다. 인류가 만든 물체 중 가장 먼 곳에 있다.</p>
+<blockquote>49년 전 기술로 만든 탐사선이 아직도 신호를 보내고 있다.</blockquote>`,
+  },
+  {
+    slug: "blackhole-first-photo-2019",
+    title: "블랙홀 사진이 처음 찍힌 건 2019년이다",
+    category: "space",
+    date: "2026-03-21",
+    summary: "2019년 4월 10일. EHT 프로젝트가 M87 은하 중심 블랙홀 사진 공개. 인류 최초.",
+    tags: ["블랙홀", "EHT", "2019년", "M87", "사건의지평선"],
+    relatedSlugs: ["voyager-still-flying", "sunlight-8-minutes"],
+    timeline: [
+      { year: "1915년", label: "아인슈타인, 일반상대성이론 (블랙홀 예측)" },
+      { year: "1967년", label: "'블랙홀'이라는 용어 처음 사용" },
+      { year: "2017년 4월", label: "EHT, 전 세계 8개 망원경으로 동시 관측", highlight: true },
+      { year: "2019년 4월", label: "M87 블랙홀 사진 최초 공개", highlight: true },
+      { year: "2022년", label: "우리 은하 중심 블랙홀(Sgr A*) 사진 공개" },
+    ],
+    content: `<p>2019년 4월 10일. 인류가 처음으로 블랙홀의 사진을 봤다.</p>
+<p><strong>M87 은하 중심의 초대질량 블랙홀.</strong> 지구에서 5,500만 광년 거리.</p>
+<p>전 세계 8개 전파망원경을 연결해서 지구 크기의 가상 망원경(EHT)을 만들었다. 데이터 처리에만 2년 걸렸다.</p>
+<blockquote>블랙홀은 1915년에 이론으로 예측됐다. 사진은 104년 뒤에야 찍혔다.</blockquote>`,
+  },
 ];
