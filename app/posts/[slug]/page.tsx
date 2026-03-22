@@ -51,8 +51,54 @@ export default async function PostPage({ params }: Props) {
       ? sortedPosts[currentIndex + 1]
       : null;
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.summary,
+    "datePublished": post.date,
+    "author": { "@type": "Organization", "name": "타임던" },
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://timedone.vercel.app",
+      },
+      ...(category
+        ? [
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": category.name,
+              "item": `https://timedone.vercel.app/category/${category.id}`,
+            },
+          ]
+        : []),
+      {
+        "@type": "ListItem",
+        "position": category ? 3 : 2,
+        "name": post.title,
+        "item": `https://timedone.vercel.app/posts/${post.slug}`,
+      },
+    ],
+  };
+
   return (
     <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* 포스트 본문 */}
       <article>
         {/* 메타 정보 */}
